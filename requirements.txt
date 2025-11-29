@@ -1,0 +1,6 @@
+pandas
+matplotlib
+haversine
+scikit-learn
+numpy
+tqdm

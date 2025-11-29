@@ -1,0 +1,51 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ========================
+# Virtual Environments
+# ========================
+venv/
+env/
+.venv/
+
+# ========================
+# GTFS files (optional)
+# Uncomment if your repo shouldn’t store raw GTFS data
+# *.zip
+# *.gtfs
+# */stops.txt
+# */trips.txt
+# */stop_times.txt
+# */shapes.txt
+
+# ========================
+# OS / Editor Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# PyCharm / JetBrains
+.idea/
+
+
+# ========================
+# Build / Packaging (if added later)
+# ========================
+build/
+dist/
+*.spec
