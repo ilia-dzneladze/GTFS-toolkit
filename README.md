@@ -1,9 +1,10 @@
-# Transit Heatmap Generator (GTFS)
+# GTFS toolkit
 
-This project visualizes a city’s public transit network using **GTFS shapes** and generates a **heat-colored line map** showing where transit service is most dense.
+This project visualizes a city’s public transit network using **GTFS data** and currently (WIP) generates a **heat-colored line map** and **stop frequency (gaps between arrival times)** showing where transit service is most dense and frequent.
 The heatmap is computed by rasterizing all route shapes, smoothing them, and then coloring vector lines based on local density.
+The frequency is calculated by taking the average of the gaps between arrival times for each stop between given time stamps.
 
-## 🚀 Features
+## Features
 - Uses **GTFS shapes.txt** to reconstruct transit geometry  
 - Creates a **2D density map** using Gaussian-smoothed rasterization  
 - Overlays the heatmap onto **clean vector lines**  
@@ -11,7 +12,7 @@ The heatmap is computed by rasterizing all route shapes, smoothing them, and the
 - Automatically normalizes colors for any city  
 - Outputs a high-resolution PNG map  
 
-## 📦 Requirements
+## Requirements
 Install dependencies:
 
 ```
@@ -26,34 +27,23 @@ Dependencies include:
 - haversine
 - tqdm
 
-## 📁 Folder Structure
-```
-transit-heat-map/
-│
-├── transport_analyzer.py
-├── requirements.txt
-│
-├── cities/
-│   ├── kaunas/
-│   │   ├── shapes.txt
-│   └── vilnius/
-│       ├── shapes.txt
-│
-└── gtfs_maps/
-    └── output images appear here
-```
-
-Place each city’s GTFS files (at minimum **shapes.txt**) under:
+Place each city’s GTFS files (at minimum **shapes.txt stop_times.txt stops.txt** ) under:
 
 ```
 cities/<city_name>/
 ```
 
-## ▶️ Usage
+## Usage
 Run:
 
 ```
 python3 transport_analyzer.py <cityname>
+```
+
+or
+
+```
+python3 stop_analysis.py <cityname>
 ```
 
 Example:
@@ -68,12 +58,21 @@ Output will be saved to:
 gtfs_maps/<city>_hybrid_heatlines.png
 ```
 
-## 📜 License
+or
+
+```
+python3 stop_analysis.py <cityname>
+```
+
+output will be put to standard output
+
+## License
 MIT — free to modify and redistribute.
 
-## 🤝 Contribute
+## Contribute
 Pull requests welcome!  
 You can test the script with your own city’s GTFS feed by adding a folder under:
+
 
 ```
 cities/<your_city>/
