@@ -26,6 +26,9 @@ class stop:
 # dictionary for stop id -> stop object
 stop_id_to_stop = {}
 
+# list for tuples (pair (frequency, object) for sorting
+stops_sorted_by_frequency = []
+
 # calculate and store frequency (gap between arrivals)
 with open(f'cities/{city_name}/stop_times.txt', 'r') as csv_file:
     csv_reader = csv.DictReader(csv_file)
@@ -46,6 +49,7 @@ with open(f'cities/{city_name}/stop_times.txt', 'r') as csv_file:
         curr_avg = avg_gap_start_to_end(stop_id_to_arrival_times[stop_id], START, END)
         stop_id_to_avg_time[stop_id] = curr_avg
         stop_id_to_stop[stop_id].frequency = curr_avg
+        stops_sorted_by_frequency.append((curr_avg, stop_id_to_stop[stop_id]))
 
 # match stop_id with stop_name
 with open(f'cities/{city_name}/stops.txt', 'r', encoding='utf-8-sig') as csv_file:
@@ -56,17 +60,16 @@ with open(f'cities/{city_name}/stops.txt', 'r', encoding='utf-8-sig') as csv_fil
         if current_id in stop_id_to_stop:
             stop_id_to_stop[current_id].name = current_name
 
-# output object values
-for entry in stop_id_to_stop:
-    current_stop = stop_id_to_stop[entry]
+# output object values in sorted form
+stops_sorted_by_frequency.sort(key=lambda pair: pair[0])
+for pair in stops_sorted_by_frequency:
+    current_frequency, current_stop = pair
     current_name = current_stop.name
-    current_frequency = current_stop.frequency
 
     if current_frequency == 0:
-        print(f'{entry}: Not Enough Info')
         continue
 
-    print(f'{entry} frequency is {current_frequency} seconds or around {int(current_frequency/60) + 1} minutes')
+    print(f'{current_stop.id} frequency is {current_frequency} seconds or around {int(current_frequency/60) + 1} minutes - {current_name}')
 
 # Runtime end
 end_time = time.time()

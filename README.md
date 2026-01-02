@@ -58,10 +58,10 @@ Output will be saved to:
 gtfs_maps/<city>_hybrid_heatlines.png
 ```
 
-or
+and
 
 ```
-python3 stop_analysis.py <cityname>
+python3 stop_analysis.py kaunas
 ```
 
 output will be put to standard output
