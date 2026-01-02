@@ -1,0 +1,6567 @@
+{
+  "city": "kaunas",
+  "start_sec": 57600,
+  "end_sec": 64800,
+  "sorted_by": "avg_gap_sec_asc",
+  "stops": [
+    {
+      "stop_id": "2667",
+      "name": "Geležinkelio stotis A",
+      "lat": 54.8874,
+      "lon": 23.93028,
+      "avg_gap_sec": 28
+    },
+    {
+      "stop_id": "2856",
+      "name": "Kęstučio g. B",
+      "lat": 54.89552,
+      "lon": 23.92498,
+      "avg_gap_sec": 32
+    },
+    {
+      "stop_id": "2859",
+      "name": "Griunvaldo g. B",
+      "lat": 54.89162,
+      "lon": 23.92477,
+      "avg_gap_sec": 32
+    },
+    {
+      "stop_id": "2861",
+      "name": "Autobusų stotis B",
+      "lat": 54.8891,
+      "lon": 23.92723,
+      "avg_gap_sec": 32
+    },
+    {
+      "stop_id": "14349",
+      "name": "Griunvaldo g. A",
+      "lat": 54.89229,
+      "lon": 23.92507,
+      "avg_gap_sec": 33
+    },
+    {
+      "stop_id": "2860",
+      "name": "Autobusų stotis A",
+      "lat": 54.88917,
+      "lon": 23.92744,
+      "avg_gap_sec": 34
+    },
+    {
+      "stop_id": "2851",
+      "name": "Studentų skveras",
+      "lat": 54.89895,
+      "lon": 23.91437,
+      "avg_gap_sec": 36
+    },
+    {
+      "stop_id": "2852",
+      "name": "Gedimino g. B",
+      "lat": 54.89872,
+      "lon": 23.91988,
+      "avg_gap_sec": 36
+    },
+    {
+      "stop_id": "2668",
+      "name": "Geležinkelio stotis D",
+      "lat": 54.88729,
+      "lon": 23.93227,
+      "avg_gap_sec": 37
+    },
+    {
+      "stop_id": "2855",
+      "name": "Gedimino g. A",
+      "lat": 54.89541,
+      "lon": 23.92223,
+      "avg_gap_sec": 37
+    },
+    {
+      "stop_id": "2854",
+      "name": "Nacionalinis Kauno dramos teatras",
+      "lat": 54.89578,
+      "lon": 23.91301,
+      "avg_gap_sec": 37
+    },
+    {
+      "stop_id": "2853",
+      "name": "Muzikinis teatras",
+      "lat": 54.89607,
+      "lon": 23.90623,
+      "avg_gap_sec": 37
+    },
+    {
+      "stop_id": "2847",
+      "name": "E. Ožeškienės g.",
+      "lat": 54.89801,
+      "lon": 23.90242,
+      "avg_gap_sec": 37
+    },
+    {
+      "stop_id": "2850",
+      "name": "L. Sapiegos g.",
+      "lat": 54.89924,
+      "lon": 23.90686,
+      "avg_gap_sec": 37
+    },
+    {
+      "stop_id": "2846",
+      "name": "Vilniaus g. C",
+      "lat": 54.89645,
+      "lon": 23.89753,
+      "avg_gap_sec": 40
+    },
+    {
+      "stop_id": "2841",
+      "name": "Kauno pilis A",
+      "lat": 54.90097,
+      "lon": 23.89202,
+      "avg_gap_sec": 43
+    },
+    {
+      "stop_id": "2840",
+      "name": "Kauno pilis B",
+      "lat": 54.90057,
+      "lon": 23.89317,
+      "avg_gap_sec": 43
+    },
+    {
+      "stop_id": "2786",
+      "name": "Islandijos pl. A",
+      "lat": 54.93345,
+      "lon": 23.94402,
+      "avg_gap_sec": 54
+    },
+    {
+      "stop_id": "2755",
+      "name": "Girstutis B",
+      "lat": 54.90588,
+      "lon": 23.97396,
+      "avg_gap_sec": 58
+    },
+    {
+      "stop_id": "2753",
+      "name": "Kovo 11-osios gimnazija B",
+      "lat": 54.91034,
+      "lon": 23.97388,
+      "avg_gap_sec": 58
+    },
+    {
+      "stop_id": "4370",
+      "name": "Partizanų g. A",
+      "lat": 54.92648,
+      "lon": 23.99924,
+      "avg_gap_sec": 59
+    },
+    {
+      "stop_id": "2635",
+      "name": "Kauno termofikacijos elektrinė",
+      "lat": 54.9248,
+      "lon": 24.0157,
+      "avg_gap_sec": 60
+    },
+    {
+      "stop_id": "17317",
+      "name": "Spindulio g.",
+      "lat": 54.84145,
+      "lon": 23.97129,
+      "avg_gap_sec": 60
+    },
+    {
+      "stop_id": "17069",
+      "name": "Hegelmann",
+      "lat": 54.96638,
+      "lon": 23.86507,
+      "avg_gap_sec": 60
+    },
+    {
+      "stop_id": "2848",
+      "name": "Laisvės alėja B",
+      "lat": 54.89864,
+      "lon": 23.90229,
+      "avg_gap_sec": 61
+    },
+    {
+      "stop_id": "2724",
+      "name": "Žemaičių g. B",
+      "lat": 54.90368,
+      "lon": 23.91528,
+      "avg_gap_sec": 61
+    },
+    {
+      "stop_id": "2722",
+      "name": "Aukštaičių g. B",
+      "lat": 54.9059,
+      "lon": 23.92135,
+      "avg_gap_sec": 61
+    },
+    {
+      "stop_id": "2754",
+      "name": "Kovo 11-osios gimnazija A",
+      "lat": 54.90962,
+      "lon": 23.97367,
+      "avg_gap_sec": 61
+    },
+    {
+      "stop_id": "2758",
+      "name": "Vienybės g. D",
+      "lat": 54.90264,
+      "lon": 23.97395,
+      "avg_gap_sec": 62
+    },
+    {
+      "stop_id": "2902",
+      "name": "V. Lašo g. B",
+      "lat": 54.91427,
+      "lon": 23.9215,
+      "avg_gap_sec": 63
+    },
+    {
+      "stop_id": "2731",
+      "name": "V. Krėvės pr. A",
+      "lat": 54.92152,
+      "lon": 23.97613,
+      "avg_gap_sec": 63
+    },
+    {
+      "stop_id": "2756",
+      "name": "Girstutis A",
+      "lat": 54.90465,
+      "lon": 23.97371,
+      "avg_gap_sec": 63
+    },
+    {
+      "stop_id": "2806",
+      "name": "V. Lašo g. A",
+      "lat": 54.91362,
+      "lon": 23.92249,
+      "avg_gap_sec": 64
+    },
+    {
+      "stop_id": "2651",
+      "name": "Kauno kolegija A",
+      "lat": 54.91951,
+      "lon": 23.98334,
+      "avg_gap_sec": 64
+    },
+    {
+      "stop_id": "2730",
+      "name": "V. Krėvės pr. B",
+      "lat": 54.92061,
+      "lon": 23.97455,
+      "avg_gap_sec": 64
+    },
+    {
+      "stop_id": "17323",
+      "name": "Klinikos A",
+      "lat": 54.91736,
+      "lon": 23.92083,
+      "avg_gap_sec": 65
+    },
+    {
+      "stop_id": "17324",
+      "name": "Klinikos B",
+      "lat": 54.9173,
+      "lon": 23.92081,
+      "avg_gap_sec": 67
+    },
+    {
+      "stop_id": "2723",
+      "name": "Aukštaičių g. A",
+      "lat": 54.90545,
+      "lon": 23.91948,
+      "avg_gap_sec": 67
+    },
+    {
+      "stop_id": "2652",
+      "name": "Kauno kolegija B",
+      "lat": 54.92135,
+      "lon": 23.981,
+      "avg_gap_sec": 68
+    },
+    {
+      "stop_id": "2653",
+      "name": "Taikos pr. D",
+      "lat": 54.91762,
+      "lon": 23.98366,
+      "avg_gap_sec": 68
+    },
+    {
+      "stop_id": "2663",
+      "name": "Dainų slėnis B",
+      "lat": 54.89392,
+      "lon": 23.94332,
+      "avg_gap_sec": 68
+    },
+    {
+      "stop_id": "2719",
+      "name": "Utenos g. A",
+      "lat": 54.90835,
+      "lon": 23.92734,
+      "avg_gap_sec": 68
+    },
+    {
+      "stop_id": "2725",
+      "name": "Žemaičių g. A",
+      "lat": 54.90372,
+      "lon": 23.91476,
+      "avg_gap_sec": 68
+    },
+    {
+      "stop_id": "2656",
+      "name": "6-asis fortas B",
+      "lat": 54.90114,
+      "lon": 23.97219,
+      "avg_gap_sec": 68
+    },
+    {
+      "stop_id": "2794",
+      "name": "Ukmergės g. B",
+      "lat": 54.92991,
+      "lon": 23.93222,
+      "avg_gap_sec": 69
+    },
+    {
+      "stop_id": "2792",
+      "name": "Ašigalio g. B",
+      "lat": 54.93118,
+      "lon": 23.93666,
+      "avg_gap_sec": 69
+    },
+    {
+      "stop_id": "2658",
+      "name": "Pašilės g. B",
+      "lat": 54.90065,
+      "lon": 23.96673,
+      "avg_gap_sec": 69
+    },
+    {
+      "stop_id": "2726",
+      "name": "Turgavietė A",
+      "lat": 54.91974,
+      "lon": 23.96947,
+      "avg_gap_sec": 70
+    },
+    {
+      "stop_id": "2793",
+      "name": "Ašigalio g. A",
+      "lat": 54.93152,
+      "lon": 23.93708,
+      "avg_gap_sec": 70
+    },
+    {
+      "stop_id": "2795",
+      "name": "Ukmergės g. A",
+      "lat": 54.92983,
+      "lon": 23.93099,
+      "avg_gap_sec": 70
+    },
+    {
+      "stop_id": "2622",
+      "name": "Urmas B",
+      "lat": 54.91537,
+      "lon": 23.98573,
+      "avg_gap_sec": 70
+    },
+    {
+      "stop_id": "2664",
+      "name": "Dainų slėnis A",
+      "lat": 54.89397,
+      "lon": 23.94298,
+      "avg_gap_sec": 70
+    },
+    {
+      "stop_id": "2665",
+      "name": "Viadukas A",
+      "lat": 54.89074,
+      "lon": 23.93913,
+      "avg_gap_sec": 70
+    },
+    {
+      "stop_id": "2666",
+      "name": "Viadukas B",
+      "lat": 54.89064,
+      "lon": 23.93957,
+      "avg_gap_sec": 70
+    },
+    {
+      "stop_id": "14424",
+      "name": "S. Žukausko g. A",
+      "lat": 54.93161,
+      "lon": 23.94081,
+      "avg_gap_sec": 71
+    },
+    {
+      "stop_id": "2661",
+      "name": "Slėnio g. B",
+      "lat": 54.89777,
+      "lon": 23.95717,
+      "avg_gap_sec": 71
+    },
+    {
+      "stop_id": "2774",
+      "name": "Sporto g. A",
+      "lat": 54.9002,
+      "lon": 23.93166,
+      "avg_gap_sec": 72
+    },
+    {
+      "stop_id": "2402",
+      "name": "Jurbarko g. A",
+      "lat": 54.90506,
+      "lon": 23.88521,
+      "avg_gap_sec": 72
+    },
+    {
+      "stop_id": "2657",
+      "name": "6-asis fortas A",
+      "lat": 54.90139,
+      "lon": 23.97273,
+      "avg_gap_sec": 72
+    },
+    {
+      "stop_id": "2659",
+      "name": "Pašilės g. A",
+      "lat": 54.90091,
+      "lon": 23.96656,
+      "avg_gap_sec": 72
+    },
+    {
+      "stop_id": "2788",
+      "name": "Eiguliai B",
+      "lat": 54.92822,
+      "lon": 23.9431,
+      "avg_gap_sec": 73
+    },
+    {
+      "stop_id": "2773",
+      "name": "Sporto g. B",
+      "lat": 54.89941,
+      "lon": 23.93225,
+      "avg_gap_sec": 74
+    },
+    {
+      "stop_id": "2718",
+      "name": "Utenos g. B",
+      "lat": 54.90953,
+      "lon": 23.93096,
+      "avg_gap_sec": 75
+    },
+    {
+      "stop_id": "2703",
+      "name": "Pakraščio g. B",
+      "lat": 54.92443,
+      "lon": 23.96239,
+      "avg_gap_sec": 76
+    },
+    {
+      "stop_id": "5049",
+      "name": "Urmas A",
+      "lat": 54.91483,
+      "lon": 23.98526,
+      "avg_gap_sec": 76
+    },
+    {
+      "stop_id": "2727",
+      "name": "Turgavietė B",
+      "lat": 54.92106,
+      "lon": 23.96717,
+      "avg_gap_sec": 77
+    },
+    {
+      "stop_id": "2783",
+      "name": "V. Landsbergio-Žemkalnio g. B",
+      "lat": 54.92644,
+      "lon": 23.9539,
+      "avg_gap_sec": 79
+    },
+    {
+      "stop_id": "2790",
+      "name": "Čečėnijos aikštė B",
+      "lat": 54.92579,
+      "lon": 23.94823,
+      "avg_gap_sec": 79
+    },
+    {
+      "stop_id": "2707",
+      "name": "Baldų parduotuvė B",
+      "lat": 54.92165,
+      "lon": 23.95773,
+      "avg_gap_sec": 79
+    },
+    {
+      "stop_id": "2717",
+      "name": "Kauno aklųjų ir silpnaregių centras B",
+      "lat": 54.91282,
+      "lon": 23.93829,
+      "avg_gap_sec": 80
+    },
+    {
+      "stop_id": "2712",
+      "name": "Mituvos g. B",
+      "lat": 54.91567,
+      "lon": 23.94454,
+      "avg_gap_sec": 80
+    },
+    {
+      "stop_id": "2710",
+      "name": "Ortopedijos technika B",
+      "lat": 54.91919,
+      "lon": 23.9523,
+      "avg_gap_sec": 80
+    },
+    {
+      "stop_id": "2709",
+      "name": "Ortopedijos technika A",
+      "lat": 54.91864,
+      "lon": 23.95043,
+      "avg_gap_sec": 81
+    },
+    {
+      "stop_id": "2708",
+      "name": "Baldų parduotuvė A",
+      "lat": 54.92126,
+      "lon": 23.95626,
+      "avg_gap_sec": 82
+    },
+    {
+      "stop_id": "2711",
+      "name": "Mituvos g. A",
+      "lat": 54.91532,
+      "lon": 23.94318,
+      "avg_gap_sec": 82
+    },
+    {
+      "stop_id": "2646",
+      "name": "Kauno saulėtekis B",
+      "lat": 54.92445,
+      "lon": 23.98293,
+      "avg_gap_sec": 82
+    },
+    {
+      "stop_id": "2644",
+      "name": "Technologijų mokymo centras B",
+      "lat": 54.92532,
+      "lon": 23.99419,
+      "avg_gap_sec": 82
+    },
+    {
+      "stop_id": "2789",
+      "name": "Eiguliai A",
+      "lat": 54.92761,
+      "lon": 23.94266,
+      "avg_gap_sec": 83
+    },
+    {
+      "stop_id": "2787",
+      "name": "S. Žukausko g. C",
+      "lat": 54.92997,
+      "lon": 23.94265,
+      "avg_gap_sec": 84
+    },
+    {
+      "stop_id": "2512",
+      "name": "Tilto g. A",
+      "lat": 54.86238,
+      "lon": 23.95867,
+      "avg_gap_sec": 85
+    },
+    {
+      "stop_id": "2706",
+      "name": "Kalniečių poliklinika",
+      "lat": 54.92352,
+      "lon": 23.96122,
+      "avg_gap_sec": 85
+    },
+    {
+      "stop_id": "2643",
+      "name": "Technologijų mokymo centras A",
+      "lat": 54.92554,
+      "lon": 23.99306,
+      "avg_gap_sec": 86
+    },
+    {
+      "stop_id": "2645",
+      "name": "Kauno saulėtekis A",
+      "lat": 54.92495,
+      "lon": 23.98382,
+      "avg_gap_sec": 86
+    },
+    {
+      "stop_id": "2752",
+      "name": "Draugystės žiedas D",
+      "lat": 54.91156,
+      "lon": 23.97578,
+      "avg_gap_sec": 87
+    },
+    {
+      "stop_id": "2660",
+      "name": "Slėnio g. A",
+      "lat": 54.89822,
+      "lon": 23.95772,
+      "avg_gap_sec": 89
+    },
+    {
+      "stop_id": "2750",
+      "name": "Dainava B",
+      "lat": 54.91132,
+      "lon": 23.98008,
+      "avg_gap_sec": 89
+    },
+    {
+      "stop_id": "2782",
+      "name": "V. Landsbergio-Žemkalnio g. A",
+      "lat": 54.92623,
+      "lon": 23.95598,
+      "avg_gap_sec": 91
+    },
+    {
+      "stop_id": "2674",
+      "name": "Šančių poliklinika A",
+      "lat": 54.87382,
+      "lon": 23.93604,
+      "avg_gap_sec": 92
+    },
+    {
+      "stop_id": "2330",
+      "name": "Šilainių poliklinika A",
+      "lat": 54.92804,
+      "lon": 23.88878,
+      "avg_gap_sec": 92
+    },
+    {
+      "stop_id": "2751",
+      "name": "Dainava A",
+      "lat": 54.91153,
+      "lon": 23.97951,
+      "avg_gap_sec": 92
+    },
+    {
+      "stop_id": "2721",
+      "name": "Utenos g. D",
+      "lat": 54.90924,
+      "lon": 23.92832,
+      "avg_gap_sec": 92
+    },
+    {
+      "stop_id": "2819",
+      "name": "P. Dovydaičio g. B",
+      "lat": 54.91192,
+      "lon": 23.92527,
+      "avg_gap_sec": 92
+    },
+    {
+      "stop_id": "2791",
+      "name": "Čečėnijos aikštė A",
+      "lat": 54.92545,
+      "lon": 23.94754,
+      "avg_gap_sec": 93
+    },
+    {
+      "stop_id": "2862",
+      "name": "Geležinkelio stotis B",
+      "lat": 54.88798,
+      "lon": 23.92892,
+      "avg_gap_sec": 94
+    },
+    {
+      "stop_id": "2820",
+      "name": "P. Dovydaičio g. A",
+      "lat": 54.91101,
+      "lon": 23.92555,
+      "avg_gap_sec": 94
+    },
+    {
+      "stop_id": "4692",
+      "name": "Šančių poliklinika B",
+      "lat": 54.87287,
+      "lon": 23.93559,
+      "avg_gap_sec": 95
+    },
+    {
+      "stop_id": "2511",
+      "name": "Tilto g. B",
+      "lat": 54.86245,
+      "lon": 23.96107,
+      "avg_gap_sec": 95
+    },
+    {
+      "stop_id": "2801",
+      "name": "Akių klinika B",
+      "lat": 54.91715,
+      "lon": 23.92653,
+      "avg_gap_sec": 96
+    },
+    {
+      "stop_id": "2393",
+      "name": "Vilijampolės turgavietė B",
+      "lat": 54.91487,
+      "lon": 23.90159,
+      "avg_gap_sec": 97
+    },
+    {
+      "stop_id": "2802",
+      "name": "Akių klinika A",
+      "lat": 54.91727,
+      "lon": 23.92611,
+      "avg_gap_sec": 100
+    },
+    {
+      "stop_id": "2799",
+      "name": "Žeimenos g. B",
+      "lat": 54.92241,
+      "lon": 23.92849,
+      "avg_gap_sec": 101
+    },
+    {
+      "stop_id": "2392",
+      "name": "Vilijampolės turgavietė A",
+      "lat": 54.91446,
+      "lon": 23.90355,
+      "avg_gap_sec": 101
+    },
+    {
+      "stop_id": "2386",
+      "name": "Varnių g. B",
+      "lat": 54.91521,
+      "lon": 23.8902,
+      "avg_gap_sec": 101
+    },
+    {
+      "stop_id": "2388",
+      "name": "Panerių g. B",
+      "lat": 54.91488,
+      "lon": 23.89413,
+      "avg_gap_sec": 102
+    },
+    {
+      "stop_id": "2831",
+      "name": "Juozo Gruodžio namai B",
+      "lat": 54.91434,
+      "lon": 23.91346,
+      "avg_gap_sec": 103
+    },
+    {
+      "stop_id": "2355",
+      "name": "Milikoniai B",
+      "lat": 54.92318,
+      "lon": 23.89336,
+      "avg_gap_sec": 103
+    },
+    {
+      "stop_id": "2800",
+      "name": "Žeimenos g. A",
+      "lat": 54.9226,
+      "lon": 23.92812,
+      "avg_gap_sec": 104
+    },
+    {
+      "stop_id": "5033",
+      "name": "Nuokalnės g. B",
+      "lat": 54.91288,
+      "lon": 23.92341,
+      "avg_gap_sec": 104
+    },
+    {
+      "stop_id": "2677",
+      "name": "Švč. Jėzaus Širdies bažnyčia B",
+      "lat": 54.87054,
+      "lon": 23.93933,
+      "avg_gap_sec": 107
+    },
+    {
+      "stop_id": "2676",
+      "name": "Švč. Jėzaus Širdies bažnyčia A",
+      "lat": 54.87041,
+      "lon": 23.94005,
+      "avg_gap_sec": 108
+    },
+    {
+      "stop_id": "2671",
+      "name": "Geležinkelio tiltas A",
+      "lat": 54.88189,
+      "lon": 23.92817,
+      "avg_gap_sec": 108
+    },
+    {
+      "stop_id": "2354",
+      "name": "Milikoniai A",
+      "lat": 54.92401,
+      "lon": 23.89247,
+      "avg_gap_sec": 108
+    },
+    {
+      "stop_id": "2338",
+      "name": "Šarkuvos g. A",
+      "lat": 54.93453,
+      "lon": 23.89767,
+      "avg_gap_sec": 109
+    },
+    {
+      "stop_id": "2672",
+      "name": "Geležinkelio g. A",
+      "lat": 54.87772,
+      "lon": 23.93431,
+      "avg_gap_sec": 109
+    },
+    {
+      "stop_id": "2832",
+      "name": "Juozo Gruodžio namai A",
+      "lat": 54.9141,
+      "lon": 23.91335,
+      "avg_gap_sec": 110
+    },
+    {
+      "stop_id": "2678",
+      "name": "Gudų g. A",
+      "lat": 54.86742,
+      "lon": 23.94557,
+      "avg_gap_sec": 111
+    },
+    {
+      "stop_id": "2679",
+      "name": "Gudų g. B",
+      "lat": 54.86744,
+      "lon": 23.94504,
+      "avg_gap_sec": 112
+    },
+    {
+      "stop_id": "2681",
+      "name": "Šančių kapinės B",
+      "lat": 54.86442,
+      "lon": 23.95027,
+      "avg_gap_sec": 112
+    },
+    {
+      "stop_id": "2329",
+      "name": "Šilainių poliklinika B",
+      "lat": 54.9284,
+      "lon": 23.88929,
+      "avg_gap_sec": 112
+    },
+    {
+      "stop_id": "2797",
+      "name": "Topolis B",
+      "lat": 54.92541,
+      "lon": 23.92895,
+      "avg_gap_sec": 114
+    },
+    {
+      "stop_id": "2673",
+      "name": "Geležinkelio g. B",
+      "lat": 54.87818,
+      "lon": 23.93363,
+      "avg_gap_sec": 114
+    },
+    {
+      "stop_id": "2680",
+      "name": "Šančių kapinės A",
+      "lat": 54.86502,
+      "lon": 23.94998,
+      "avg_gap_sec": 114
+    },
+    {
+      "stop_id": "2720",
+      "name": "K. Petrausko g.",
+      "lat": 54.90814,
+      "lon": 23.92922,
+      "avg_gap_sec": 114
+    },
+    {
+      "stop_id": "2772",
+      "name": "M. Jankaus g. A",
+      "lat": 54.9045,
+      "lon": 23.9315,
+      "avg_gap_sec": 115
+    },
+    {
+      "stop_id": "15107",
+      "name": "Birutės g. B",
+      "lat": 54.87058,
+      "lon": 23.97739,
+      "avg_gap_sec": 118
+    },
+    {
+      "stop_id": "2858",
+      "name": "Kęstučio g. A",
+      "lat": 54.89591,
+      "lon": 23.92538,
+      "avg_gap_sec": 118
+    },
+    {
+      "stop_id": "2420",
+      "name": "Kaniūkai C",
+      "lat": 54.91971,
+      "lon": 23.82913,
+      "avg_gap_sec": 118
+    },
+    {
+      "stop_id": "2387",
+      "name": "Linkuvos g.",
+      "lat": 54.9148,
+      "lon": 23.88811,
+      "avg_gap_sec": 120
+    },
+    {
+      "stop_id": "2399",
+      "name": "Ariogalos g.",
+      "lat": 54.90561,
+      "lon": 23.88907,
+      "avg_gap_sec": 120
+    },
+    {
+      "stop_id": "2395",
+      "name": "Sąjungos aikštė",
+      "lat": 54.91122,
+      "lon": 23.88893,
+      "avg_gap_sec": 120
+    },
+    {
+      "stop_id": "15508",
+      "name": "Kauno ligoninė C",
+      "lat": 54.91553,
+      "lon": 23.85886,
+      "avg_gap_sec": 121
+    },
+    {
+      "stop_id": "2670",
+      "name": "Kaunakiemio g.",
+      "lat": 54.88556,
+      "lon": 23.92516,
+      "avg_gap_sec": 121
+    },
+    {
+      "stop_id": "2918",
+      "name": "Geležinkelio tiltas B",
+      "lat": 54.88267,
+      "lon": 23.92651,
+      "avg_gap_sec": 122
+    },
+    {
+      "stop_id": "2839",
+      "name": "Kauno pilis C",
+      "lat": 54.89965,
+      "lon": 23.88976,
+      "avg_gap_sec": 122
+    },
+    {
+      "stop_id": "2396",
+      "name": "M. Mažvydo g.",
+      "lat": 54.91079,
+      "lon": 23.88739,
+      "avg_gap_sec": 122
+    },
+    {
+      "stop_id": "2398",
+      "name": "Radvilų dvaro g.",
+      "lat": 54.90708,
+      "lon": 23.88358,
+      "avg_gap_sec": 123
+    },
+    {
+      "stop_id": "2714",
+      "name": "Kauno aklųjų ir silpnaregių centras A",
+      "lat": 54.91161,
+      "lon": 23.93502,
+      "avg_gap_sec": 123
+    },
+    {
+      "stop_id": "2798",
+      "name": "Topolis A",
+      "lat": 54.92602,
+      "lon": 23.92862,
+      "avg_gap_sec": 124
+    },
+    {
+      "stop_id": "5213",
+      "name": "Kauno oro uostas",
+      "lat": 54.96728,
+      "lon": 24.07238,
+      "avg_gap_sec": 124
+    },
+    {
+      "stop_id": "2728",
+      "name": "Rėda",
+      "lat": 54.91827,
+      "lon": 23.96884,
+      "avg_gap_sec": 126
+    },
+    {
+      "stop_id": "2737",
+      "name": "Draugystės parkas A",
+      "lat": 54.91656,
+      "lon": 23.96531,
+      "avg_gap_sec": 126
+    },
+    {
+      "stop_id": "2771",
+      "name": "M. Jankaus g. B",
+      "lat": 54.90368,
+      "lon": 23.93171,
+      "avg_gap_sec": 126
+    },
+    {
+      "stop_id": "2736",
+      "name": "Draugystės parkas B",
+      "lat": 54.9163,
+      "lon": 23.96553,
+      "avg_gap_sec": 127
+    },
+    {
+      "stop_id": "2529",
+      "name": "Onkologijos ligoninė",
+      "lat": 54.86073,
+      "lon": 23.97485,
+      "avg_gap_sec": 129
+    },
+    {
+      "stop_id": "2739",
+      "name": "Birželio 23-iosios g. A",
+      "lat": 54.91524,
+      "lon": 23.95924,
+      "avg_gap_sec": 130
+    },
+    {
+      "stop_id": "2598",
+      "name": "R. Kalantos g. B",
+      "lat": 54.8952,
+      "lon": 23.98337,
+      "avg_gap_sec": 130
+    },
+    {
+      "stop_id": "2597",
+      "name": "Jėgainės g. B",
+      "lat": 54.89462,
+      "lon": 23.98736,
+      "avg_gap_sec": 130
+    },
+    {
+      "stop_id": "2414",
+      "name": "Vyžuonos g. A",
+      "lat": 54.91048,
+      "lon": 23.85123,
+      "avg_gap_sec": 131
+    },
+    {
+      "stop_id": "2411",
+      "name": "Inkaro g. A",
+      "lat": 54.90943,
+      "lon": 23.85792,
+      "avg_gap_sec": 131
+    },
+    {
+      "stop_id": "2901",
+      "name": "Žagarės g. A",
+      "lat": 54.90879,
+      "lon": 23.86233,
+      "avg_gap_sec": 131
+    },
+    {
+      "stop_id": "2408",
+      "name": "Kauno autobusai A",
+      "lat": 54.90799,
+      "lon": 23.8682,
+      "avg_gap_sec": 131
+    },
+    {
+      "stop_id": "2738",
+      "name": "Birželio 23-iosios g. B",
+      "lat": 54.91498,
+      "lon": 23.95846,
+      "avg_gap_sec": 132
+    },
+    {
+      "stop_id": "2715",
+      "name": "Kauno aklųjų ir silpnaregių centras D",
+      "lat": 54.91147,
+      "lon": 23.93812,
+      "avg_gap_sec": 132
+    },
+    {
+      "stop_id": "2749",
+      "name": "J. Basanavičiaus al.",
+      "lat": 54.9111,
+      "lon": 23.94409,
+      "avg_gap_sec": 132
+    },
+    {
+      "stop_id": "2415",
+      "name": "Atominio bunkerio muziejus A",
+      "lat": 54.91203,
+      "lon": 23.84527,
+      "avg_gap_sec": 132
+    },
+    {
+      "stop_id": "2342",
+      "name": "Jotvingių g. A",
+      "lat": 54.9303,
+      "lon": 23.89556,
+      "avg_gap_sec": 133
+    },
+    {
+      "stop_id": "2713",
+      "name": "Kauno aklųjų ir silpnaregių centras C",
+      "lat": 54.91295,
+      "lon": 23.93791,
+      "avg_gap_sec": 133
+    },
+    {
+      "stop_id": "2594",
+      "name": "Naglio g. B",
+      "lat": 54.89226,
+      "lon": 24.00094,
+      "avg_gap_sec": 133
+    },
+    {
+      "stop_id": "2337",
+      "name": "Šarkuvos g. B",
+      "lat": 54.93452,
+      "lon": 23.89798,
+      "avg_gap_sec": 134
+    },
+    {
+      "stop_id": "2746",
+      "name": "A. Baranausko g. B",
+      "lat": 54.91185,
+      "lon": 23.95228,
+      "avg_gap_sec": 134
+    },
+    {
+      "stop_id": "2747",
+      "name": "A. Baranausko g. A",
+      "lat": 54.91223,
+      "lon": 23.95234,
+      "avg_gap_sec": 136
+    },
+    {
+      "stop_id": "2748",
+      "name": "Gražinos g.",
+      "lat": 54.91173,
+      "lon": 23.9483,
+      "avg_gap_sec": 136
+    },
+    {
+      "stop_id": "2407",
+      "name": "Kauno autobusai B",
+      "lat": 54.90777,
+      "lon": 23.87098,
+      "avg_gap_sec": 138
+    },
+    {
+      "stop_id": "5032",
+      "name": "Nuokalnės g. A",
+      "lat": 54.91258,
+      "lon": 23.92338,
+      "avg_gap_sec": 139
+    },
+    {
+      "stop_id": "2412",
+      "name": "Inkaro g. B",
+      "lat": 54.90995,
+      "lon": 23.85542,
+      "avg_gap_sec": 140
+    },
+    {
+      "stop_id": "15628",
+      "name": "Jūros g.",
+      "lat": 54.9085,
+      "lon": 23.86586,
+      "avg_gap_sec": 141
+    },
+    {
+      "stop_id": "2410",
+      "name": "Žagarės g. B",
+      "lat": 54.90911,
+      "lon": 23.8613,
+      "avg_gap_sec": 141
+    },
+    {
+      "stop_id": "2419",
+      "name": "Gervių g. A",
+      "lat": 54.91562,
+      "lon": 23.83658,
+      "avg_gap_sec": 141
+    },
+    {
+      "stop_id": "2669",
+      "name": "Geležinkelio stotis C",
+      "lat": 54.88786,
+      "lon": 23.9331,
+      "avg_gap_sec": 142
+    },
+    {
+      "stop_id": "2413",
+      "name": "Vyžuonos g. B",
+      "lat": 54.91081,
+      "lon": 23.85052,
+      "avg_gap_sec": 142
+    },
+    {
+      "stop_id": "2418",
+      "name": "Gervių g. B",
+      "lat": 54.91585,
+      "lon": 23.83686,
+      "avg_gap_sec": 142
+    },
+    {
+      "stop_id": "2339",
+      "name": "Juozo Grušo meno gimnazija B",
+      "lat": 54.93096,
+      "lon": 23.89214,
+      "avg_gap_sec": 142
+    },
+    {
+      "stop_id": "14291",
+      "name": "Kaniūkų 1-oji g.",
+      "lat": 54.91778,
+      "lon": 23.83254,
+      "avg_gap_sec": 142
+    },
+    {
+      "stop_id": "2525",
+      "name": "Vaidoto g. C",
+      "lat": 54.87161,
+      "lon": 23.97738,
+      "avg_gap_sec": 143
+    },
+    {
+      "stop_id": "2732",
+      "name": "Draugystės parkas C",
+      "lat": 54.91633,
+      "lon": 23.97349,
+      "avg_gap_sec": 144
+    },
+    {
+      "stop_id": "2595",
+      "name": "Naglio g. A",
+      "lat": 54.89272,
+      "lon": 23.99947,
+      "avg_gap_sec": 145
+    },
+    {
+      "stop_id": "2416",
+      "name": "Atominio bunkerio muziejus B",
+      "lat": 54.91287,
+      "lon": 23.84353,
+      "avg_gap_sec": 146
+    },
+    {
+      "stop_id": "2596",
+      "name": "Jėgainės g. A",
+      "lat": 54.89462,
+      "lon": 23.98842,
+      "avg_gap_sec": 146
+    },
+    {
+      "stop_id": "2599",
+      "name": "R. Kalantos g. A",
+      "lat": 54.8955,
+      "lon": 23.98274,
+      "avg_gap_sec": 146
+    },
+    {
+      "stop_id": "2704",
+      "name": "Pakraščio g. A",
+      "lat": 54.92487,
+      "lon": 23.96102,
+      "avg_gap_sec": 150
+    },
+    {
+      "stop_id": "2842",
+      "name": "Karaliaus Mindaugo pr. A",
+      "lat": 54.89491,
+      "lon": 23.88829,
+      "avg_gap_sec": 153
+    },
+    {
+      "stop_id": "2404",
+      "name": "Kėdainių g. A",
+      "lat": 54.9067,
+      "lon": 23.87701,
+      "avg_gap_sec": 153
+    },
+    {
+      "stop_id": "2592",
+      "name": "Armatūrininkų g. B",
+      "lat": 54.88972,
+      "lon": 24.00442,
+      "avg_gap_sec": 153
+    },
+    {
+      "stop_id": "5104",
+      "name": "Ekskavatorininkų g. B",
+      "lat": 54.88582,
+      "lon": 24.00656,
+      "avg_gap_sec": 153
+    },
+    {
+      "stop_id": "2818",
+      "name": "Lietuvos inžinerijos kolegija B",
+      "lat": 54.91321,
+      "lon": 23.92937,
+      "avg_gap_sec": 154
+    },
+    {
+      "stop_id": "2590",
+      "name": "Petrašiūnai A",
+      "lat": 54.88539,
+      "lon": 24.00748,
+      "avg_gap_sec": 154
+    },
+    {
+      "stop_id": "2817",
+      "name": "Lietuvos inžinerijos kolegija A",
+      "lat": 54.9129,
+      "lon": 23.92915,
+      "avg_gap_sec": 156
+    },
+    {
+      "stop_id": "2403",
+      "name": "Kėdainių g. B",
+      "lat": 54.90668,
+      "lon": 23.87842,
+      "avg_gap_sec": 156
+    },
+    {
+      "stop_id": "6193",
+      "name": "Vytauto Didžiojo tiltas A",
+      "lat": 54.89253,
+      "lon": 23.88934,
+      "avg_gap_sec": 158
+    },
+    {
+      "stop_id": "2845",
+      "name": "Karaliaus Mindaugo pr. B",
+      "lat": 54.895,
+      "lon": 23.89176,
+      "avg_gap_sec": 160
+    },
+    {
+      "stop_id": "2515",
+      "name": "Smėlio g. B",
+      "lat": 54.86535,
+      "lon": 23.9674,
+      "avg_gap_sec": 160
+    },
+    {
+      "stop_id": "2521",
+      "name": "KTU inžinerijos licėjus B",
+      "lat": 54.86781,
+      "lon": 23.97194,
+      "avg_gap_sec": 160
+    },
+    {
+      "stop_id": "2843",
+      "name": "Vilniaus g. A",
+      "lat": 54.89596,
+      "lon": 23.89627,
+      "avg_gap_sec": 162
+    },
+    {
+      "stop_id": "5233",
+      "name": "Mega A",
+      "lat": 54.93826,
+      "lon": 23.89203,
+      "avg_gap_sec": 162
+    },
+    {
+      "stop_id": "5254",
+      "name": "Senukai C",
+      "lat": 54.93801,
+      "lon": 23.89643,
+      "avg_gap_sec": 162
+    },
+    {
+      "stop_id": "2522",
+      "name": "KTU inžinerijos licėjus A",
+      "lat": 54.8674,
+      "lon": 23.97078,
+      "avg_gap_sec": 163
+    },
+    {
+      "stop_id": "5103",
+      "name": "Ekskavatorininkų g. A",
+      "lat": 54.88669,
+      "lon": 24.00639,
+      "avg_gap_sec": 164
+    },
+    {
+      "stop_id": "2593",
+      "name": "Armatūrininkų g. A",
+      "lat": 54.88982,
+      "lon": 24.00472,
+      "avg_gap_sec": 164
+    },
+    {
+      "stop_id": "2349",
+      "name": "A. Strazdo g. A",
+      "lat": 54.92536,
+      "lon": 23.90512,
+      "avg_gap_sec": 166
+    },
+    {
+      "stop_id": "2363",
+      "name": "Apuolės g. B",
+      "lat": 54.91932,
+      "lon": 23.87744,
+      "avg_gap_sec": 166
+    },
+    {
+      "stop_id": "2700",
+      "name": "Murava A",
+      "lat": 54.92751,
+      "lon": 23.97008,
+      "avg_gap_sec": 166
+    },
+    {
+      "stop_id": "2701",
+      "name": "Kalniečių turgavietė A",
+      "lat": 54.92506,
+      "lon": 23.9647,
+      "avg_gap_sec": 166
+    },
+    {
+      "stop_id": "2687",
+      "name": "Kauno ligoninė B",
+      "lat": 54.87878,
+      "lon": 23.94568,
+      "avg_gap_sec": 167
+    },
+    {
+      "stop_id": "15208",
+      "name": "Biurų centras",
+      "lat": 54.93988,
+      "lon": 23.88612,
+      "avg_gap_sec": 167
+    },
+    {
+      "stop_id": "2331",
+      "name": "Mosėdžio g. B",
+      "lat": 54.93313,
+      "lon": 23.88555,
+      "avg_gap_sec": 168
+    },
+    {
+      "stop_id": "2516",
+      "name": "Smėlio g. A",
+      "lat": 54.86442,
+      "lon": 23.96536,
+      "avg_gap_sec": 168
+    },
+    {
+      "stop_id": "4381",
+      "name": "Šiaurės pr. B",
+      "lat": 54.93049,
+      "lon": 23.92688,
+      "avg_gap_sec": 169
+    },
+    {
+      "stop_id": "15103",
+      "name": "Pėsčiųjų tiltas B",
+      "lat": 54.93386,
+      "lon": 23.93002,
+      "avg_gap_sec": 169
+    },
+    {
+      "stop_id": "4382",
+      "name": "Pilėnų progimnazija B",
+      "lat": 54.93376,
+      "lon": 23.93446,
+      "avg_gap_sec": 169
+    },
+    {
+      "stop_id": "2351",
+      "name": "Kuršėnų g. A",
+      "lat": 54.92008,
+      "lon": 23.908,
+      "avg_gap_sec": 171
+    },
+    {
+      "stop_id": "2341",
+      "name": "Jotvingių g. B",
+      "lat": 54.93098,
+      "lon": 23.89682,
+      "avg_gap_sec": 172
+    },
+    {
+      "stop_id": "2385",
+      "name": "Panerių g. A",
+      "lat": 54.91519,
+      "lon": 23.89157,
+      "avg_gap_sec": 172
+    },
+    {
+      "stop_id": "2401",
+      "name": "Jurbarko g. B",
+      "lat": 54.90473,
+      "lon": 23.88677,
+      "avg_gap_sec": 172
+    },
+    {
+      "stop_id": "2702",
+      "name": "Kalniečių turgavietė B",
+      "lat": 54.92467,
+      "lon": 23.96448,
+      "avg_gap_sec": 174
+    },
+    {
+      "stop_id": "2699",
+      "name": "Murava B",
+      "lat": 54.9269,
+      "lon": 23.96937,
+      "avg_gap_sec": 174
+    },
+    {
+      "stop_id": "2358",
+      "name": "Baltų pr. A",
+      "lat": 54.92766,
+      "lon": 23.87992,
+      "avg_gap_sec": 175
+    },
+    {
+      "stop_id": "2348",
+      "name": "A. Strazdo g. B",
+      "lat": 54.92563,
+      "lon": 23.90551,
+      "avg_gap_sec": 175
+    },
+    {
+      "stop_id": "2733",
+      "name": "Draugystės parkas D",
+      "lat": 54.91591,
+      "lon": 23.97345,
+      "avg_gap_sec": 175
+    },
+    {
+      "stop_id": "2350",
+      "name": "Kuršėnų g. B",
+      "lat": 54.92039,
+      "lon": 23.90837,
+      "avg_gap_sec": 176
+    },
+    {
+      "stop_id": "5031",
+      "name": "Varnių g. A",
+      "lat": 54.91499,
+      "lon": 23.89145,
+      "avg_gap_sec": 180
+    },
+    {
+      "stop_id": "2770",
+      "name": "Gėlių Rato g. B",
+      "lat": 54.90176,
+      "lon": 23.93738,
+      "avg_gap_sec": 181
+    },
+    {
+      "stop_id": "2768",
+      "name": "Minties Rato g.",
+      "lat": 54.90294,
+      "lon": 23.94357,
+      "avg_gap_sec": 181
+    },
+    {
+      "stop_id": "5228",
+      "name": "Žemaičių pl. A",
+      "lat": 54.92939,
+      "lon": 23.88462,
+      "avg_gap_sec": 183
+    },
+    {
+      "stop_id": "2364",
+      "name": "Apuolės g. A",
+      "lat": 54.91934,
+      "lon": 23.87802,
+      "avg_gap_sec": 184
+    },
+    {
+      "stop_id": "2762",
+      "name": "Studentų g. A",
+      "lat": 54.90724,
+      "lon": 23.95224,
+      "avg_gap_sec": 186
+    },
+    {
+      "stop_id": "2764",
+      "name": "Zoologijos sodas A",
+      "lat": 54.90411,
+      "lon": 23.94882,
+      "avg_gap_sec": 186
+    },
+    {
+      "stop_id": "2769",
+      "name": "Gėlių Rato g. A",
+      "lat": 54.90239,
+      "lon": 23.93977,
+      "avg_gap_sec": 186
+    },
+    {
+      "stop_id": "2453",
+      "name": "Europos pr. B",
+      "lat": 54.87423,
+      "lon": 23.89082,
+      "avg_gap_sec": 186
+    },
+    {
+      "stop_id": "2456",
+      "name": "Julijanavos g. A",
+      "lat": 54.87001,
+      "lon": 23.88964,
+      "avg_gap_sec": 186
+    },
+    {
+      "stop_id": "2662",
+      "name": "Breslaujos g. B",
+      "lat": 54.89662,
+      "lon": 23.95643,
+      "avg_gap_sec": 186
+    },
+    {
+      "stop_id": "2366",
+      "name": "Naujakurių g. A",
+      "lat": 54.91577,
+      "lon": 23.86832,
+      "avg_gap_sec": 187
+    },
+    {
+      "stop_id": "16095",
+      "name": "E. Volterio g. A",
+      "lat": 54.94176,
+      "lon": 23.80131,
+      "avg_gap_sec": 188
+    },
+    {
+      "stop_id": "2729",
+      "name": "Kovo 11-osios g.",
+      "lat": 54.91964,
+      "lon": 23.97206,
+      "avg_gap_sec": 188
+    },
+    {
+      "stop_id": "2390",
+      "name": "Varnių tiltas A",
+      "lat": 54.91593,
+      "lon": 23.90749,
+      "avg_gap_sec": 189
+    },
+    {
+      "stop_id": "2763",
+      "name": "Zoologijos sodas B",
+      "lat": 54.90492,
+      "lon": 23.94911,
+      "avg_gap_sec": 189
+    },
+    {
+      "stop_id": "2457",
+      "name": "Julijanavos g. B",
+      "lat": 54.86829,
+      "lon": 23.88863,
+      "avg_gap_sec": 189
+    },
+    {
+      "stop_id": "2761",
+      "name": "Studentų g. B",
+      "lat": 54.90823,
+      "lon": 23.9539,
+      "avg_gap_sec": 191
+    },
+    {
+      "stop_id": "2759",
+      "name": "Taikos pr. B",
+      "lat": 54.91011,
+      "lon": 23.95601,
+      "avg_gap_sec": 191
+    },
+    {
+      "stop_id": "2796",
+      "name": "Šiaurės pr. A",
+      "lat": 54.92942,
+      "lon": 23.92714,
+      "avg_gap_sec": 191
+    },
+    {
+      "stop_id": "2760",
+      "name": "Taikos pr. A",
+      "lat": 54.91019,
+      "lon": 23.95577,
+      "avg_gap_sec": 192
+    },
+    {
+      "stop_id": "2463",
+      "name": "Lazdijų g. A",
+      "lat": 54.86366,
+      "lon": 23.88728,
+      "avg_gap_sec": 192
+    },
+    {
+      "stop_id": "4383",
+      "name": "Pilėnų progimnazija A",
+      "lat": 54.93389,
+      "lon": 23.93359,
+      "avg_gap_sec": 192
+    },
+    {
+      "stop_id": "2389",
+      "name": "Varnių tiltas B",
+      "lat": 54.91533,
+      "lon": 23.90792,
+      "avg_gap_sec": 195
+    },
+    {
+      "stop_id": "14795",
+      "name": "Pėsčiųjų tiltas A",
+      "lat": 54.93398,
+      "lon": 23.92958,
+      "avg_gap_sec": 195
+    },
+    {
+      "stop_id": "2464",
+      "name": "Lazdijų g. B",
+      "lat": 54.86318,
+      "lon": 23.88673,
+      "avg_gap_sec": 201
+    },
+    {
+      "stop_id": "2744",
+      "name": "Vyturio gimnazija B",
+      "lat": 54.91198,
+      "lon": 23.96112,
+      "avg_gap_sec": 202
+    },
+    {
+      "stop_id": "2742",
+      "name": "Simono Daukanto progimnazija B",
+      "lat": 54.91161,
+      "lon": 23.96735,
+      "avg_gap_sec": 202
+    },
+    {
+      "stop_id": "2336",
+      "name": "Kuršių g. A",
+      "lat": 54.93596,
+      "lon": 23.89287,
+      "avg_gap_sec": 206
+    },
+    {
+      "stop_id": "2743",
+      "name": "Simono Daukanto progimnazija A",
+      "lat": 54.91194,
+      "lon": 23.9667,
+      "avg_gap_sec": 209
+    },
+    {
+      "stop_id": "2745",
+      "name": "Vyturio gimnazija A",
+      "lat": 54.91238,
+      "lon": 23.95883,
+      "avg_gap_sec": 209
+    },
+    {
+      "stop_id": "14403",
+      "name": "9-ojo Forto g. A",
+      "lat": 54.93585,
+      "lon": 23.88698,
+      "avg_gap_sec": 210
+    },
+    {
+      "stop_id": "4753",
+      "name": "Technikos g.",
+      "lat": 54.9088,
+      "lon": 24.00933,
+      "avg_gap_sec": 210
+    },
+    {
+      "stop_id": "2465",
+      "name": "2-asis fortas A",
+      "lat": 54.85716,
+      "lon": 23.88517,
+      "avg_gap_sec": 210
+    },
+    {
+      "stop_id": "2450",
+      "name": "Aleksoto poliklinika A",
+      "lat": 54.88597,
+      "lon": 23.89564,
+      "avg_gap_sec": 210
+    },
+    {
+      "stop_id": "2452",
+      "name": "Europos pr. A",
+      "lat": 54.87553,
+      "lon": 23.89181,
+      "avg_gap_sec": 211
+    },
+    {
+      "stop_id": "2365",
+      "name": "Naujakurių g. B",
+      "lat": 54.9159,
+      "lon": 23.86733,
+      "avg_gap_sec": 214
+    },
+    {
+      "stop_id": "5218",
+      "name": "Margava A",
+      "lat": 54.95413,
+      "lon": 24.02916,
+      "avg_gap_sec": 216
+    },
+    {
+      "stop_id": "5217",
+      "name": "Narėpai A",
+      "lat": 54.94616,
+      "lon": 24.01147,
+      "avg_gap_sec": 216
+    },
+    {
+      "stop_id": "5216",
+      "name": "Biruliškės C",
+      "lat": 54.939,
+      "lon": 23.99569,
+      "avg_gap_sec": 216
+    },
+    {
+      "stop_id": "2454",
+      "name": "S.Dariaus ir S.Girėno aerodromas",
+      "lat": 54.87695,
+      "lon": 23.89185,
+      "avg_gap_sec": 217
+    },
+    {
+      "stop_id": "5205",
+      "name": "Margava B",
+      "lat": 54.95506,
+      "lon": 24.03176,
+      "avg_gap_sec": 220
+    },
+    {
+      "stop_id": "15507",
+      "name": "Keleivių išlaipinimo aikštelė",
+      "lat": 54.91611,
+      "lon": 23.86003,
+      "avg_gap_sec": 221
+    },
+    {
+      "stop_id": "5203",
+      "name": "Biruliškės D",
+      "lat": 54.93789,
+      "lon": 23.99396,
+      "avg_gap_sec": 222
+    },
+    {
+      "stop_id": "5204",
+      "name": "Narėpai B",
+      "lat": 54.94731,
+      "lon": 24.01456,
+      "avg_gap_sec": 222
+    },
+    {
+      "stop_id": "16367",
+      "name": "Vytauto Didžiojo tiltas B",
+      "lat": 54.89219,
+      "lon": 23.89,
+      "avg_gap_sec": 225
+    },
+    {
+      "stop_id": "2451",
+      "name": "Aleksoto poliklinika B",
+      "lat": 54.88517,
+      "lon": 23.89499,
+      "avg_gap_sec": 226
+    },
+    {
+      "stop_id": "2523",
+      "name": "J. Staugaičio g. A",
+      "lat": 54.87161,
+      "lon": 23.97376,
+      "avg_gap_sec": 228
+    },
+    {
+      "stop_id": "2519",
+      "name": "Gailutės g. A",
+      "lat": 54.87236,
+      "lon": 23.96527,
+      "avg_gap_sec": 228
+    },
+    {
+      "stop_id": "2518",
+      "name": "A. Smetonos al. A",
+      "lat": 54.86888,
+      "lon": 23.96189,
+      "avg_gap_sec": 228
+    },
+    {
+      "stop_id": "2514",
+      "name": "Mažoji g. A",
+      "lat": 54.86581,
+      "lon": 23.95837,
+      "avg_gap_sec": 228
+    },
+    {
+      "stop_id": "2517",
+      "name": "A. Smetonos al. B",
+      "lat": 54.86932,
+      "lon": 23.96246,
+      "avg_gap_sec": 229
+    },
+    {
+      "stop_id": "2520",
+      "name": "Gailutės g. B",
+      "lat": 54.8722,
+      "lon": 23.96556,
+      "avg_gap_sec": 229
+    },
+    {
+      "stop_id": "2513",
+      "name": "Mažoji g. B",
+      "lat": 54.86517,
+      "lon": 23.95835,
+      "avg_gap_sec": 230
+    },
+    {
+      "stop_id": "2849",
+      "name": "Laisvės alėja A",
+      "lat": 54.89804,
+      "lon": 23.89972,
+      "avg_gap_sec": 230
+    },
+    {
+      "stop_id": "2633",
+      "name": "Garažų g. B",
+      "lat": 54.92185,
+      "lon": 23.99874,
+      "avg_gap_sec": 232
+    },
+    {
+      "stop_id": "5227",
+      "name": "Žemaičių pl. B",
+      "lat": 54.92983,
+      "lon": 23.88467,
+      "avg_gap_sec": 234
+    },
+    {
+      "stop_id": "2359",
+      "name": "Baltų pr. B",
+      "lat": 54.92744,
+      "lon": 23.87825,
+      "avg_gap_sec": 236
+    },
+    {
+      "stop_id": "15596",
+      "name": "Rietavo g.",
+      "lat": 54.93127,
+      "lon": 23.88919,
+      "avg_gap_sec": 237
+    },
+    {
+      "stop_id": "2524",
+      "name": "J. Staugaičio g. B",
+      "lat": 54.87156,
+      "lon": 23.97253,
+      "avg_gap_sec": 238
+    },
+    {
+      "stop_id": "2332",
+      "name": "Mosėdžio g. A",
+      "lat": 54.93302,
+      "lon": 23.88492,
+      "avg_gap_sec": 244
+    },
+    {
+      "stop_id": "2634",
+      "name": "Garažų g. A",
+      "lat": 54.92143,
+      "lon": 23.99847,
+      "avg_gap_sec": 246
+    },
+    {
+      "stop_id": "14550",
+      "name": "Ašmenos 1-oji g. A",
+      "lat": 54.88403,
+      "lon": 23.9506,
+      "avg_gap_sec": 251
+    },
+    {
+      "stop_id": "2691",
+      "name": "Žarėnų g. A",
+      "lat": 54.88673,
+      "lon": 23.95352,
+      "avg_gap_sec": 251
+    },
+    {
+      "stop_id": "2692",
+      "name": "Prancūzų g. A",
+      "lat": 54.89206,
+      "lon": 23.9546,
+      "avg_gap_sec": 251
+    },
+    {
+      "stop_id": "2873",
+      "name": "Kuršių g. C",
+      "lat": 54.93404,
+      "lon": 23.90475,
+      "avg_gap_sec": 252
+    },
+    {
+      "stop_id": "5225",
+      "name": "Karmėlava B",
+      "lat": 54.96951,
+      "lon": 24.06399,
+      "avg_gap_sec": 253
+    },
+    {
+      "stop_id": "14426",
+      "name": "Oro uosto g. B",
+      "lat": 54.97129,
+      "lon": 24.06924,
+      "avg_gap_sec": 253
+    },
+    {
+      "stop_id": "2705",
+      "name": "Savas",
+      "lat": 54.92353,
+      "lon": 23.96197,
+      "avg_gap_sec": 255
+    },
+    {
+      "stop_id": "2527",
+      "name": "Kurtinių g. B",
+      "lat": 54.86465,
+      "lon": 23.97644,
+      "avg_gap_sec": 256
+    },
+    {
+      "stop_id": "14923",
+      "name": "Volungių g. B",
+      "lat": 54.86153,
+      "lon": 23.97747,
+      "avg_gap_sec": 256
+    },
+    {
+      "stop_id": "2693",
+      "name": "Prancūzų g. B",
+      "lat": 54.89232,
+      "lon": 23.95441,
+      "avg_gap_sec": 258
+    },
+    {
+      "stop_id": "2690",
+      "name": "Žarėnų g. B",
+      "lat": 54.88647,
+      "lon": 23.95276,
+      "avg_gap_sec": 258
+    },
+    {
+      "stop_id": "14551",
+      "name": "Ašmenos 1-oji g. B",
+      "lat": 54.88386,
+      "lon": 23.95011,
+      "avg_gap_sec": 258
+    },
+    {
+      "stop_id": "2688",
+      "name": "Karių kapinės B",
+      "lat": 54.88025,
+      "lon": 23.94869,
+      "avg_gap_sec": 258
+    },
+    {
+      "stop_id": "14922",
+      "name": "Volungių g. A",
+      "lat": 54.86223,
+      "lon": 23.97738,
+      "avg_gap_sec": 260
+    },
+    {
+      "stop_id": "2528",
+      "name": "Kurtinių g. A",
+      "lat": 54.86455,
+      "lon": 23.97683,
+      "avg_gap_sec": 260
+    },
+    {
+      "stop_id": "2947",
+      "name": "2-asis fortas B",
+      "lat": 54.85606,
+      "lon": 23.88406,
+      "avg_gap_sec": 263
+    },
+    {
+      "stop_id": "2870",
+      "name": "Gamyklos g. C",
+      "lat": 54.95128,
+      "lon": 23.89128,
+      "avg_gap_sec": 265
+    },
+    {
+      "stop_id": "2360",
+      "name": "Žiemgalių g. A",
+      "lat": 54.92393,
+      "lon": 23.87945,
+      "avg_gap_sec": 266
+    },
+    {
+      "stop_id": "2458",
+      "name": "Kazliškiai",
+      "lat": 54.86644,
+      "lon": 23.85464,
+      "avg_gap_sec": 271
+    },
+    {
+      "stop_id": "2716",
+      "name": "Kauno aklųjų ir silpnaregių centras E",
+      "lat": 54.91179,
+      "lon": 23.93833,
+      "avg_gap_sec": 273
+    },
+    {
+      "stop_id": "14773",
+      "name": "Oro uosto g. A",
+      "lat": 54.97122,
+      "lon": 24.06967,
+      "avg_gap_sec": 283
+    },
+    {
+      "stop_id": "14322",
+      "name": "2-oji Karmėlava B",
+      "lat": 54.97472,
+      "lon": 24.0756,
+      "avg_gap_sec": 283
+    },
+    {
+      "stop_id": "15877",
+      "name": "Rasos g.",
+      "lat": 54.9772,
+      "lon": 24.08056,
+      "avg_gap_sec": 283
+    },
+    {
+      "stop_id": "4943",
+      "name": "2-oji Karmėlava A",
+      "lat": 54.9741,
+      "lon": 24.07357,
+      "avg_gap_sec": 283
+    },
+    {
+      "stop_id": "16015",
+      "name": "Balio Buračo gimnazija",
+      "lat": 54.97144,
+      "lon": 24.06775,
+      "avg_gap_sec": 283
+    },
+    {
+      "stop_id": "5221",
+      "name": "Karmėlava A",
+      "lat": 54.96864,
+      "lon": 24.0615,
+      "avg_gap_sec": 283
+    },
+    {
+      "stop_id": "14520",
+      "name": "Vinčų g. B",
+      "lat": 54.87508,
+      "lon": 23.91225,
+      "avg_gap_sec": 285
+    },
+    {
+      "stop_id": "4926",
+      "name": "Ž. E. Žilibero g. B",
+      "lat": 54.87562,
+      "lon": 23.90243,
+      "avg_gap_sec": 285
+    },
+    {
+      "stop_id": "15134",
+      "name": "Bivylių g. B",
+      "lat": 54.93525,
+      "lon": 23.81743,
+      "avg_gap_sec": 285
+    },
+    {
+      "stop_id": "16206",
+      "name": "Chodkevičių g. B",
+      "lat": 54.93545,
+      "lon": 23.82295,
+      "avg_gap_sec": 285
+    },
+    {
+      "stop_id": "15164",
+      "name": "Paltiškių g. B",
+      "lat": 54.93607,
+      "lon": 23.82878,
+      "avg_gap_sec": 285
+    },
+    {
+      "stop_id": "15165",
+      "name": "Paltiškių g. A",
+      "lat": 54.93611,
+      "lon": 23.82935,
+      "avg_gap_sec": 286
+    },
+    {
+      "stop_id": "16207",
+      "name": "Chodkevičių g. A",
+      "lat": 54.93555,
+      "lon": 23.82315,
+      "avg_gap_sec": 286
+    },
+    {
+      "stop_id": "2607",
+      "name": "Draugystės g. A",
+      "lat": 54.90538,
+      "lon": 24.00764,
+      "avg_gap_sec": 287
+    },
+    {
+      "stop_id": "2609",
+      "name": "Gamyklos A",
+      "lat": 54.90701,
+      "lon": 24.00056,
+      "avg_gap_sec": 287
+    },
+    {
+      "stop_id": "2611",
+      "name": "Kauno gelžbetonis A",
+      "lat": 54.90972,
+      "lon": 23.98855,
+      "avg_gap_sec": 287
+    },
+    {
+      "stop_id": "2965",
+      "name": "Rinkūnai",
+      "lat": 54.81592,
+      "lon": 23.88428,
+      "avg_gap_sec": 287
+    },
+    {
+      "stop_id": "2649",
+      "name": "Pramonės pr. B",
+      "lat": 54.92525,
+      "lon": 23.97604,
+      "avg_gap_sec": 289
+    },
+    {
+      "stop_id": "15133",
+      "name": "Bivylių g. A",
+      "lat": 54.9353,
+      "lon": 23.81707,
+      "avg_gap_sec": 295
+    },
+    {
+      "stop_id": "2340",
+      "name": "Juozo Grušo meno gimnazija A",
+      "lat": 54.93067,
+      "lon": 23.89169,
+      "avg_gap_sec": 300
+    },
+    {
+      "stop_id": "2441",
+      "name": "VDU Žemės ūkio akademija",
+      "lat": 54.89364,
+      "lon": 23.83487,
+      "avg_gap_sec": 302
+    },
+    {
+      "stop_id": "2630",
+      "name": "Kauno pienas A",
+      "lat": 54.91891,
+      "lon": 23.99496,
+      "avg_gap_sec": 305
+    },
+    {
+      "stop_id": "4371",
+      "name": "Partizanų g. B",
+      "lat": 54.92604,
+      "lon": 23.99871,
+      "avg_gap_sec": 305
+    },
+    {
+      "stop_id": "2886",
+      "name": "Raudondvario pl. B",
+      "lat": 54.91967,
+      "lon": 23.82839,
+      "avg_gap_sec": 308
+    },
+    {
+      "stop_id": "2885",
+      "name": "Visvaldės g. B",
+      "lat": 54.92071,
+      "lon": 23.81699,
+      "avg_gap_sec": 308
+    },
+    {
+      "stop_id": "2883",
+      "name": "7-asis kilometras B",
+      "lat": 54.92094,
+      "lon": 23.80888,
+      "avg_gap_sec": 308
+    },
+    {
+      "stop_id": "2880",
+      "name": "Kaniūkai B",
+      "lat": 54.92204,
+      "lon": 23.79732,
+      "avg_gap_sec": 308
+    },
+    {
+      "stop_id": "2610",
+      "name": "Gamyklos B",
+      "lat": 54.90675,
+      "lon": 24.00081,
+      "avg_gap_sec": 310
+    },
+    {
+      "stop_id": "2357",
+      "name": "Baltijos g. B",
+      "lat": 54.92272,
+      "lon": 23.8857,
+      "avg_gap_sec": 310
+    },
+    {
+      "stop_id": "2650",
+      "name": "Pramonės pr. A",
+      "lat": 54.92401,
+      "lon": 23.97828,
+      "avg_gap_sec": 310
+    },
+    {
+      "stop_id": "2881",
+      "name": "Kaniūkai A",
+      "lat": 54.92244,
+      "lon": 23.79532,
+      "avg_gap_sec": 311
+    },
+    {
+      "stop_id": "2612",
+      "name": "Kauno gelžbetonis B",
+      "lat": 54.90944,
+      "lon": 23.98907,
+      "avg_gap_sec": 313
+    },
+    {
+      "stop_id": "2882",
+      "name": "7-asis kilometras A",
+      "lat": 54.92076,
+      "lon": 23.81038,
+      "avg_gap_sec": 314
+    },
+    {
+      "stop_id": "2884",
+      "name": "Visvaldės g. A",
+      "lat": 54.92049,
+      "lon": 23.81817,
+      "avg_gap_sec": 314
+    },
+    {
+      "stop_id": "15638",
+      "name": "Urmo turgaus aikštelė",
+      "lat": 54.91697,
+      "lon": 23.99822,
+      "avg_gap_sec": 317
+    },
+    {
+      "stop_id": "16916",
+      "name": "Kaniūkai išlaipinimas",
+      "lat": 54.91934,
+      "lon": 23.82993,
+      "avg_gap_sec": 317
+    },
+    {
+      "stop_id": "2698",
+      "name": "Jašiūnų g.",
+      "lat": 54.88731,
+      "lon": 23.94032,
+      "avg_gap_sec": 324
+    },
+    {
+      "stop_id": "2538",
+      "name": "Vičiūnai",
+      "lat": 54.88829,
+      "lon": 23.97666,
+      "avg_gap_sec": 325
+    },
+    {
+      "stop_id": "17420",
+      "name": "Vieškeliuko g.",
+      "lat": 54.93302,
+      "lon": 23.81773,
+      "avg_gap_sec": 328
+    },
+    {
+      "stop_id": "15070",
+      "name": "Technikumo g.",
+      "lat": 54.85694,
+      "lon": 23.86538,
+      "avg_gap_sec": 328
+    },
+    {
+      "stop_id": "2335",
+      "name": "Kuršių g. B",
+      "lat": 54.93616,
+      "lon": 23.89225,
+      "avg_gap_sec": 331
+    },
+    {
+      "stop_id": "5099",
+      "name": "Bitininkų g. B",
+      "lat": 54.87515,
+      "lon": 23.89418,
+      "avg_gap_sec": 331
+    },
+    {
+      "stop_id": "2648",
+      "name": "Muravos pievos B",
+      "lat": 54.92834,
+      "lon": 23.97844,
+      "avg_gap_sec": 331
+    },
+    {
+      "stop_id": "2641",
+      "name": "Parduotuvė B",
+      "lat": 54.93054,
+      "lon": 23.98777,
+      "avg_gap_sec": 331
+    },
+    {
+      "stop_id": "2640",
+      "name": "Biruliškės B",
+      "lat": 54.9299,
+      "lon": 23.99332,
+      "avg_gap_sec": 331
+    },
+    {
+      "stop_id": "5234",
+      "name": "Mega B",
+      "lat": 54.93851,
+      "lon": 23.89067,
+      "avg_gap_sec": 331
+    },
+    {
+      "stop_id": "2866",
+      "name": "Salantų g. B",
+      "lat": 54.94534,
+      "lon": 23.88966,
+      "avg_gap_sec": 334
+    },
+    {
+      "stop_id": "2642",
+      "name": "Parduotuvė A",
+      "lat": 54.93067,
+      "lon": 23.98654,
+      "avg_gap_sec": 334
+    },
+    {
+      "stop_id": "2647",
+      "name": "Muravos pievos A",
+      "lat": 54.92787,
+      "lon": 23.97698,
+      "avg_gap_sec": 334
+    },
+    {
+      "stop_id": "14320",
+      "name": "Breslaujos g. A",
+      "lat": 54.89691,
+      "lon": 23.95662,
+      "avg_gap_sec": 336
+    },
+    {
+      "stop_id": "2629",
+      "name": "Kauno pienas B",
+      "lat": 54.91861,
+      "lon": 23.99312,
+      "avg_gap_sec": 340
+    },
+    {
+      "stop_id": "2864",
+      "name": "Smiltynės g. A",
+      "lat": 54.94262,
+      "lon": 23.89936,
+      "avg_gap_sec": 342
+    },
+    {
+      "stop_id": "14404",
+      "name": "9-ojo Forto g. B",
+      "lat": 54.93596,
+      "lon": 23.88633,
+      "avg_gap_sec": 345
+    },
+    {
+      "stop_id": "2868",
+      "name": "Vytėnų g. B",
+      "lat": 54.94828,
+      "lon": 23.88692,
+      "avg_gap_sec": 345
+    },
+    {
+      "stop_id": "2869",
+      "name": "Šv. Kazimiero progimnazija B",
+      "lat": 54.95059,
+      "lon": 23.89066,
+      "avg_gap_sec": 345
+    },
+    {
+      "stop_id": "2863",
+      "name": "Smiltynės g. B",
+      "lat": 54.94316,
+      "lon": 23.89797,
+      "avg_gap_sec": 348
+    },
+    {
+      "stop_id": "2639",
+      "name": "Biruliškės A",
+      "lat": 54.92989,
+      "lon": 23.9943,
+      "avg_gap_sec": 348
+    },
+    {
+      "stop_id": "2894",
+      "name": "Kauno miškų urėdija A",
+      "lat": 54.92602,
+      "lon": 23.82535,
+      "avg_gap_sec": 350
+    },
+    {
+      "stop_id": "14993",
+      "name": "M. ir P. Šalčių g. A",
+      "lat": 54.94342,
+      "lon": 23.80699,
+      "avg_gap_sec": 356
+    },
+    {
+      "stop_id": "14994",
+      "name": "Romainiškių g. A",
+      "lat": 54.94479,
+      "lon": 23.81141,
+      "avg_gap_sec": 356
+    },
+    {
+      "stop_id": "2865",
+      "name": "Salantų g. A",
+      "lat": 54.94531,
+      "lon": 23.88901,
+      "avg_gap_sec": 357
+    },
+    {
+      "stop_id": "5051",
+      "name": "Žiemgalių g. B",
+      "lat": 54.92355,
+      "lon": 23.87957,
+      "avg_gap_sec": 363
+    },
+    {
+      "stop_id": "2893",
+      "name": "Kauno miškų urėdija B",
+      "lat": 54.92653,
+      "lon": 23.82496,
+      "avg_gap_sec": 363
+    },
+    {
+      "stop_id": "2910",
+      "name": "Neveronių g. A",
+      "lat": 54.92009,
+      "lon": 24.07649,
+      "avg_gap_sec": 364
+    },
+    {
+      "stop_id": "2553",
+      "name": "Palemono g.",
+      "lat": 54.91468,
+      "lon": 24.05795,
+      "avg_gap_sec": 372
+    },
+    {
+      "stop_id": "14919",
+      "name": "Europos pr. C",
+      "lat": 54.87478,
+      "lon": 23.89248,
+      "avg_gap_sec": 380
+    },
+    {
+      "stop_id": "14995",
+      "name": "Romainiškių g. B",
+      "lat": 54.94494,
+      "lon": 23.81156,
+      "avg_gap_sec": 380
+    },
+    {
+      "stop_id": "15131",
+      "name": "Vijūkų g. D",
+      "lat": 54.93795,
+      "lon": 23.83058,
+      "avg_gap_sec": 380
+    },
+    {
+      "stop_id": "15168",
+      "name": "Šilagirio g. B",
+      "lat": 54.94163,
+      "lon": 23.82909,
+      "avg_gap_sec": 380
+    },
+    {
+      "stop_id": "14803",
+      "name": "Lazdynėlių g. C",
+      "lat": 54.93531,
+      "lon": 23.87867,
+      "avg_gap_sec": 383
+    },
+    {
+      "stop_id": "14542",
+      "name": "M. K. Čiurlionio tiltas B",
+      "lat": 54.88035,
+      "lon": 23.92179,
+      "avg_gap_sec": 384
+    },
+    {
+      "stop_id": "2460",
+      "name": "Juodelynės g. A",
+      "lat": 54.86587,
+      "lon": 23.86432,
+      "avg_gap_sec": 384
+    },
+    {
+      "stop_id": "5226",
+      "name": "Prūsų g. D",
+      "lat": 54.92145,
+      "lon": 23.86731,
+      "avg_gap_sec": 384
+    },
+    {
+      "stop_id": "2900",
+      "name": "Labūnavos g. B",
+      "lat": 54.91879,
+      "lon": 23.86497,
+      "avg_gap_sec": 384
+    },
+    {
+      "stop_id": "15545",
+      "name": "Skubios pagalbos centras",
+      "lat": 54.92092,
+      "lon": 23.92029,
+      "avg_gap_sec": 387
+    },
+    {
+      "stop_id": "17508",
+      "name": "M. ir P. Šalčių g. B",
+      "lat": 54.94316,
+      "lon": 23.80509,
+      "avg_gap_sec": 388
+    },
+    {
+      "stop_id": "17511",
+      "name": "Šv. Kazimiero progimnazija A",
+      "lat": 54.95023,
+      "lon": 23.88987,
+      "avg_gap_sec": 390
+    },
+    {
+      "stop_id": "2867",
+      "name": "Vytėnų g. A",
+      "lat": 54.94733,
+      "lon": 23.88534,
+      "avg_gap_sec": 390
+    },
+    {
+      "stop_id": "2974",
+      "name": "Rokų seniūnija B",
+      "lat": 54.83007,
+      "lon": 23.94757,
+      "avg_gap_sec": 393
+    },
+    {
+      "stop_id": "2371",
+      "name": "Labūnavos g. A",
+      "lat": 54.91953,
+      "lon": 23.86587,
+      "avg_gap_sec": 398
+    },
+    {
+      "stop_id": "15167",
+      "name": "Šilagirio g. A",
+      "lat": 54.94249,
+      "lon": 23.82888,
+      "avg_gap_sec": 401
+    },
+    {
+      "stop_id": "15130",
+      "name": "Vijūkų g. C",
+      "lat": 54.93792,
+      "lon": 23.83046,
+      "avg_gap_sec": 401
+    },
+    {
+      "stop_id": "2956",
+      "name": "Kėdainių g. C",
+      "lat": 54.90762,
+      "lon": 23.87516,
+      "avg_gap_sec": 401
+    },
+    {
+      "stop_id": "5100",
+      "name": "Bitininkų g. A",
+      "lat": 54.87512,
+      "lon": 23.89811,
+      "avg_gap_sec": 402
+    },
+    {
+      "stop_id": "4927",
+      "name": "Ž. E. Žilibero g. A",
+      "lat": 54.87526,
+      "lon": 23.9048,
+      "avg_gap_sec": 402
+    },
+    {
+      "stop_id": "2459",
+      "name": "Juodelynės g. B",
+      "lat": 54.86597,
+      "lon": 23.86435,
+      "avg_gap_sec": 402
+    },
+    {
+      "stop_id": "15562",
+      "name": "Urmo turgus",
+      "lat": 54.91613,
+      "lon": 23.99816,
+      "avg_gap_sec": 402
+    },
+    {
+      "stop_id": "2967",
+      "name": "Tabariškiai",
+      "lat": 54.87933,
+      "lon": 23.78493,
+      "avg_gap_sec": 404
+    },
+    {
+      "stop_id": "2778",
+      "name": "Martyno Mažvydo progimnazija A",
+      "lat": 54.93116,
+      "lon": 23.95461,
+      "avg_gap_sec": 405
+    },
+    {
+      "stop_id": "2784",
+      "name": "P. Plechavičiaus g. A",
+      "lat": 54.9314,
+      "lon": 23.94842,
+      "avg_gap_sec": 405
+    },
+    {
+      "stop_id": "2631",
+      "name": "Degalinė B",
+      "lat": 54.91829,
+      "lon": 23.98917,
+      "avg_gap_sec": 405
+    },
+    {
+      "stop_id": "14661",
+      "name": "Ledos kapinės",
+      "lat": 54.95401,
+      "lon": 23.82579,
+      "avg_gap_sec": 405
+    },
+    {
+      "stop_id": "14622",
+      "name": "Kaniūkai D",
+      "lat": 54.91948,
+      "lon": 23.82979,
+      "avg_gap_sec": 407
+    },
+    {
+      "stop_id": "16220",
+      "name": "Lazdynėlių g. A",
+      "lat": 54.93508,
+      "lon": 23.87902,
+      "avg_gap_sec": 408
+    },
+    {
+      "stop_id": "2438",
+      "name": "Universiteto bendrabučiai B",
+      "lat": 54.89285,
+      "lon": 23.82858,
+      "avg_gap_sec": 409
+    },
+    {
+      "stop_id": "4419",
+      "name": "Partizanų g. C",
+      "lat": 54.92658,
+      "lon": 23.99897,
+      "avg_gap_sec": 409
+    },
+    {
+      "stop_id": "2994",
+      "name": "Raudondvaris A",
+      "lat": 54.93718,
+      "lon": 23.78076,
+      "avg_gap_sec": 409
+    },
+    {
+      "stop_id": "2844",
+      "name": "Vilniaus g. B",
+      "lat": 54.89645,
+      "lon": 23.89591,
+      "avg_gap_sec": 416
+    },
+    {
+      "stop_id": "4694",
+      "name": "Sodai B",
+      "lat": 54.84962,
+      "lon": 23.88175,
+      "avg_gap_sec": 427
+    },
+    {
+      "stop_id": "2948",
+      "name": "K. Dulksnio g. B",
+      "lat": 54.84722,
+      "lon": 23.88082,
+      "avg_gap_sec": 427
+    },
+    {
+      "stop_id": "2950",
+      "name": "Ramybės g. B",
+      "lat": 54.84128,
+      "lon": 23.87866,
+      "avg_gap_sec": 427
+    },
+    {
+      "stop_id": "2689",
+      "name": "Karių kapinės A",
+      "lat": 54.87912,
+      "lon": 23.94904,
+      "avg_gap_sec": 428
+    },
+    {
+      "stop_id": "2896",
+      "name": "Romainiai B",
+      "lat": 54.93041,
+      "lon": 23.81849,
+      "avg_gap_sec": 431
+    },
+    {
+      "stop_id": "2905",
+      "name": "Draugystės g. B",
+      "lat": 54.9055,
+      "lon": 24.00608,
+      "avg_gap_sec": 436
+    },
+    {
+      "stop_id": "2952",
+      "name": "Jonučiai B",
+      "lat": 54.83556,
+      "lon": 23.87652,
+      "avg_gap_sec": 437
+    },
+    {
+      "stop_id": "2955",
+      "name": "Vienybės g. B",
+      "lat": 54.83205,
+      "lon": 23.87522,
+      "avg_gap_sec": 437
+    },
+    {
+      "stop_id": "2957",
+      "name": "Tulpių g. B",
+      "lat": 54.82757,
+      "lon": 23.87355,
+      "avg_gap_sec": 437
+    },
+    {
+      "stop_id": "2478",
+      "name": "Freda C",
+      "lat": 54.87517,
+      "lon": 23.91402,
+      "avg_gap_sec": 441
+    },
+    {
+      "stop_id": "2439",
+      "name": "Universiteto bendrabučiai A",
+      "lat": 54.89258,
+      "lon": 23.8287,
+      "avg_gap_sec": 442
+    },
+    {
+      "stop_id": "2440",
+      "name": "Universiteto g.",
+      "lat": 54.89145,
+      "lon": 23.83471,
+      "avg_gap_sec": 442
+    },
+    {
+      "stop_id": "2632",
+      "name": "Degalinė A",
+      "lat": 54.91841,
+      "lon": 23.98857,
+      "avg_gap_sec": 444
+    },
+    {
+      "stop_id": "2951",
+      "name": "Ramybės g. A",
+      "lat": 54.84266,
+      "lon": 23.87947,
+      "avg_gap_sec": 448
+    },
+    {
+      "stop_id": "2949",
+      "name": "K. Dulksnio g. A",
+      "lat": 54.84788,
+      "lon": 23.88134,
+      "avg_gap_sec": 448
+    },
+    {
+      "stop_id": "4695",
+      "name": "Sodai A",
+      "lat": 54.85023,
+      "lon": 23.88226,
+      "avg_gap_sec": 448
+    },
+    {
+      "stop_id": "2361",
+      "name": "Šilainių pl. A",
+      "lat": 54.92466,
+      "lon": 23.87359,
+      "avg_gap_sec": 450
+    },
+    {
+      "stop_id": "2954",
+      "name": "Vienybės g. A",
+      "lat": 54.8332,
+      "lon": 23.87587,
+      "avg_gap_sec": 454
+    },
+    {
+      "stop_id": "2953",
+      "name": "Jonučiai A",
+      "lat": 54.83605,
+      "lon": 23.87697,
+      "avg_gap_sec": 454
+    },
+    {
+      "stop_id": "2959",
+      "name": "Garliava B",
+      "lat": 54.82143,
+      "lon": 23.87317,
+      "avg_gap_sec": 456
+    },
+    {
+      "stop_id": "2961",
+      "name": "Biblioteka D",
+      "lat": 54.81703,
+      "lon": 23.87362,
+      "avg_gap_sec": 456
+    },
+    {
+      "stop_id": "2958",
+      "name": "Tulpių g. A",
+      "lat": 54.8281,
+      "lon": 23.87402,
+      "avg_gap_sec": 458
+    },
+    {
+      "stop_id": "2577",
+      "name": "Naktigonės g. B",
+      "lat": 54.9016,
+      "lon": 24.02806,
+      "avg_gap_sec": 460
+    },
+    {
+      "stop_id": "2356",
+      "name": "Baltijos g. A",
+      "lat": 54.92339,
+      "lon": 23.88809,
+      "avg_gap_sec": 462
+    },
+    {
+      "stop_id": "2569",
+      "name": "Kitron-Novameta A",
+      "lat": 54.91812,
+      "lon": 24.03318,
+      "avg_gap_sec": 466
+    },
+    {
+      "stop_id": "2576",
+      "name": "Naktigonės g. A",
+      "lat": 54.90157,
+      "lon": 24.02845,
+      "avg_gap_sec": 468
+    },
+    {
+      "stop_id": "16926",
+      "name": "Lomankos g.",
+      "lat": 54.95843,
+      "lon": 23.75568,
+      "avg_gap_sec": 471
+    },
+    {
+      "stop_id": "2895",
+      "name": "Romainiai A",
+      "lat": 54.93031,
+      "lon": 23.81759,
+      "avg_gap_sec": 475
+    },
+    {
+      "stop_id": "14543",
+      "name": "M. K. Čiurlionio tiltas A",
+      "lat": 54.88046,
+      "lon": 23.9224,
+      "avg_gap_sec": 480
+    },
+    {
+      "stop_id": "2505",
+      "name": "Karinis dalinys A",
+      "lat": 54.85835,
+      "lon": 23.95011,
+      "avg_gap_sec": 480
+    },
+    {
+      "stop_id": "14288",
+      "name": "Savanorių pr. A",
+      "lat": 54.93024,
+      "lon": 23.96943,
+      "avg_gap_sec": 486
+    },
+    {
+      "stop_id": "2776",
+      "name": "Šiaurinė A",
+      "lat": 54.93097,
+      "lon": 23.96394,
+      "avg_gap_sec": 486
+    },
+    {
+      "stop_id": "2479",
+      "name": "Vinčų g. A",
+      "lat": 54.87429,
+      "lon": 23.9145,
+      "avg_gap_sec": 488
+    },
+    {
+      "stop_id": "16188",
+      "name": "Vaišvydava C",
+      "lat": 54.84378,
+      "lon": 24.04264,
+      "avg_gap_sec": 489
+    },
+    {
+      "stop_id": "2962",
+      "name": "Biblioteka C",
+      "lat": 54.81753,
+      "lon": 23.87377,
+      "avg_gap_sec": 492
+    },
+    {
+      "stop_id": "2960",
+      "name": "Garliava A",
+      "lat": 54.82218,
+      "lon": 23.87332,
+      "avg_gap_sec": 492
+    },
+    {
+      "stop_id": "16802",
+      "name": "Continental A",
+      "lat": 54.9454,
+      "lon": 24.05271,
+      "avg_gap_sec": 496
+    },
+    {
+      "stop_id": "14553",
+      "name": "Akademijos miestelis B",
+      "lat": 54.8958,
+      "lon": 23.82433,
+      "avg_gap_sec": 505
+    },
+    {
+      "stop_id": "16468",
+      "name": "Tirkiliškiai",
+      "lat": 54.8581,
+      "lon": 23.85692,
+      "avg_gap_sec": 506
+    },
+    {
+      "stop_id": "2982",
+      "name": "Domeikava",
+      "lat": 54.9665,
+      "lon": 23.93445,
+      "avg_gap_sec": 507
+    },
+    {
+      "stop_id": "16800",
+      "name": "Hollister",
+      "lat": 54.94796,
+      "lon": 24.0569,
+      "avg_gap_sec": 507
+    },
+    {
+      "stop_id": "2785",
+      "name": "K. Škirpos g.",
+      "lat": 54.93119,
+      "lon": 23.94522,
+      "avg_gap_sec": 521
+    },
+    {
+      "stop_id": "2879",
+      "name": "P. Plechavičiaus g. B",
+      "lat": 54.93104,
+      "lon": 23.94974,
+      "avg_gap_sec": 521
+    },
+    {
+      "stop_id": "5027",
+      "name": "Bijūnų g. A",
+      "lat": 54.9119,
+      "lon": 23.90409,
+      "avg_gap_sec": 525
+    },
+    {
+      "stop_id": "5028",
+      "name": "K. Griniaus g. A",
+      "lat": 54.91101,
+      "lon": 23.89729,
+      "avg_gap_sec": 525
+    },
+    {
+      "stop_id": "5029",
+      "name": "Neries krantinė A",
+      "lat": 54.90845,
+      "lon": 23.89318,
+      "avg_gap_sec": 525
+    },
+    {
+      "stop_id": "5030",
+      "name": "A. Kriščiukaičio g. A",
+      "lat": 54.90558,
+      "lon": 23.88979,
+      "avg_gap_sec": 525
+    },
+    {
+      "stop_id": "2504",
+      "name": "Jiesios pl. A",
+      "lat": 54.85627,
+      "lon": 23.94418,
+      "avg_gap_sec": 530
+    },
+    {
+      "stop_id": "2805",
+      "name": "Sukilėlių pr.",
+      "lat": 54.91409,
+      "lon": 23.92435,
+      "avg_gap_sec": 530
+    },
+    {
+      "stop_id": "2531",
+      "name": "Vaišvydavos pl. A",
+      "lat": 54.86731,
+      "lon": 23.98346,
+      "avg_gap_sec": 530
+    },
+    {
+      "stop_id": "2541",
+      "name": "Rūko g. A",
+      "lat": 54.86394,
+      "lon": 24.00028,
+      "avg_gap_sec": 534
+    },
+    {
+      "stop_id": "2600",
+      "name": "Chemijos g. B",
+      "lat": 54.89975,
+      "lon": 23.99951,
+      "avg_gap_sec": 540
+    },
+    {
+      "stop_id": "2540",
+      "name": "Lentpjūvė A",
+      "lat": 54.86524,
+      "lon": 23.99093,
+      "avg_gap_sec": 540
+    },
+    {
+      "stop_id": "15000",
+      "name": "Romainių g. B",
+      "lat": 54.93104,
+      "lon": 23.8189,
+      "avg_gap_sec": 545
+    },
+    {
+      "stop_id": "2506",
+      "name": "Karinis dalinys B",
+      "lat": 54.85834,
+      "lon": 23.94954,
+      "avg_gap_sec": 545
+    },
+    {
+      "stop_id": "2897",
+      "name": "Medekšinės g. C",
+      "lat": 54.92802,
+      "lon": 23.80953,
+      "avg_gap_sec": 545
+    },
+    {
+      "stop_id": "2804",
+      "name": "Eivenių g.",
+      "lat": 54.9156,
+      "lon": 23.92359,
+      "avg_gap_sec": 545
+    },
+    {
+      "stop_id": "16148",
+      "name": "LEZ1",
+      "lat": 54.94222,
+      "lon": 24.00768,
+      "avg_gap_sec": 546
+    },
+    {
+      "stop_id": "16149",
+      "name": "LEZ2",
+      "lat": 54.94067,
+      "lon": 24.00993,
+      "avg_gap_sec": 546
+    },
+    {
+      "stop_id": "16141",
+      "name": "LEZ3",
+      "lat": 54.93892,
+      "lon": 24.01219,
+      "avg_gap_sec": 546
+    },
+    {
+      "stop_id": "2627",
+      "name": "Regitra A",
+      "lat": 54.91867,
+      "lon": 24.00673,
+      "avg_gap_sec": 553
+    },
+    {
+      "stop_id": "15001",
+      "name": "Romainių g. A",
+      "lat": 54.92977,
+      "lon": 23.82,
+      "avg_gap_sec": 555
+    },
+    {
+      "stop_id": "2775",
+      "name": "Šiaurinė B",
+      "lat": 54.93063,
+      "lon": 23.96535,
+      "avg_gap_sec": 555
+    },
+    {
+      "stop_id": "14290",
+      "name": "Savanorių pr. B",
+      "lat": 54.92938,
+      "lon": 23.97038,
+      "avg_gap_sec": 555
+    },
+    {
+      "stop_id": "2434",
+      "name": "Vytauto Didžiojo tiltas D",
+      "lat": 54.89268,
+      "lon": 23.8867,
+      "avg_gap_sec": 560
+    },
+    {
+      "stop_id": "2777",
+      "name": "Martyno Mažvydo progimnazija B",
+      "lat": 54.93086,
+      "lon": 23.95702,
+      "avg_gap_sec": 567
+    },
+    {
+      "stop_id": "2963",
+      "name": "A. Mitkaus pagrindinė mokykla B",
+      "lat": 54.8157,
+      "lon": 23.87556,
+      "avg_gap_sec": 570
+    },
+    {
+      "stop_id": "2542",
+      "name": "Rūko g. B",
+      "lat": 54.86351,
+      "lon": 24.00035,
+      "avg_gap_sec": 572
+    },
+    {
+      "stop_id": "2922",
+      "name": "Didžioji g. B",
+      "lat": 54.86109,
+      "lon": 24.00654,
+      "avg_gap_sec": 572
+    },
+    {
+      "stop_id": "14400",
+      "name": "Garšvės g. B",
+      "lat": 54.85466,
+      "lon": 24.0142,
+      "avg_gap_sec": 572
+    },
+    {
+      "stop_id": "4957",
+      "name": "Piliuonos g. B",
+      "lat": 54.85242,
+      "lon": 24.02031,
+      "avg_gap_sec": 572
+    },
+    {
+      "stop_id": "2923",
+      "name": "Vaišvydava B",
+      "lat": 54.85081,
+      "lon": 24.02666,
+      "avg_gap_sec": 572
+    },
+    {
+      "stop_id": "14402",
+      "name": "Užvingių g. B",
+      "lat": 54.84965,
+      "lon": 24.03087,
+      "avg_gap_sec": 572
+    },
+    {
+      "stop_id": "2898",
+      "name": "Raudondvario medelynas B",
+      "lat": 54.93398,
+      "lon": 23.78518,
+      "avg_gap_sec": 572
+    },
+    {
+      "stop_id": "14630",
+      "name": "A. Juozapavičiaus pr. A",
+      "lat": 54.86323,
+      "lon": 23.95034,
+      "avg_gap_sec": 573
+    },
+    {
+      "stop_id": "14628",
+      "name": "VDU klasikinio ugdymo licėjus A",
+      "lat": 54.86284,
+      "lon": 23.94228,
+      "avg_gap_sec": 573
+    },
+    {
+      "stop_id": "5119",
+      "name": "Kranto 13-oji g. A",
+      "lat": 54.86577,
+      "lon": 23.93728,
+      "avg_gap_sec": 573
+    },
+    {
+      "stop_id": "5121",
+      "name": "Talino g. A",
+      "lat": 54.86836,
+      "lon": 23.93479,
+      "avg_gap_sec": 573
+    },
+    {
+      "stop_id": "5123",
+      "name": "Mažeikių g.",
+      "lat": 54.87283,
+      "lon": 23.9336,
+      "avg_gap_sec": 573
+    },
+    {
+      "stop_id": "16500",
+      "name": "Marių g. B",
+      "lat": 54.90167,
+      "lon": 24.03758,
+      "avg_gap_sec": 575
+    },
+    {
+      "stop_id": "16517",
+      "name": "Jazminų g. B",
+      "lat": 54.90467,
+      "lon": 24.04382,
+      "avg_gap_sec": 575
+    },
+    {
+      "stop_id": "2530",
+      "name": "Vaišvydavos pl. B",
+      "lat": 54.86705,
+      "lon": 23.98377,
+      "avg_gap_sec": 575
+    },
+    {
+      "stop_id": "2539",
+      "name": "Lentpjūvė B",
+      "lat": 54.86511,
+      "lon": 23.99093,
+      "avg_gap_sec": 575
+    },
+    {
+      "stop_id": "2378",
+      "name": "Romainių ligoninė A",
+      "lat": 54.92479,
+      "lon": 23.83192,
+      "avg_gap_sec": 576
+    },
+    {
+      "stop_id": "2377",
+      "name": "Ugnės g. A",
+      "lat": 54.92219,
+      "lon": 23.84006,
+      "avg_gap_sec": 576
+    },
+    {
+      "stop_id": "2375",
+      "name": "Romainių 2-osios kapinės A",
+      "lat": 54.92132,
+      "lon": 23.84775,
+      "avg_gap_sec": 576
+    },
+    {
+      "stop_id": "2373",
+      "name": "Romainių 1-osios kapinės A",
+      "lat": 54.92415,
+      "lon": 23.85489,
+      "avg_gap_sec": 576
+    },
+    {
+      "stop_id": "15068",
+      "name": "Būrio g.",
+      "lat": 54.85506,
+      "lon": 23.8805,
+      "avg_gap_sec": 576
+    },
+    {
+      "stop_id": "2560",
+      "name": "Kauno tiekimas",
+      "lat": 54.92365,
+      "lon": 24.07307,
+      "avg_gap_sec": 580
+    },
+    {
+      "stop_id": "14401",
+      "name": "Užvingių g. A",
+      "lat": 54.84995,
+      "lon": 24.03041,
+      "avg_gap_sec": 580
+    },
+    {
+      "stop_id": "2924",
+      "name": "Vaišvydava A",
+      "lat": 54.85132,
+      "lon": 24.0255,
+      "avg_gap_sec": 580
+    },
+    {
+      "stop_id": "4958",
+      "name": "Piliuonos g. A",
+      "lat": 54.85328,
+      "lon": 24.01788,
+      "avg_gap_sec": 580
+    },
+    {
+      "stop_id": "14399",
+      "name": "Garšvės g. A",
+      "lat": 54.85507,
+      "lon": 24.01396,
+      "avg_gap_sec": 580
+    },
+    {
+      "stop_id": "2921",
+      "name": "Didžioji g. A",
+      "lat": 54.86088,
+      "lon": 24.007,
+      "avg_gap_sec": 580
+    },
+    {
+      "stop_id": "2899",
+      "name": "Raudondvario medelynas A",
+      "lat": 54.9331,
+      "lon": 23.78553,
+      "avg_gap_sec": 580
+    },
+    {
+      "stop_id": "2878",
+      "name": "Kleboniškis",
+      "lat": 54.9553,
+      "lon": 23.95058,
+      "avg_gap_sec": 586
+    },
+    {
+      "stop_id": "2397",
+      "name": "Neries krantinė B",
+      "lat": 54.90872,
+      "lon": 23.89377,
+      "avg_gap_sec": 589
+    },
+    {
+      "stop_id": "2394",
+      "name": "K. Griniaus g. B",
+      "lat": 54.91119,
+      "lon": 23.89841,
+      "avg_gap_sec": 589
+    },
+    {
+      "stop_id": "2391",
+      "name": "Bijūnų g. B",
+      "lat": 54.91215,
+      "lon": 23.90593,
+      "avg_gap_sec": 589
+    },
+    {
+      "stop_id": "2469",
+      "name": "Gvazdikų g. B",
+      "lat": 54.85698,
+      "lon": 23.90571,
+      "avg_gap_sec": 590
+    },
+    {
+      "stop_id": "2333",
+      "name": "Vytėnai",
+      "lat": 54.94082,
+      "lon": 23.90673,
+      "avg_gap_sec": 590
+    },
+    {
+      "stop_id": "2400",
+      "name": "A. Kriščiukaičio g. B",
+      "lat": 54.9061,
+      "lon": 23.89057,
+      "avg_gap_sec": 590
+    },
+    {
+      "stop_id": "2537",
+      "name": "K. Griniaus ligoninė A",
+      "lat": 54.8837,
+      "lon": 23.98201,
+      "avg_gap_sec": 593
+    },
+    {
+      "stop_id": "2532",
+      "name": "Vaikų sanatorija A",
+      "lat": 54.88029,
+      "lon": 23.9817,
+      "avg_gap_sec": 593
+    },
+    {
+      "stop_id": "2534",
+      "name": "Baterijos pl. A",
+      "lat": 54.8764,
+      "lon": 23.97974,
+      "avg_gap_sec": 593
+    },
+    {
+      "stop_id": "4261",
+      "name": "Prūsų g. B",
+      "lat": 54.92051,
+      "lon": 23.87249,
+      "avg_gap_sec": 594
+    },
+    {
+      "stop_id": "16340",
+      "name": "Jono Basanavičiaus gimnazija A",
+      "lat": 54.9333,
+      "lon": 23.89181,
+      "avg_gap_sec": 594
+    },
+    {
+      "stop_id": "15553",
+      "name": "Kauno ligoninė A",
+      "lat": 54.87882,
+      "lon": 23.94589,
+      "avg_gap_sec": 594
+    },
+    {
+      "stop_id": "2626",
+      "name": "Regitra B",
+      "lat": 54.91832,
+      "lon": 24.00774,
+      "avg_gap_sec": 600
+    },
+    {
+      "stop_id": "2624",
+      "name": "Elektrinė B",
+      "lat": 54.91798,
+      "lon": 24.01951,
+      "avg_gap_sec": 600
+    },
+    {
+      "stop_id": "16341",
+      "name": "Jono Basanavičiaus gimnazija B",
+      "lat": 54.93318,
+      "lon": 23.89167,
+      "avg_gap_sec": 600
+    },
+    {
+      "stop_id": "16218",
+      "name": "Lazdynėlių g. B",
+      "lat": 54.93518,
+      "lon": 23.87821,
+      "avg_gap_sec": 600
+    },
+    {
+      "stop_id": "2625",
+      "name": "Elektrinė A",
+      "lat": 54.91844,
+      "lon": 24.01835,
+      "avg_gap_sec": 606
+    },
+    {
+      "stop_id": "4697",
+      "name": "Kražantės g.",
+      "lat": 54.9182,
+      "lon": 24.05752,
+      "avg_gap_sec": 606
+    },
+    {
+      "stop_id": "2887",
+      "name": "Raudondvario pl. A",
+      "lat": 54.91973,
+      "lon": 23.82776,
+      "avg_gap_sec": 606
+    },
+    {
+      "stop_id": "2467",
+      "name": "Seniavos pl. B",
+      "lat": 54.86261,
+      "lon": 23.89779,
+      "avg_gap_sec": 610
+    },
+    {
+      "stop_id": "15098",
+      "name": "Vaitapilės g.",
+      "lat": 54.85589,
+      "lon": 23.87513,
+      "avg_gap_sec": 613
+    },
+    {
+      "stop_id": "2564",
+      "name": "Šilėnų g. B",
+      "lat": 54.90836,
+      "lon": 24.05408,
+      "avg_gap_sec": 616
+    },
+    {
+      "stop_id": "2562",
+      "name": "S. Nėries muziejus B",
+      "lat": 54.91063,
+      "lon": 24.05861,
+      "avg_gap_sec": 616
+    },
+    {
+      "stop_id": "16251",
+      "name": "Alšėnų g. B",
+      "lat": 54.86613,
+      "lon": 23.87388,
+      "avg_gap_sec": 621
+    },
+    {
+      "stop_id": "15632",
+      "name": "Kauno pienas D",
+      "lat": 54.91872,
+      "lon": 23.99236,
+      "avg_gap_sec": 621
+    },
+    {
+      "stop_id": "17434",
+      "name": "Lubinų g. A",
+      "lat": 54.94166,
+      "lon": 23.81343,
+      "avg_gap_sec": 626
+    },
+    {
+      "stop_id": "17431",
+      "name": "Vijūkų g. A",
+      "lat": 54.93823,
+      "lon": 23.81509,
+      "avg_gap_sec": 626
+    },
+    {
+      "stop_id": "2964",
+      "name": "A. Mitkaus pagrindinė mokykla A",
+      "lat": 54.81578,
+      "lon": 23.87544,
+      "avg_gap_sec": 627
+    },
+    {
+      "stop_id": "2554",
+      "name": "Parko g. B",
+      "lat": 54.91221,
+      "lon": 24.06137,
+      "avg_gap_sec": 630
+    },
+    {
+      "stop_id": "2551",
+      "name": "Pravienos g. C",
+      "lat": 54.91731,
+      "lon": 24.0473,
+      "avg_gap_sec": 630
+    },
+    {
+      "stop_id": "2552",
+      "name": "Pyvesos g. A",
+      "lat": 54.91419,
+      "lon": 24.05006,
+      "avg_gap_sec": 630
+    },
+    {
+      "stop_id": "2695",
+      "name": "Kaišiadorių g.",
+      "lat": 54.89221,
+      "lon": 23.95182,
+      "avg_gap_sec": 630
+    },
+    {
+      "stop_id": "14425",
+      "name": "Alsėdžių g. B",
+      "lat": 54.89106,
+      "lon": 23.94849,
+      "avg_gap_sec": 630
+    },
+    {
+      "stop_id": "2696",
+      "name": "Ašmenos g.",
+      "lat": 54.89013,
+      "lon": 23.94567,
+      "avg_gap_sec": 630
+    },
+    {
+      "stop_id": "15601",
+      "name": "Rambyno g. B",
+      "lat": 54.88883,
+      "lon": 23.94274,
+      "avg_gap_sec": 630
+    },
+    {
+      "stop_id": "14629",
+      "name": "A. Juozapavičiaus pr. B",
+      "lat": 54.8635,
+      "lon": 23.95103,
+      "avg_gap_sec": 634
+    },
+    {
+      "stop_id": "15383",
+      "name": "Rambyno g. A",
+      "lat": 54.88942,
+      "lon": 23.94413,
+      "avg_gap_sec": 636
+    },
+    {
+      "stop_id": "2697",
+      "name": "Alsėdžių g. A",
+      "lat": 54.89067,
+      "lon": 23.94771,
+      "avg_gap_sec": 636
+    },
+    {
+      "stop_id": "2694",
+      "name": "Verkių g.",
+      "lat": 54.89272,
+      "lon": 23.95364,
+      "avg_gap_sec": 636
+    },
+    {
+      "stop_id": "2421",
+      "name": "9-ojo forto muziejus A",
+      "lat": 54.9456,
+      "lon": 23.88233,
+      "avg_gap_sec": 638
+    },
+    {
+      "stop_id": "14595",
+      "name": "Radviliškio g.",
+      "lat": 54.94432,
+      "lon": 23.88052,
+      "avg_gap_sec": 638
+    },
+    {
+      "stop_id": "2422",
+      "name": "9-ojo forto muziejus B",
+      "lat": 54.94587,
+      "lon": 23.88312,
+      "avg_gap_sec": 638
+    },
+    {
+      "stop_id": "15190",
+      "name": "Žvalgų g.",
+      "lat": 54.85628,
+      "lon": 23.8707,
+      "avg_gap_sec": 640
+    },
+    {
+      "stop_id": "5120",
+      "name": "Kranto 13-oji g. B",
+      "lat": 54.86575,
+      "lon": 23.93711,
+      "avg_gap_sec": 642
+    },
+    {
+      "stop_id": "5115",
+      "name": "VDU klasikinio ugdymo licėjus B",
+      "lat": 54.86246,
+      "lon": 23.94279,
+      "avg_gap_sec": 642
+    },
+    {
+      "stop_id": "5118",
+      "name": "Danų g.",
+      "lat": 54.87084,
+      "lon": 23.93624,
+      "avg_gap_sec": 651
+    },
+    {
+      "stop_id": "5122",
+      "name": "Talino g. B",
+      "lat": 54.86841,
+      "lon": 23.93456,
+      "avg_gap_sec": 651
+    },
+    {
+      "stop_id": "2555",
+      "name": "Parko g. A",
+      "lat": 54.91193,
+      "lon": 24.06084,
+      "avg_gap_sec": 654
+    },
+    {
+      "stop_id": "2563",
+      "name": "S. Nėries muziejus A",
+      "lat": 54.91043,
+      "lon": 24.05786,
+      "avg_gap_sec": 654
+    },
+    {
+      "stop_id": "2565",
+      "name": "Šilėnų g. A",
+      "lat": 54.9075,
+      "lon": 24.05151,
+      "avg_gap_sec": 654
+    },
+    {
+      "stop_id": "16518",
+      "name": "Jazminų g. A",
+      "lat": 54.90453,
+      "lon": 24.04243,
+      "avg_gap_sec": 654
+    },
+    {
+      "stop_id": "2362",
+      "name": "Šilainių pl. B",
+      "lat": 54.92416,
+      "lon": 23.87181,
+      "avg_gap_sec": 654
+    },
+    {
+      "stop_id": "16501",
+      "name": "Marių g. A",
+      "lat": 54.90111,
+      "lon": 24.03683,
+      "avg_gap_sec": 660
+    },
+    {
+      "stop_id": "2583",
+      "name": "Amaliai B",
+      "lat": 54.89821,
+      "lon": 24.01594,
+      "avg_gap_sec": 660
+    },
+    {
+      "stop_id": "2581",
+      "name": "Sodai D",
+      "lat": 54.90062,
+      "lon": 24.02003,
+      "avg_gap_sec": 660
+    },
+    {
+      "stop_id": "2578",
+      "name": "Viržių g. B",
+      "lat": 54.90245,
+      "lon": 24.02367,
+      "avg_gap_sec": 660
+    },
+    {
+      "stop_id": "2810",
+      "name": "S. Lozoraičio g. A",
+      "lat": 54.92399,
+      "lon": 23.94052,
+      "avg_gap_sec": 668
+    },
+    {
+      "stop_id": "2811",
+      "name": "Kalniečių g. A",
+      "lat": 54.92308,
+      "lon": 23.93447,
+      "avg_gap_sec": 668
+    },
+    {
+      "stop_id": "2535",
+      "name": "Baterijos pl. B",
+      "lat": 54.87765,
+      "lon": 23.98044,
+      "avg_gap_sec": 678
+    },
+    {
+      "stop_id": "2533",
+      "name": "Vaikų sanatorija B",
+      "lat": 54.8804,
+      "lon": 23.98226,
+      "avg_gap_sec": 678
+    },
+    {
+      "stop_id": "2536",
+      "name": "K. Griniaus ligoninė B",
+      "lat": 54.88378,
+      "lon": 23.98217,
+      "avg_gap_sec": 678
+    },
+    {
+      "stop_id": "2468",
+      "name": "Gvazdikų g. A",
+      "lat": 54.85724,
+      "lon": 23.90557,
+      "avg_gap_sec": 680
+    },
+    {
+      "stop_id": "2374",
+      "name": "Romainių 1-osios kapinės B",
+      "lat": 54.92422,
+      "lon": 23.85451,
+      "avg_gap_sec": 684
+    },
+    {
+      "stop_id": "2455",
+      "name": "Valstybinė mokesčių inspekcija",
+      "lat": 54.87495,
+      "lon": 23.89011,
+      "avg_gap_sec": 684
+    },
+    {
+      "stop_id": "2423",
+      "name": "Žirgynas A",
+      "lat": 54.9028,
+      "lon": 23.84477,
+      "avg_gap_sec": 685
+    },
+    {
+      "stop_id": "2426",
+      "name": "Bublių g. A",
+      "lat": 54.90033,
+      "lon": 23.85702,
+      "avg_gap_sec": 685
+    },
+    {
+      "stop_id": "2428",
+      "name": "Biblioteka A",
+      "lat": 54.89791,
+      "lon": 23.86663,
+      "avg_gap_sec": 685
+    },
+    {
+      "stop_id": "2430",
+      "name": "Marvelė A",
+      "lat": 54.8966,
+      "lon": 23.87259,
+      "avg_gap_sec": 685
+    },
+    {
+      "stop_id": "2432",
+      "name": "Laiptai A",
+      "lat": 54.89448,
+      "lon": 23.87785,
+      "avg_gap_sec": 685
+    },
+    {
+      "stop_id": "17376",
+      "name": "Vakarinė g. išlaipinimas",
+      "lat": 54.97305,
+      "lon": 24.0547,
+      "avg_gap_sec": 685
+    },
+    {
+      "stop_id": "2470",
+      "name": "Lekėčių g. A",
+      "lat": 54.8608,
+      "lon": 23.91024,
+      "avg_gap_sec": 686
+    },
+    {
+      "stop_id": "2472",
+      "name": "J. Pabrėžos g. A",
+      "lat": 54.86658,
+      "lon": 23.91111,
+      "avg_gap_sec": 686
+    },
+    {
+      "stop_id": "2474",
+      "name": "Botanikos sodas A",
+      "lat": 54.86999,
+      "lon": 23.91459,
+      "avg_gap_sec": 686
+    },
+    {
+      "stop_id": "16239",
+      "name": "Vilties g. A",
+      "lat": 54.87319,
+      "lon": 23.91537,
+      "avg_gap_sec": 686
+    },
+    {
+      "stop_id": "17419",
+      "name": "Vijūkų g. B",
+      "lat": 54.93765,
+      "lon": 23.81545,
+      "avg_gap_sec": 690
+    },
+    {
+      "stop_id": "17418",
+      "name": "Lubinų g. B",
+      "lat": 54.94224,
+      "lon": 23.81356,
+      "avg_gap_sec": 690
+    },
+    {
+      "stop_id": "2999",
+      "name": "Svarstyklės B",
+      "lat": 54.94809,
+      "lon": 23.76269,
+      "avg_gap_sec": 697
+    },
+    {
+      "stop_id": "16902",
+      "name": "Raudondvario seniūnija",
+      "lat": 54.93879,
+      "lon": 23.78029,
+      "avg_gap_sec": 697
+    },
+    {
+      "stop_id": "16903",
+      "name": "A. ir A. Kriauzų pradinė mokykla",
+      "lat": 54.9412,
+      "lon": 23.78141,
+      "avg_gap_sec": 697
+    },
+    {
+      "stop_id": "16904",
+      "name": "Pilies g.",
+      "lat": 54.94308,
+      "lon": 23.77652,
+      "avg_gap_sec": 697
+    },
+    {
+      "stop_id": "2579",
+      "name": "Viržių g. A",
+      "lat": 54.90252,
+      "lon": 24.02343,
+      "avg_gap_sec": 702
+    },
+    {
+      "stop_id": "2582",
+      "name": "Sodai C",
+      "lat": 54.90034,
+      "lon": 24.01933,
+      "avg_gap_sec": 702
+    },
+    {
+      "stop_id": "2812",
+      "name": "Kalniečių g. B",
+      "lat": 54.92296,
+      "lon": 23.93427,
+      "avg_gap_sec": 705
+    },
+    {
+      "stop_id": "2809",
+      "name": "S. Lozoraičio g. B",
+      "lat": 54.92378,
+      "lon": 23.94078,
+      "avg_gap_sec": 705
+    },
+    {
+      "stop_id": "2499",
+      "name": "Jiesia A",
+      "lat": 54.85845,
+      "lon": 23.92923,
+      "avg_gap_sec": 710
+    },
+    {
+      "stop_id": "2495",
+      "name": "Geležinkelio pervaža A",
+      "lat": 54.86387,
+      "lon": 23.92574,
+      "avg_gap_sec": 710
+    },
+    {
+      "stop_id": "2493",
+      "name": "Freda A",
+      "lat": 54.87111,
+      "lon": 23.92504,
+      "avg_gap_sec": 710
+    },
+    {
+      "stop_id": "2490",
+      "name": "Piliakalnio g. A",
+      "lat": 54.87437,
+      "lon": 23.92441,
+      "avg_gap_sec": 710
+    },
+    {
+      "stop_id": "2826",
+      "name": "Šiaurės pr. C",
+      "lat": 54.93021,
+      "lon": 23.91627,
+      "avg_gap_sec": 711
+    },
+    {
+      "stop_id": "2828",
+      "name": "Jonavos g. A",
+      "lat": 54.92678,
+      "lon": 23.91507,
+      "avg_gap_sec": 711
+    },
+    {
+      "stop_id": "2507",
+      "name": "4-asis fortas A",
+      "lat": 54.85313,
+      "lon": 23.95502,
+      "avg_gap_sec": 712
+    },
+    {
+      "stop_id": "2911",
+      "name": "Rokų seniūnija A",
+      "lat": 54.82978,
+      "lon": 23.94781,
+      "avg_gap_sec": 720
+    },
+    {
+      "stop_id": "5229",
+      "name": "Lazdynų g. A",
+      "lat": 54.83404,
+      "lon": 23.94675,
+      "avg_gap_sec": 720
+    },
+    {
+      "stop_id": "2971",
+      "name": "Rokai A",
+      "lat": 54.83696,
+      "lon": 23.94825,
+      "avg_gap_sec": 720
+    },
+    {
+      "stop_id": "15122",
+      "name": "Aukštutinių Kaniūkų g. B",
+      "lat": 54.92608,
+      "lon": 23.8035,
+      "avg_gap_sec": 720
+    },
+    {
+      "stop_id": "15124",
+      "name": "Paštuvos g. B",
+      "lat": 54.9297,
+      "lon": 23.80667,
+      "avg_gap_sec": 720
+    },
+    {
+      "stop_id": "2488",
+      "name": "M. K. Čiurlionio tiltas C",
+      "lat": 54.88152,
+      "lon": 23.92261,
+      "avg_gap_sec": 720
+    },
+    {
+      "stop_id": "14546",
+      "name": "M. K. Čiurlionio tiltas E",
+      "lat": 54.87977,
+      "lon": 23.92296,
+      "avg_gap_sec": 720
+    },
+    {
+      "stop_id": "2889",
+      "name": "Romainių ligoninė B",
+      "lat": 54.92488,
+      "lon": 23.83164,
+      "avg_gap_sec": 726
+    },
+    {
+      "stop_id": "2445",
+      "name": "A. Gustaičio g. A",
+      "lat": 54.89031,
+      "lon": 23.87798,
+      "avg_gap_sec": 737
+    },
+    {
+      "stop_id": "2447",
+      "name": "Jurgio Dobkevičiaus progimnazija A",
+      "lat": 54.88886,
+      "lon": 23.88488,
+      "avg_gap_sec": 737
+    },
+    {
+      "stop_id": "2449",
+      "name": "S. Dariaus ir S. Girėno g. A",
+      "lat": 54.88736,
+      "lon": 23.89287,
+      "avg_gap_sec": 737
+    },
+    {
+      "stop_id": "2376",
+      "name": "Romainių 2-osios kapinės B",
+      "lat": 54.9218,
+      "lon": 23.84749,
+      "avg_gap_sec": 740
+    },
+    {
+      "stop_id": "2888",
+      "name": "Ugnės g. B",
+      "lat": 54.92242,
+      "lon": 23.83965,
+      "avg_gap_sec": 740
+    },
+    {
+      "stop_id": "16793",
+      "name": "Piliamiestis B",
+      "lat": 54.90331,
+      "lon": 23.87932,
+      "avg_gap_sec": 740
+    },
+    {
+      "stop_id": "15076",
+      "name": "Brastos g. B",
+      "lat": 54.90396,
+      "lon": 23.87419,
+      "avg_gap_sec": 740
+    },
+    {
+      "stop_id": "16419",
+      "name": "Neveronių žiedas",
+      "lat": 54.93663,
+      "lon": 24.1218,
+      "avg_gap_sec": 740
+    },
+    {
+      "stop_id": "2444",
+      "name": "A. Gustaičio g. B",
+      "lat": 54.8906,
+      "lon": 23.87745,
+      "avg_gap_sec": 745
+    },
+    {
+      "stop_id": "2443",
+      "name": "Meteorų g.",
+      "lat": 54.89304,
+      "lon": 23.87085,
+      "avg_gap_sec": 745
+    },
+    {
+      "stop_id": "5036",
+      "name": "Kiečių g. B",
+      "lat": 54.86625,
+      "lon": 23.8912,
+      "avg_gap_sec": 746
+    },
+    {
+      "stop_id": "2584",
+      "name": "Amaliai A",
+      "lat": 54.89805,
+      "lon": 24.01519,
+      "avg_gap_sec": 746
+    },
+    {
+      "stop_id": "16550",
+      "name": "Brastos g. A",
+      "lat": 54.90386,
+      "lon": 23.87405,
+      "avg_gap_sec": 750
+    },
+    {
+      "stop_id": "16794",
+      "name": "Piliamiestis A",
+      "lat": 54.90318,
+      "lon": 23.87952,
+      "avg_gap_sec": 750
+    },
+    {
+      "stop_id": "15129",
+      "name": "Liucijanavos g. A",
+      "lat": 54.94781,
+      "lon": 23.82848,
+      "avg_gap_sec": 754
+    },
+    {
+      "stop_id": "15159",
+      "name": "Medekšinės g. B",
+      "lat": 54.92869,
+      "lon": 23.8111,
+      "avg_gap_sec": 757
+    },
+    {
+      "stop_id": "15160",
+      "name": "Medekšinės g. A",
+      "lat": 54.92883,
+      "lon": 23.81096,
+      "avg_gap_sec": 757
+    },
+    {
+      "stop_id": "15125",
+      "name": "Paštuvos g. A",
+      "lat": 54.9298,
+      "lon": 23.80688,
+      "avg_gap_sec": 757
+    },
+    {
+      "stop_id": "15123",
+      "name": "Aukštutinių Kaniūkų g. A",
+      "lat": 54.92605,
+      "lon": 23.80288,
+      "avg_gap_sec": 757
+    },
+    {
+      "stop_id": "15975",
+      "name": "Aluonos g. B",
+      "lat": 54.94565,
+      "lon": 23.82879,
+      "avg_gap_sec": 760
+    },
+    {
+      "stop_id": "2448",
+      "name": "S. Dariaus ir S. Girėno g. B",
+      "lat": 54.88752,
+      "lon": 23.89266,
+      "avg_gap_sec": 765
+    },
+    {
+      "stop_id": "2446",
+      "name": "Jurgio Dobkevičiaus progimnazija B",
+      "lat": 54.88913,
+      "lon": 23.88385,
+      "avg_gap_sec": 765
+    },
+    {
+      "stop_id": "2559",
+      "name": "Keramzito g. A",
+      "lat": 54.91815,
+      "lon": 24.0734,
+      "avg_gap_sec": 766
+    },
+    {
+      "stop_id": "2837",
+      "name": "P. Vileišio tiltas B",
+      "lat": 54.90374,
+      "lon": 23.89715,
+      "avg_gap_sec": 766
+    },
+    {
+      "stop_id": "14405",
+      "name": "Senukai B",
+      "lat": 54.90536,
+      "lon": 23.89992,
+      "avg_gap_sec": 766
+    },
+    {
+      "stop_id": "2835",
+      "name": "P. Kalpoko g. B",
+      "lat": 54.90706,
+      "lon": 23.903,
+      "avg_gap_sec": 766
+    },
+    {
+      "stop_id": "2466",
+      "name": "Seniavos pl. A",
+      "lat": 54.86314,
+      "lon": 23.8971,
+      "avg_gap_sec": 771
+    },
+    {
+      "stop_id": "5035",
+      "name": "Kiečių g. A",
+      "lat": 54.86651,
+      "lon": 23.89104,
+      "avg_gap_sec": 771
+    },
+    {
+      "stop_id": "17611",
+      "name": "Kraigo g. B",
+      "lat": 54.94449,
+      "lon": 23.82485,
+      "avg_gap_sec": 772
+    },
+    {
+      "stop_id": "17277",
+      "name": "E. Levino g.",
+      "lat": 54.94388,
+      "lon": 23.82131,
+      "avg_gap_sec": 772
+    },
+    {
+      "stop_id": "2968",
+      "name": "Rokakiemio g. B",
+      "lat": 54.84,
+      "lon": 23.94723,
+      "avg_gap_sec": 773
+    },
+    {
+      "stop_id": "2970",
+      "name": "Rokai B",
+      "lat": 54.83707,
+      "lon": 23.94794,
+      "avg_gap_sec": 773
+    },
+    {
+      "stop_id": "5230",
+      "name": "Lazdynų g. B",
+      "lat": 54.83375,
+      "lon": 23.94663,
+      "avg_gap_sec": 773
+    },
+    {
+      "stop_id": "2431",
+      "name": "Laiptai B",
+      "lat": 54.8944,
+      "lon": 23.8778,
+      "avg_gap_sec": 780
+    },
+    {
+      "stop_id": "2429",
+      "name": "Marvelė B",
+      "lat": 54.89673,
+      "lon": 23.87244,
+      "avg_gap_sec": 780
+    },
+    {
+      "stop_id": "2427",
+      "name": "Biblioteka B",
+      "lat": 54.8982,
+      "lon": 23.86637,
+      "avg_gap_sec": 780
+    },
+    {
+      "stop_id": "2425",
+      "name": "Bublių g. B",
+      "lat": 54.90051,
+      "lon": 23.85676,
+      "avg_gap_sec": 780
+    },
+    {
+      "stop_id": "2424",
+      "name": "Žirgynas B",
+      "lat": 54.90313,
+      "lon": 23.8439,
+      "avg_gap_sec": 780
+    },
+    {
+      "stop_id": "16169",
+      "name": "Vilties g. B",
+      "lat": 54.87174,
+      "lon": 23.91565,
+      "avg_gap_sec": 780
+    },
+    {
+      "stop_id": "2475",
+      "name": "Botanikos sodas B",
+      "lat": 54.86956,
+      "lon": 23.91411,
+      "avg_gap_sec": 780
+    },
+    {
+      "stop_id": "2473",
+      "name": "J. Pabrėžos g. B",
+      "lat": 54.86533,
+      "lon": 23.91072,
+      "avg_gap_sec": 780
+    },
+    {
+      "stop_id": "2471",
+      "name": "Lekėčių g. B",
+      "lat": 54.86112,
+      "lon": 23.91014,
+      "avg_gap_sec": 780
+    },
+    {
+      "stop_id": "2946",
+      "name": "Naujoji g. B",
+      "lat": 54.84262,
+      "lon": 23.94134,
+      "avg_gap_sec": 780
+    },
+    {
+      "stop_id": "2943",
+      "name": "Bernardinų Plytinės g. A",
+      "lat": 54.84437,
+      "lon": 23.94944,
+      "avg_gap_sec": 780
+    },
+    {
+      "stop_id": "2509",
+      "name": "Draustinis A",
+      "lat": 54.84966,
+      "lon": 23.94869,
+      "avg_gap_sec": 780
+    },
+    {
+      "stop_id": "17414",
+      "name": "Merkio g.",
+      "lat": 54.91419,
+      "lon": 24.05197,
+      "avg_gap_sec": 780
+    },
+    {
+      "stop_id": "16881",
+      "name": "Krašto g. A",
+      "lat": 54.93591,
+      "lon": 24.11078,
+      "avg_gap_sec": 780
+    },
+    {
+      "stop_id": "16884",
+      "name": "Lelijų g. A",
+      "lat": 54.93205,
+      "lon": 24.08686,
+      "avg_gap_sec": 780
+    },
+    {
+      "stop_id": "16885",
+      "name": "2-ieji Sergeičikai A",
+      "lat": 54.93666,
+      "lon": 24.06957,
+      "avg_gap_sec": 780
+    },
+    {
+      "stop_id": "16888",
+      "name": "1-ieji Sergeičikai A",
+      "lat": 54.94607,
+      "lon": 24.06114,
+      "avg_gap_sec": 780
+    },
+    {
+      "stop_id": "2557",
+      "name": "Palemono keramika B",
+      "lat": 54.91426,
+      "lon": 24.06458,
+      "avg_gap_sec": 787
+    },
+    {
+      "stop_id": "17310",
+      "name": "Pamario g. B",
+      "lat": 54.9154,
+      "lon": 24.07165,
+      "avg_gap_sec": 787
+    },
+    {
+      "stop_id": "2558",
+      "name": "Keramzito g. B",
+      "lat": 54.9178,
+      "lon": 24.07378,
+      "avg_gap_sec": 787
+    },
+    {
+      "stop_id": "2561",
+      "name": "Neveronių g. B",
+      "lat": 54.91983,
+      "lon": 24.0766,
+      "avg_gap_sec": 787
+    },
+    {
+      "stop_id": "2834",
+      "name": "Varnių tiltas D",
+      "lat": 54.91479,
+      "lon": 23.91198,
+      "avg_gap_sec": 795
+    },
+    {
+      "stop_id": "2829",
+      "name": "Mokyklos bendrabučiai B",
+      "lat": 54.9191,
+      "lon": 23.91321,
+      "avg_gap_sec": 795
+    },
+    {
+      "stop_id": "2827",
+      "name": "Jonavos g. B",
+      "lat": 54.92466,
+      "lon": 23.91484,
+      "avg_gap_sec": 795
+    },
+    {
+      "stop_id": "2825",
+      "name": "Šiaurės pr. D",
+      "lat": 54.92982,
+      "lon": 23.91655,
+      "avg_gap_sec": 795
+    },
+    {
+      "stop_id": "2608",
+      "name": "Draugystės g. C",
+      "lat": 54.90504,
+      "lon": 24.00719,
+      "avg_gap_sec": 797
+    },
+    {
+      "stop_id": "2654",
+      "name": "Trys berželiai A",
+      "lat": 54.91534,
+      "lon": 23.98015,
+      "avg_gap_sec": 800
+    },
+    {
+      "stop_id": "2833",
+      "name": "Varnių tiltas C",
+      "lat": 54.91233,
+      "lon": 23.91021,
+      "avg_gap_sec": 802
+    },
+    {
+      "stop_id": "2836",
+      "name": "P. Kalpoko g. A",
+      "lat": 54.90688,
+      "lon": 23.902,
+      "avg_gap_sec": 802
+    },
+    {
+      "stop_id": "2838",
+      "name": "P. Vileišio tiltas A",
+      "lat": 54.90292,
+      "lon": 23.89539,
+      "avg_gap_sec": 802
+    },
+    {
+      "stop_id": "15177",
+      "name": "Liucijanavos g. B",
+      "lat": 54.94789,
+      "lon": 23.82861,
+      "avg_gap_sec": 802
+    },
+    {
+      "stop_id": "17281",
+      "name": "Gaižuvėlės akligatvis",
+      "lat": 54.94282,
+      "lon": 23.81551,
+      "avg_gap_sec": 802
+    },
+    {
+      "stop_id": "17612",
+      "name": "Kraigo g. A",
+      "lat": 54.94433,
+      "lon": 23.82393,
+      "avg_gap_sec": 802
+    },
+    {
+      "stop_id": "2734",
+      "name": "Draugystės žiedas A",
+      "lat": 54.91374,
+      "lon": 23.97556,
+      "avg_gap_sec": 810
+    },
+    {
+      "stop_id": "2830",
+      "name": "Mokyklos bendrabučiai A",
+      "lat": 54.91874,
+      "lon": 23.91269,
+      "avg_gap_sec": 810
+    },
+    {
+      "stop_id": "2383",
+      "name": "Demokratų g. A",
+      "lat": 54.91885,
+      "lon": 23.89713,
+      "avg_gap_sec": 810
+    },
+    {
+      "stop_id": "17311",
+      "name": "Pamario g. A",
+      "lat": 54.91556,
+      "lon": 24.07168,
+      "avg_gap_sec": 817
+    },
+    {
+      "stop_id": "4747",
+      "name": "Palemono keramika A",
+      "lat": 54.91423,
+      "lon": 24.06504,
+      "avg_gap_sec": 817
+    },
+    {
+      "stop_id": "14799",
+      "name": "Rokakiemio g. A",
+      "lat": 54.84033,
+      "lon": 23.94705,
+      "avg_gap_sec": 822
+    },
+    {
+      "stop_id": "15701",
+      "name": "Chemijos g. A",
+      "lat": 54.89996,
+      "lon": 23.99958,
+      "avg_gap_sec": 831
+    },
+    {
+      "stop_id": "2906",
+      "name": "Medšarkių takas A",
+      "lat": 54.90153,
+      "lon": 23.99257,
+      "avg_gap_sec": 831
+    },
+    {
+      "stop_id": "2602",
+      "name": "Apuokų takas A",
+      "lat": 54.90255,
+      "lon": 23.98811,
+      "avg_gap_sec": 831
+    },
+    {
+      "stop_id": "2603",
+      "name": "Policija C",
+      "lat": 54.90412,
+      "lon": 23.98172,
+      "avg_gap_sec": 831
+    },
+    {
+      "stop_id": "2508",
+      "name": "4-asis fortas B",
+      "lat": 54.85263,
+      "lon": 23.9548,
+      "avg_gap_sec": 840
+    },
+    {
+      "stop_id": "2510",
+      "name": "Draustinis B",
+      "lat": 54.84949,
+      "lon": 23.94848,
+      "avg_gap_sec": 840
+    },
+    {
+      "stop_id": "2944",
+      "name": "Bernardinų Plytinės g. B",
+      "lat": 54.84444,
+      "lon": 23.94918,
+      "avg_gap_sec": 840
+    },
+    {
+      "stop_id": "2526",
+      "name": "Vaidoto g. B",
+      "lat": 54.87191,
+      "lon": 23.97736,
+      "avg_gap_sec": 840
+    },
+    {
+      "stop_id": "2990",
+      "name": "Seniūnija A",
+      "lat": 54.86223,
+      "lon": 24.09682,
+      "avg_gap_sec": 840
+    },
+    {
+      "stop_id": "2988",
+      "name": "J. Biliūno g. A",
+      "lat": 54.86452,
+      "lon": 24.09233,
+      "avg_gap_sec": 840
+    },
+    {
+      "stop_id": "2934",
+      "name": "Malūnas C",
+      "lat": 54.86812,
+      "lon": 24.08539,
+      "avg_gap_sec": 840
+    },
+    {
+      "stop_id": "2932",
+      "name": "Gyvenvietė A",
+      "lat": 54.87025,
+      "lon": 24.07838,
+      "avg_gap_sec": 840
+    },
+    {
+      "stop_id": "14416",
+      "name": "Saliai",
+      "lat": 54.95545,
+      "lon": 23.91958,
+      "avg_gap_sec": 848
+    },
+    {
+      "stop_id": "2939",
+      "name": "Žiegždriai",
+      "lat": 54.88564,
+      "lon": 24.09141,
+      "avg_gap_sec": 848
+    },
+    {
+      "stop_id": "2907",
+      "name": "Medšarkių takas B",
+      "lat": 54.9014,
+      "lon": 23.99259,
+      "avg_gap_sec": 852
+    },
+    {
+      "stop_id": "15307",
+      "name": "Varžupio g. B",
+      "lat": 54.89238,
+      "lon": 23.81231,
+      "avg_gap_sec": 857
+    },
+    {
+      "stop_id": "16013",
+      "name": "Gėlių g. B",
+      "lat": 54.8901,
+      "lon": 23.80539,
+      "avg_gap_sec": 857
+    },
+    {
+      "stop_id": "2912",
+      "name": "Ringaudų pradinė mokykla B",
+      "lat": 54.8879,
+      "lon": 23.79909,
+      "avg_gap_sec": 857
+    },
+    {
+      "stop_id": "2914",
+      "name": "Ringaudai B",
+      "lat": 54.8847,
+      "lon": 23.78953,
+      "avg_gap_sec": 857
+    },
+    {
+      "stop_id": "2568",
+      "name": "Kitron-Novameta B",
+      "lat": 54.91783,
+      "lon": 24.0324,
+      "avg_gap_sec": 857
+    },
+    {
+      "stop_id": "2384",
+      "name": "Švyturio g.",
+      "lat": 54.91543,
+      "lon": 23.8931,
+      "avg_gap_sec": 857
+    },
+    {
+      "stop_id": "2382",
+      "name": "Demokratų g. B",
+      "lat": 54.91866,
+      "lon": 23.89723,
+      "avg_gap_sec": 857
+    },
+    {
+      "stop_id": "15600",
+      "name": "Tilto g. D",
+      "lat": 54.86234,
+      "lon": 23.958,
+      "avg_gap_sec": 857
+    },
+    {
+      "stop_id": "14370",
+      "name": "Jiesios pl. B",
+      "lat": 54.85555,
+      "lon": 23.94321,
+      "avg_gap_sec": 857
+    },
+    {
+      "stop_id": "2892",
+      "name": "Lampėdžiai A",
+      "lat": 54.91053,
+      "lon": 23.82135,
+      "avg_gap_sec": 864
+    },
+    {
+      "stop_id": "16694",
+      "name": "Continental C",
+      "lat": 54.94583,
+      "lon": 24.05532,
+      "avg_gap_sec": 870
+    },
+    {
+      "stop_id": "2945",
+      "name": "Naujoji g. A",
+      "lat": 54.84299,
+      "lon": 23.94145,
+      "avg_gap_sec": 877
+    },
+    {
+      "stop_id": "2369",
+      "name": "Josvainių g. B",
+      "lat": 54.91497,
+      "lon": 23.87527,
+      "avg_gap_sec": 880
+    },
+    {
+      "stop_id": "2368",
+      "name": "Bartuvos g. B",
+      "lat": 54.91473,
+      "lon": 23.86737,
+      "avg_gap_sec": 880
+    },
+    {
+      "stop_id": "2985",
+      "name": "Keramikų g. A",
+      "lat": 54.93279,
+      "lon": 24.09744,
+      "avg_gap_sec": 888
+    },
+    {
+      "stop_id": "2998",
+      "name": "Saulėtekio g. A",
+      "lat": 54.94449,
+      "lon": 23.77137,
+      "avg_gap_sec": 888
+    },
+    {
+      "stop_id": "17229",
+      "name": "Didžioji g. C",
+      "lat": 54.94313,
+      "lon": 23.77436,
+      "avg_gap_sec": 888
+    },
+    {
+      "stop_id": "15621",
+      "name": "Didvyriai A",
+      "lat": 54.95209,
+      "lon": 23.77661,
+      "avg_gap_sec": 888
+    },
+    {
+      "stop_id": "2405",
+      "name": "Tilžės g. B",
+      "lat": 54.91017,
+      "lon": 23.87588,
+      "avg_gap_sec": 890
+    },
+    {
+      "stop_id": "2926",
+      "name": "Girionys A",
+      "lat": 54.85615,
+      "lon": 24.04772,
+      "avg_gap_sec": 900
+    },
+    {
+      "stop_id": "16811",
+      "name": "Girionių aikštelė",
+      "lat": 54.85603,
+      "lon": 24.04808,
+      "avg_gap_sec": 900
+    },
+    {
+      "stop_id": "15745",
+      "name": "Mokolų g. B",
+      "lat": 54.86457,
+      "lon": 23.87196,
+      "avg_gap_sec": 900
+    },
+    {
+      "stop_id": "5207",
+      "name": "Senosios Karmėlavos kapinės",
+      "lat": 54.97171,
+      "lon": 24.03798,
+      "avg_gap_sec": 908
+    },
+    {
+      "stop_id": "16689",
+      "name": "Fitsout A",
+      "lat": 54.95408,
+      "lon": 24.05139,
+      "avg_gap_sec": 910
+    },
+    {
+      "stop_id": "16126",
+      "name": "Hella A",
+      "lat": 54.95435,
+      "lon": 24.05801,
+      "avg_gap_sec": 910
+    },
+    {
+      "stop_id": "17606",
+      "name": "Centrinė g. A",
+      "lat": 54.94374,
+      "lon": 24.03785,
+      "avg_gap_sec": 910
+    },
+    {
+      "stop_id": "16892",
+      "name": "Ramučių kultūros centras A",
+      "lat": 54.94816,
+      "lon": 24.03809,
+      "avg_gap_sec": 910
+    },
+    {
+      "stop_id": "2872",
+      "name": "Sargėnai B",
+      "lat": 54.95421,
+      "lon": 23.89767,
+      "avg_gap_sec": 925
+    },
+    {
+      "stop_id": "4726",
+      "name": "Muitinės g. B",
+      "lat": 54.95744,
+      "lon": 23.90151,
+      "avg_gap_sec": 925
+    },
+    {
+      "stop_id": "2977",
+      "name": "Pakalnės g. F",
+      "lat": 54.96206,
+      "lon": 23.90784,
+      "avg_gap_sec": 925
+    },
+    {
+      "stop_id": "2980",
+      "name": "Domeikavos seniūnija A",
+      "lat": 54.96699,
+      "lon": 23.92284,
+      "avg_gap_sec": 930
+    },
+    {
+      "stop_id": "2997",
+      "name": "Saulėtekio g. B",
+      "lat": 54.94415,
+      "lon": 23.77181,
+      "avg_gap_sec": 930
+    },
+    {
+      "stop_id": "15033",
+      "name": "Sakalų g.",
+      "lat": 54.94599,
+      "lon": 23.7694,
+      "avg_gap_sec": 930
+    },
+    {
+      "stop_id": "2981",
+      "name": "Domeikavos seniūnija B",
+      "lat": 54.96734,
+      "lon": 23.92432,
+      "avg_gap_sec": 934
+    },
+    {
+      "stop_id": "2979",
+      "name": "Aukščių g. B",
+      "lat": 54.96563,
+      "lon": 23.91797,
+      "avg_gap_sec": 934
+    },
+    {
+      "stop_id": "2978",
+      "name": "Aukščių g. A",
+      "lat": 54.96591,
+      "lon": 23.91873,
+      "avg_gap_sec": 940
+    },
+    {
+      "stop_id": "2976",
+      "name": "Pakalnės g. E",
+      "lat": 54.96122,
+      "lon": 23.90613,
+      "avg_gap_sec": 940
+    },
+    {
+      "stop_id": "16216",
+      "name": "B. Brazdžionio g. B",
+      "lat": 54.93771,
+      "lon": 23.86865,
+      "avg_gap_sec": 942
+    },
+    {
+      "stop_id": "4725",
+      "name": "Muitinės g. A",
+      "lat": 54.95675,
+      "lon": 23.9005,
+      "avg_gap_sec": 950
+    },
+    {
+      "stop_id": "2871",
+      "name": "Sargėnai A",
+      "lat": 54.95356,
+      "lon": 23.8961,
+      "avg_gap_sec": 950
+    },
+    {
+      "stop_id": "17551",
+      "name": "Gamyklos g. A",
+      "lat": 54.95124,
+      "lon": 23.89163,
+      "avg_gap_sec": 950
+    },
+    {
+      "stop_id": "2484",
+      "name": "Elevatorius A",
+      "lat": 54.88604,
+      "lon": 23.91229,
+      "avg_gap_sec": 951
+    },
+    {
+      "stop_id": "4423",
+      "name": "Slaugos ligoninė",
+      "lat": 54.87325,
+      "lon": 23.987,
+      "avg_gap_sec": 960
+    },
+    {
+      "stop_id": "2735",
+      "name": "Draugystės žiedas B",
+      "lat": 54.91391,
+      "lon": 23.9772,
+      "avg_gap_sec": 970
+    },
+    {
+      "stop_id": "2655",
+      "name": "Trys berželiai B",
+      "lat": 54.91499,
+      "lon": 23.98007,
+      "avg_gap_sec": 970
+    },
+    {
+      "stop_id": "15787",
+      "name": "Mastaičiai",
+      "lat": 54.82481,
+      "lon": 23.8413,
+      "avg_gap_sec": 972
+    },
+    {
+      "stop_id": "15203",
+      "name": "Biruliškių g.",
+      "lat": 54.90738,
+      "lon": 24.0236,
+      "avg_gap_sec": 980
+    },
+    {
+      "stop_id": "2585",
+      "name": "Kauno keliai B",
+      "lat": 54.89407,
+      "lon": 24.00797,
+      "avg_gap_sec": 990
+    },
+    {
+      "stop_id": "16221",
+      "name": "Liucijanavos g. C",
+      "lat": 54.9355,
+      "lon": 23.83056,
+      "avg_gap_sec": 996
+    },
+    {
+      "stop_id": "16209",
+      "name": "S. Banaičio g. A",
+      "lat": 54.93691,
+      "lon": 23.84302,
+      "avg_gap_sec": 996
+    },
+    {
+      "stop_id": "16371",
+      "name": "Knygnešių g. A",
+      "lat": 54.93769,
+      "lon": 23.84975,
+      "avg_gap_sec": 996
+    },
+    {
+      "stop_id": "16413",
+      "name": "A. Žmuidzinavičiaus g. A",
+      "lat": 54.93867,
+      "lon": 23.85841,
+      "avg_gap_sec": 996
+    },
+    {
+      "stop_id": "16214",
+      "name": "K. Čerbulėno g. A",
+      "lat": 54.9363,
+      "lon": 23.86088,
+      "avg_gap_sec": 996
+    },
+    {
+      "stop_id": "17514",
+      "name": "A. Šapokos g. A",
+      "lat": 54.9352,
+      "lon": 23.86332,
+      "avg_gap_sec": 996
+    },
+    {
+      "stop_id": "2757",
+      "name": "Girstutis D",
+      "lat": 54.90525,
+      "lon": 23.97563,
+      "avg_gap_sec": 1000
+    },
+    {
+      "stop_id": "2604",
+      "name": "Policija D",
+      "lat": 54.90395,
+      "lon": 23.98143,
+      "avg_gap_sec": 1000
+    },
+    {
+      "stop_id": "2601",
+      "name": "Apuokų takas B",
+      "lat": 54.9026,
+      "lon": 23.98736,
+      "avg_gap_sec": 1000
+    },
+    {
+      "stop_id": "2992",
+      "name": "Šlienava",
+      "lat": 54.86081,
+      "lon": 24.10838,
+      "avg_gap_sec": 1005
+    },
+    {
+      "stop_id": "2925",
+      "name": "Girionys B",
+      "lat": 54.85562,
+      "lon": 24.04722,
+      "avg_gap_sec": 1005
+    },
+    {
+      "stop_id": "16213",
+      "name": "A. Šapokos g. B",
+      "lat": 54.93567,
+      "lon": 23.86181,
+      "avg_gap_sec": 1020
+    },
+    {
+      "stop_id": "16211",
+      "name": "A. Žmuidzinavičiaus g. B",
+      "lat": 54.93872,
+      "lon": 23.85789,
+      "avg_gap_sec": 1020
+    },
+    {
+      "stop_id": "16372",
+      "name": "Knygnešių g. B",
+      "lat": 54.9377,
+      "lon": 23.84876,
+      "avg_gap_sec": 1020
+    },
+    {
+      "stop_id": "16208",
+      "name": "S. Banaičio g. B",
+      "lat": 54.93681,
+      "lon": 23.84121,
+      "avg_gap_sec": 1020
+    },
+    {
+      "stop_id": "15308",
+      "name": "Varžupio g. A",
+      "lat": 54.89298,
+      "lon": 23.81461,
+      "avg_gap_sec": 1032
+    },
+    {
+      "stop_id": "10727",
+      "name": "Akademijos miestelis A",
+      "lat": 54.89468,
+      "lon": 23.82319,
+      "avg_gap_sec": 1032
+    },
+    {
+      "stop_id": "16986",
+      "name": "Šilelis",
+      "lat": 54.93477,
+      "lon": 23.76107,
+      "avg_gap_sec": 1040
+    },
+    {
+      "stop_id": "2915",
+      "name": "Ringaudai A",
+      "lat": 54.88437,
+      "lon": 23.78894,
+      "avg_gap_sec": 1044
+    },
+    {
+      "stop_id": "2913",
+      "name": "Ringaudų pradinė mokykla A",
+      "lat": 54.88827,
+      "lon": 23.80046,
+      "avg_gap_sec": 1044
+    },
+    {
+      "stop_id": "16014",
+      "name": "Gėlių g. A",
+      "lat": 54.88994,
+      "lon": 23.80506,
+      "avg_gap_sec": 1044
+    },
+    {
+      "stop_id": "14371",
+      "name": "Jiesios pl. C",
+      "lat": 54.85635,
+      "lon": 23.94222,
+      "avg_gap_sec": 1050
+    },
+    {
+      "stop_id": "15746",
+      "name": "Mokolų g. A",
+      "lat": 54.8643,
+      "lon": 23.87183,
+      "avg_gap_sec": 1068
+    },
+    {
+      "stop_id": "16217",
+      "name": "B. Brazdžionio g. A",
+      "lat": 54.93785,
+      "lon": 23.86974,
+      "avg_gap_sec": 1070
+    },
+    {
+      "stop_id": "2586",
+      "name": "Kauno keliai A",
+      "lat": 54.89417,
+      "lon": 24.00761,
+      "avg_gap_sec": 1080
+    },
+    {
+      "stop_id": "2996",
+      "name": "Gimnazija A",
+      "lat": 54.94061,
+      "lon": 23.77399,
+      "avg_gap_sec": 1080
+    },
+    {
+      "stop_id": "16182",
+      "name": "Pilviškių g. B",
+      "lat": 54.8645,
+      "lon": 23.88197,
+      "avg_gap_sec": 1080
+    },
+    {
+      "stop_id": "2489",
+      "name": "M. K. Čiurlionio tiltas D",
+      "lat": 54.88166,
+      "lon": 23.9215,
+      "avg_gap_sec": 1092
+    },
+    {
+      "stop_id": "17644",
+      "name": "Malūnas",
+      "lat": 54.88821,
+      "lon": 23.90488,
+      "avg_gap_sec": 1100
+    },
+    {
+      "stop_id": "17445",
+      "name": "Gojaus g. A",
+      "lat": 54.95788,
+      "lon": 23.77423,
+      "avg_gap_sec": 1100
+    },
+    {
+      "stop_id": "16924",
+      "name": "Dobilų g.",
+      "lat": 54.95171,
+      "lon": 23.77338,
+      "avg_gap_sec": 1100
+    },
+    {
+      "stop_id": "17078",
+      "name": "Tvenkinys",
+      "lat": 54.95144,
+      "lon": 23.77073,
+      "avg_gap_sec": 1100
+    },
+    {
+      "stop_id": "16925",
+      "name": "Vejuonos g.",
+      "lat": 54.95077,
+      "lon": 23.76306,
+      "avg_gap_sec": 1100
+    },
+    {
+      "stop_id": "16927",
+      "name": "Svarstyklės A",
+      "lat": 54.94793,
+      "lon": 23.76257,
+      "avg_gap_sec": 1100
+    },
+    {
+      "stop_id": "16919",
+      "name": "Žalgirio g. -1",
+      "lat": 54.94919,
+      "lon": 23.77861,
+      "avg_gap_sec": 1100
+    },
+    {
+      "stop_id": "16920",
+      "name": "Žalgirio g. -2",
+      "lat": 54.95008,
+      "lon": 23.78314,
+      "avg_gap_sec": 1100
+    },
+    {
+      "stop_id": "17073",
+      "name": "Didvyriai B",
+      "lat": 54.95294,
+      "lon": 23.77671,
+      "avg_gap_sec": 1100
+    },
+    {
+      "stop_id": "17446",
+      "name": "Gojaus g. B",
+      "lat": 54.9579,
+      "lon": 23.77433,
+      "avg_gap_sec": 1100
+    },
+    {
+      "stop_id": "16968",
+      "name": "Voškonių aikštelė",
+      "lat": 54.99101,
+      "lon": 23.94593,
+      "avg_gap_sec": 1120
+    },
+    {
+      "stop_id": "16193",
+      "name": "Tirkiliškių g. B",
+      "lat": 54.86217,
+      "lon": 23.86861,
+      "avg_gap_sec": 1125
+    },
+    {
+      "stop_id": "16173",
+      "name": "Naujadvario g. B",
+      "lat": 54.85952,
+      "lon": 23.86309,
+      "avg_gap_sec": 1125
+    },
+    {
+      "stop_id": "2370",
+      "name": "Josvainių g. A",
+      "lat": 54.91486,
+      "lon": 23.87509,
+      "avg_gap_sec": 1130
+    },
+    {
+      "stop_id": "2406",
+      "name": "Tilžės g. A",
+      "lat": 54.91009,
+      "lon": 23.87551,
+      "avg_gap_sec": 1130
+    },
+    {
+      "stop_id": "2917",
+      "name": "Kalvarijos g. B",
+      "lat": 54.87243,
+      "lon": 23.87769,
+      "avg_gap_sec": 1140
+    },
+    {
+      "stop_id": "2491",
+      "name": "Piliakalnio g. B",
+      "lat": 54.87535,
+      "lon": 23.9232,
+      "avg_gap_sec": 1150
+    },
+    {
+      "stop_id": "2494",
+      "name": "Freda B",
+      "lat": 54.87095,
+      "lon": 23.92488,
+      "avg_gap_sec": 1150
+    },
+    {
+      "stop_id": "2496",
+      "name": "Geležinkelio pervaža B",
+      "lat": 54.8638,
+      "lon": 23.92556,
+      "avg_gap_sec": 1150
+    },
+    {
+      "stop_id": "2500",
+      "name": "Jiesia B",
+      "lat": 54.85879,
+      "lon": 23.92849,
+      "avg_gap_sec": 1150
+    },
+    {
+      "stop_id": "2367",
+      "name": "Bartuvos g. A",
+      "lat": 54.91455,
+      "lon": 23.86674,
+      "avg_gap_sec": 1152
+    },
+    {
+      "stop_id": "16464",
+      "name": "Alšėnų g. A",
+      "lat": 54.86731,
+      "lon": 23.87504,
+      "avg_gap_sec": 1185
+    },
+    {
+      "stop_id": "2916",
+      "name": "Kalvarijos g. A",
+      "lat": 54.87227,
+      "lon": 23.87783,
+      "avg_gap_sec": 1185
+    },
+    {
+      "stop_id": "2549",
+      "name": "Ateities pl. D",
+      "lat": 54.91883,
+      "lon": 24.04255,
+      "avg_gap_sec": 1200
+    },
+    {
+      "stop_id": "2550",
+      "name": "Pravienos g. A",
+      "lat": 54.91779,
+      "lon": 24.04757,
+      "avg_gap_sec": 1212
+    },
+    {
+      "stop_id": "2547",
+      "name": "Apaščios g.",
+      "lat": 54.91884,
+      "lon": 24.04214,
+      "avg_gap_sec": 1212
+    },
+    {
+      "stop_id": "2619",
+      "name": "Aksa A",
+      "lat": 54.91325,
+      "lon": 24.00436,
+      "avg_gap_sec": 1230
+    },
+    {
+      "stop_id": "2621",
+      "name": "Elektrėnų g. A",
+      "lat": 54.91339,
+      "lon": 23.99781,
+      "avg_gap_sec": 1230
+    },
+    {
+      "stop_id": "16471",
+      "name": "Kauno IX forto muziejus",
+      "lat": 54.94174,
+      "lon": 23.87578,
+      "avg_gap_sec": 1240
+    },
+    {
+      "stop_id": "2824",
+      "name": "Kempingas A",
+      "lat": 54.93463,
+      "lon": 23.91819,
+      "avg_gap_sec": 1245
+    },
+    {
+      "stop_id": "15840",
+      "name": "Amalė A",
+      "lat": 54.913,
+      "lon": 24.01606,
+      "avg_gap_sec": 1260
+    },
+    {
+      "stop_id": "2617",
+      "name": "Gaisrinė A",
+      "lat": 54.91311,
+      "lon": 24.01075,
+      "avg_gap_sec": 1260
+    },
+    {
+      "stop_id": "2987",
+      "name": "Šiltnamiai",
+      "lat": 54.93836,
+      "lon": 24.10546,
+      "avg_gap_sec": 1260
+    },
+    {
+      "stop_id": "2876",
+      "name": "Palapinių g. A",
+      "lat": 54.95449,
+      "lon": 23.94266,
+      "avg_gap_sec": 1260
+    },
+    {
+      "stop_id": "2874",
+      "name": "Vasarvietės g. A",
+      "lat": 54.95183,
+      "lon": 23.93447,
+      "avg_gap_sec": 1260
+    },
+    {
+      "stop_id": "15618",
+      "name": "Kleboniškio miško parkas A",
+      "lat": 54.95043,
+      "lon": 23.93157,
+      "avg_gap_sec": 1260
+    },
+    {
+      "stop_id": "2822",
+      "name": "Vandentiekis A",
+      "lat": 54.94485,
+      "lon": 23.92348,
+      "avg_gap_sec": 1260
+    },
+    {
+      "stop_id": "2620",
+      "name": "Elektrėnų g. B",
+      "lat": 54.91327,
+      "lon": 23.9977,
+      "avg_gap_sec": 1305
+    },
+    {
+      "stop_id": "2618",
+      "name": "Aksa B",
+      "lat": 54.91309,
+      "lon": 24.00586,
+      "avg_gap_sec": 1305
+    },
+    {
+      "stop_id": "2616",
+      "name": "Gaisrinė B",
+      "lat": 54.91294,
+      "lon": 24.01185,
+      "avg_gap_sec": 1305
+    },
+    {
+      "stop_id": "15839",
+      "name": "Amalė B",
+      "lat": 54.91285,
+      "lon": 24.01679,
+      "avg_gap_sec": 1305
+    },
+    {
+      "stop_id": "2575",
+      "name": "Naftos bazė B",
+      "lat": 54.90991,
+      "lon": 24.02069,
+      "avg_gap_sec": 1305
+    },
+    {
+      "stop_id": "5102",
+      "name": "Šiaurės pr. F",
+      "lat": 54.93143,
+      "lon": 23.91721,
+      "avg_gap_sec": 1305
+    },
+    {
+      "stop_id": "2823",
+      "name": "Kempingas B",
+      "lat": 54.93352,
+      "lon": 23.9181,
+      "avg_gap_sec": 1305
+    },
+    {
+      "stop_id": "2821",
+      "name": "Vandentiekis B",
+      "lat": 54.94497,
+      "lon": 23.92379,
+      "avg_gap_sec": 1305
+    },
+    {
+      "stop_id": "14798",
+      "name": "Kleboniškio miško parkas B",
+      "lat": 54.95026,
+      "lon": 23.93149,
+      "avg_gap_sec": 1305
+    },
+    {
+      "stop_id": "2875",
+      "name": "Vasarvietės g. B",
+      "lat": 54.95187,
+      "lon": 23.93483,
+      "avg_gap_sec": 1305
+    },
+    {
+      "stop_id": "2877",
+      "name": "Palapinių g. B",
+      "lat": 54.95443,
+      "lon": 23.94307,
+      "avg_gap_sec": 1305
+    },
+    {
+      "stop_id": "2920",
+      "name": "Švenčionių g.",
+      "lat": 54.87641,
+      "lon": 23.95778,
+      "avg_gap_sec": 1320
+    },
+    {
+      "stop_id": "16012",
+      "name": "1-ieji Ramučiai",
+      "lat": 54.95305,
+      "lon": 24.03138,
+      "avg_gap_sec": 1320
+    },
+    {
+      "stop_id": "16865",
+      "name": "Ramučių kultūros centras B",
+      "lat": 54.94899,
+      "lon": 24.0372,
+      "avg_gap_sec": 1320
+    },
+    {
+      "stop_id": "17605",
+      "name": "Centrinė g. B",
+      "lat": 54.94331,
+      "lon": 24.03802,
+      "avg_gap_sec": 1320
+    },
+    {
+      "stop_id": "17350",
+      "name": "Continental B",
+      "lat": 54.94533,
+      "lon": 24.05154,
+      "avg_gap_sec": 1320
+    },
+    {
+      "stop_id": "16069",
+      "name": "Hella B",
+      "lat": 54.95437,
+      "lon": 24.05761,
+      "avg_gap_sec": 1320
+    },
+    {
+      "stop_id": "16118",
+      "name": "Fitsout B",
+      "lat": 54.95421,
+      "lon": 24.0526,
+      "avg_gap_sec": 1320
+    },
+    {
+      "stop_id": "14458",
+      "name": "Kėdainių g. D",
+      "lat": 54.90765,
+      "lon": 23.87573,
+      "avg_gap_sec": 1335
+    },
+    {
+      "stop_id": "16172",
+      "name": "Naujadvario g. A",
+      "lat": 54.85953,
+      "lon": 23.8633,
+      "avg_gap_sec": 1335
+    },
+    {
+      "stop_id": "16192",
+      "name": "Tirkiliškių g. A",
+      "lat": 54.86218,
+      "lon": 23.86888,
+      "avg_gap_sec": 1335
+    },
+    {
+      "stop_id": "2938",
+      "name": "Sodininkų bendrija Kaspinas A",
+      "lat": 54.87977,
+      "lon": 24.07924,
+      "avg_gap_sec": 1350
+    },
+    {
+      "stop_id": "2936",
+      "name": "Sodininkų bendrija Šaltinis A",
+      "lat": 54.87463,
+      "lon": 24.07305,
+      "avg_gap_sec": 1350
+    },
+    {
+      "stop_id": "2462",
+      "name": "Alšėnų g. C",
+      "lat": 54.86616,
+      "lon": 23.87469,
+      "avg_gap_sec": 1350
+    },
+    {
+      "stop_id": "5050",
+      "name": "Pilviškių g. A",
+      "lat": 54.86426,
+      "lon": 23.88292,
+      "avg_gap_sec": 1350
+    },
+    {
+      "stop_id": "5114",
+      "name": "Bruknių takas B",
+      "lat": 54.90808,
+      "lon": 24.02208,
+      "avg_gap_sec": 1380
+    },
+    {
+      "stop_id": "16909",
+      "name": "J.Naujalio g.",
+      "lat": 54.94523,
+      "lon": 23.76194,
+      "avg_gap_sec": 1395
+    },
+    {
+      "stop_id": "16911",
+      "name": "Eglių g.",
+      "lat": 54.94001,
+      "lon": 23.77088,
+      "avg_gap_sec": 1395
+    },
+    {
+      "stop_id": "16913",
+      "name": "J.Janonio g.",
+      "lat": 54.93902,
+      "lon": 23.77393,
+      "avg_gap_sec": 1395
+    },
+    {
+      "stop_id": "2942",
+      "name": "Panemunė",
+      "lat": 54.86165,
+      "lon": 23.95797,
+      "avg_gap_sec": 1400
+    },
+    {
+      "stop_id": "2501",
+      "name": "Jiesios kraštovaizdžio draustinis A",
+      "lat": 54.85631,
+      "lon": 23.92662,
+      "avg_gap_sec": 1440
+    },
+    {
+      "stop_id": "2417",
+      "name": "Atominio bunkerio muziejus D",
+      "lat": 54.91186,
+      "lon": 23.84433,
+      "avg_gap_sec": 1440
+    },
+    {
+      "stop_id": "5105",
+      "name": "Jovarų g. B",
+      "lat": 54.9093,
+      "lon": 23.84144,
+      "avg_gap_sec": 1440
+    },
+    {
+      "stop_id": "2890",
+      "name": "Vytauto g. B",
+      "lat": 54.90941,
+      "lon": 23.82618,
+      "avg_gap_sec": 1440
+    },
+    {
+      "stop_id": "2891",
+      "name": "Vytauto g. A",
+      "lat": 54.90886,
+      "lon": 23.8284,
+      "avg_gap_sec": 1440
+    },
+    {
+      "stop_id": "5106",
+      "name": "Jovarų g. A",
+      "lat": 54.90957,
+      "lon": 23.84197,
+      "avg_gap_sec": 1440
+    },
+    {
+      "stop_id": "2930",
+      "name": "Žiegždrių kryžkelė A",
+      "lat": 54.86937,
+      "lon": 24.06658,
+      "avg_gap_sec": 1480
+    },
+    {
+      "stop_id": "2928",
+      "name": "Raguoliai A",
+      "lat": 54.86098,
+      "lon": 24.05483,
+      "avg_gap_sec": 1480
+    },
+    {
+      "stop_id": "15332",
+      "name": "Užupio g. A",
+      "lat": 54.91174,
+      "lon": 24.04696,
+      "avg_gap_sec": 1485
+    },
+    {
+      "stop_id": "15082",
+      "name": "Upytės g. A",
+      "lat": 54.90738,
+      "lon": 24.04256,
+      "avg_gap_sec": 1485
+    },
+    {
+      "stop_id": "2567",
+      "name": "Pervaža A",
+      "lat": 54.90467,
+      "lon": 24.04004,
+      "avg_gap_sec": 1485
+    },
+    {
+      "stop_id": "2556",
+      "name": "Palemono keramika C",
+      "lat": 54.91486,
+      "lon": 24.06437,
+      "avg_gap_sec": 1500
+    },
+    {
+      "stop_id": "2497",
+      "name": "Kreidos g.",
+      "lat": 54.85135,
+      "lon": 23.92707,
+      "avg_gap_sec": 1530
+    },
+    {
+      "stop_id": "2574",
+      "name": "Naftos bazė A",
+      "lat": 54.91009,
+      "lon": 24.0208,
+      "avg_gap_sec": 1560
+    },
+    {
+      "stop_id": "2986",
+      "name": "Keramikų g. B",
+      "lat": 54.93208,
+      "lon": 24.09644,
+      "avg_gap_sec": 1560
+    },
+    {
+      "stop_id": "17364",
+      "name": "Pakalnės g. B",
+      "lat": 54.93332,
+      "lon": 23.77705,
+      "avg_gap_sec": 1560
+    },
+    {
+      "stop_id": "17367",
+      "name": "Raudondvario kapinės B",
+      "lat": 54.93723,
+      "lon": 23.7635,
+      "avg_gap_sec": 1560
+    },
+    {
+      "stop_id": "17368",
+      "name": "Raudondvario kapinės A",
+      "lat": 54.93707,
+      "lon": 23.76375,
+      "avg_gap_sec": 1560
+    },
+    {
+      "stop_id": "17365",
+      "name": "Pakalnės g. A",
+      "lat": 54.93335,
+      "lon": 23.77682,
+      "avg_gap_sec": 1560
+    },
+    {
+      "stop_id": "17264",
+      "name": "Giraitės g. B",
+      "lat": 54.95897,
+      "lon": 24.03151,
+      "avg_gap_sec": 1580
+    },
+    {
+      "stop_id": "16443",
+      "name": "Pilėnų g. B",
+      "lat": 54.97584,
+      "lon": 24.03802,
+      "avg_gap_sec": 1580
+    },
+    {
+      "stop_id": "16445",
+      "name": "Naujosios Karmėlavos kapinės B",
+      "lat": 54.97449,
+      "lon": 24.04445,
+      "avg_gap_sec": 1580
+    },
+    {
+      "stop_id": "17379",
+      "name": "Tylos g. B",
+      "lat": 54.97399,
+      "lon": 24.05106,
+      "avg_gap_sec": 1580
+    },
+    {
+      "stop_id": "17377",
+      "name": "Vakarinė g.",
+      "lat": 54.97302,
+      "lon": 24.05493,
+      "avg_gap_sec": 1590
+    },
+    {
+      "stop_id": "14686",
+      "name": "Tylos g. A",
+      "lat": 54.97417,
+      "lon": 24.05062,
+      "avg_gap_sec": 1590
+    },
+    {
+      "stop_id": "2379",
+      "name": "Kulvos g. B",
+      "lat": 54.91731,
+      "lon": 23.90604,
+      "avg_gap_sec": 1620
+    },
+    {
+      "stop_id": "17265",
+      "name": "Giraitės g. A",
+      "lat": 54.95972,
+      "lon": 24.0309,
+      "avg_gap_sec": 1620
+    },
+    {
+      "stop_id": "16877",
+      "name": "Krašto g. B",
+      "lat": 54.93607,
+      "lon": 24.1117,
+      "avg_gap_sec": 1650
+    },
+    {
+      "stop_id": "16458",
+      "name": "Svirplių takas A",
+      "lat": 54.89591,
+      "lon": 24.00631,
+      "avg_gap_sec": 1660
+    },
+    {
+      "stop_id": "2480",
+      "name": "H. ir O. Minkovskių g. A",
+      "lat": 54.89124,
+      "lon": 23.89741,
+      "avg_gap_sec": 1680
+    },
+    {
+      "stop_id": "2436",
+      "name": "Veiverių g. A",
+      "lat": 54.89267,
+      "lon": 23.892,
+      "avg_gap_sec": 1680
+    },
+    {
+      "stop_id": "15982",
+      "name": "1-ojo forto g. B",
+      "lat": 54.88431,
+      "lon": 23.86666,
+      "avg_gap_sec": 1680
+    },
+    {
+      "stop_id": "15402",
+      "name": "Stirnų g. B",
+      "lat": 54.88859,
+      "lon": 23.86042,
+      "avg_gap_sec": 1680
+    },
+    {
+      "stop_id": "2442",
+      "name": "Kauno šiltadaržiai B",
+      "lat": 54.88851,
+      "lon": 23.8487,
+      "avg_gap_sec": 1680
+    },
+    {
+      "stop_id": "15310",
+      "name": "Noreikiškės B",
+      "lat": 54.88792,
+      "lon": 23.842,
+      "avg_gap_sec": 1680
+    },
+    {
+      "stop_id": "16934",
+      "name": "Sankryža A",
+      "lat": 54.82585,
+      "lon": 23.84855,
+      "avg_gap_sec": 1770
+    },
+    {
+      "stop_id": "15764",
+      "name": "Svirplių takas B",
+      "lat": 54.89577,
+      "lon": 24.00625,
+      "avg_gap_sec": 1770
+    },
+    {
+      "stop_id": "2566",
+      "name": "Pervaža B",
+      "lat": 54.90409,
+      "lon": 24.03945,
+      "avg_gap_sec": 1770
+    },
+    {
+      "stop_id": "15083",
+      "name": "Upytės g. B",
+      "lat": 54.908,
+      "lon": 24.04362,
+      "avg_gap_sec": 1770
+    },
+    {
+      "stop_id": "15333",
+      "name": "Užupio g. B",
+      "lat": 54.91141,
+      "lon": 24.04693,
+      "avg_gap_sec": 1800
+    },
+    {
+      "stop_id": "14530",
+      "name": "Prūsų g. A",
+      "lat": 54.92105,
+      "lon": 23.87116,
+      "avg_gap_sec": 1820
+    },
+    {
+      "stop_id": "2380",
+      "name": "Kulvos g. A",
+      "lat": 54.91731,
+      "lon": 23.90543,
+      "avg_gap_sec": 1840
+    },
+    {
+      "stop_id": "15309",
+      "name": "Noreikiškės A",
+      "lat": 54.88765,
+      "lon": 23.8432,
+      "avg_gap_sec": 1860
+    },
+    {
+      "stop_id": "15408",
+      "name": "Kauno šiltadaržiai A",
+      "lat": 54.88826,
+      "lon": 23.84853,
+      "avg_gap_sec": 1860
+    },
+    {
+      "stop_id": "15401",
+      "name": "Stirnų g. A",
+      "lat": 54.88817,
+      "lon": 23.8613,
+      "avg_gap_sec": 1860
+    },
+    {
+      "stop_id": "15983",
+      "name": "1-ojo forto g. A",
+      "lat": 54.88381,
+      "lon": 23.86611,
+      "avg_gap_sec": 1860
+    },
+    {
+      "stop_id": "15471",
+      "name": "Pakalnės g. C",
+      "lat": 54.88059,
+      "lon": 23.86759,
+      "avg_gap_sec": 1860
+    },
+    {
+      "stop_id": "15400",
+      "name": "Suvalkiečių g. A",
+      "lat": 54.87401,
+      "lon": 23.8751,
+      "avg_gap_sec": 1860
+    },
+    {
+      "stop_id": "2580",
+      "name": "Bruknių takas A",
+      "lat": 54.90723,
+      "lon": 24.02313,
+      "avg_gap_sec": 1890
+    },
+    {
+      "stop_id": "2935",
+      "name": "Sodininkų bendrija Šaltinis B",
+      "lat": 54.87493,
+      "lon": 24.07367,
+      "avg_gap_sec": 1900
+    },
+    {
+      "stop_id": "2937",
+      "name": "Sodininkų bendrija Kaspinas B",
+      "lat": 54.87823,
+      "lon": 24.07779,
+      "avg_gap_sec": 1900
+    },
+    {
+      "stop_id": "2353",
+      "name": "Kuršėnų g. D",
+      "lat": 54.92322,
+      "lon": 23.90168,
+      "avg_gap_sec": 1980
+    },
+    {
+      "stop_id": "2346",
+      "name": "Skaudvilės g. B",
+      "lat": 54.92702,
+      "lon": 23.90548,
+      "avg_gap_sec": 1980
+    },
+    {
+      "stop_id": "2345",
+      "name": "Pikulo g. B",
+      "lat": 54.92908,
+      "lon": 23.90738,
+      "avg_gap_sec": 1980
+    },
+    {
+      "stop_id": "5236",
+      "name": "Šiaurinio aplinkkelio tiltas B",
+      "lat": 54.93606,
+      "lon": 23.91102,
+      "avg_gap_sec": 1980
+    },
+    {
+      "stop_id": "14498",
+      "name": "Panerys B",
+      "lat": 54.95084,
+      "lon": 23.91561,
+      "avg_gap_sec": 1980
+    },
+    {
+      "stop_id": "14500",
+      "name": "Panerys A",
+      "lat": 54.94985,
+      "lon": 23.91464,
+      "avg_gap_sec": 1980
+    },
+    {
+      "stop_id": "2334",
+      "name": "Šiaurinio aplinkkelio tiltas A",
+      "lat": 54.936,
+      "lon": 23.91063,
+      "avg_gap_sec": 1980
+    },
+    {
+      "stop_id": "2344",
+      "name": "Pikulo g. A",
+      "lat": 54.92894,
+      "lon": 23.90691,
+      "avg_gap_sec": 1980
+    },
+    {
+      "stop_id": "2347",
+      "name": "Skaudvilės g. A",
+      "lat": 54.92641,
+      "lon": 23.90451,
+      "avg_gap_sec": 1980
+    },
+    {
+      "stop_id": "2352",
+      "name": "Kuršėnų g. C",
+      "lat": 54.92222,
+      "lon": 23.90043,
+      "avg_gap_sec": 1980
+    },
+    {
+      "stop_id": "2931",
+      "name": "Gyvenvietė B",
+      "lat": 54.87004,
+      "lon": 24.07967,
+      "avg_gap_sec": 1980
+    },
+    {
+      "stop_id": "2933",
+      "name": "Malūnas D",
+      "lat": 54.86756,
+      "lon": 24.08619,
+      "avg_gap_sec": 1980
+    },
+    {
+      "stop_id": "2989",
+      "name": "J. Biliūno g. B",
+      "lat": 54.86404,
+      "lon": 24.09309,
+      "avg_gap_sec": 1980
+    },
+    {
+      "stop_id": "2991",
+      "name": "Seniūnija B",
+      "lat": 54.86169,
+      "lon": 24.09761,
+      "avg_gap_sec": 1980
+    },
+    {
+      "stop_id": "2927",
+      "name": "Raguoliai B",
+      "lat": 54.86129,
+      "lon": 24.05551,
+      "avg_gap_sec": 1980
+    },
+    {
+      "stop_id": "2929",
+      "name": "Žiegždrių kryžkelė B",
+      "lat": 54.86964,
+      "lon": 24.06715,
+      "avg_gap_sec": 1980
+    },
+    {
+      "stop_id": "17385",
+      "name": "Naujosios Karmėlavos kapinės A",
+      "lat": 54.97458,
+      "lon": 24.04509,
+      "avg_gap_sec": 2040
+    },
+    {
+      "stop_id": "16444",
+      "name": "Pilėnų g. A",
+      "lat": 54.97539,
+      "lon": 24.03768,
+      "avg_gap_sec": 2040
+    },
+    {
+      "stop_id": "16872",
+      "name": "2-ieji Sergeičikai B",
+      "lat": 54.9372,
+      "lon": 24.06883,
+      "avg_gap_sec": 2080
+    },
+    {
+      "stop_id": "16873",
+      "name": "Lelijų g. B",
+      "lat": 54.93157,
+      "lon": 24.08813,
+      "avg_gap_sec": 2080
+    },
+    {
+      "stop_id": "15399",
+      "name": "Suvalkiečių g. B",
+      "lat": 54.87452,
+      "lon": 23.87428,
+      "avg_gap_sec": 2100
+    },
+    {
+      "stop_id": "15473",
+      "name": "Pakalnės g. D",
+      "lat": 54.88009,
+      "lon": 23.86887,
+      "avg_gap_sec": 2100
+    },
+    {
+      "stop_id": "16869",
+      "name": "1-ieji Sergeičikai B",
+      "lat": 54.94533,
+      "lon": 24.06139,
+      "avg_gap_sec": 2100
+    },
+    {
+      "stop_id": "5113",
+      "name": "Veiverių g. B",
+      "lat": 54.89257,
+      "lon": 23.89208,
+      "avg_gap_sec": 2200
+    },
+    {
+      "stop_id": "17529",
+      "name": "H. ir O. Minkovskių g.",
+      "lat": 54.89171,
+      "lon": 23.89603,
+      "avg_gap_sec": 2200
+    },
+    {
+      "stop_id": "17645",
+      "name": "Elevatorius",
+      "lat": 54.88636,
+      "lon": 23.91016,
+      "avg_gap_sec": 2200
+    },
+    {
+      "stop_id": "2502",
+      "name": "Jiesios kraštovaizdžio draustinis B",
+      "lat": 54.85798,
+      "lon": 23.92815,
+      "avg_gap_sec": 2340
+    },
+    {
+      "stop_id": "16933",
+      "name": "Sankryža B",
+      "lat": 54.82596,
+      "lon": 23.84897,
+      "avg_gap_sec": 2400
+    },
+    {
+      "stop_id": "2685",
+      "name": "Senoji rampa A",
+      "lat": 54.87237,
+      "lon": 23.95742,
+      "avg_gap_sec": 2700
+    },
+    {
+      "stop_id": "2919",
+      "name": "Kauno baldai A",
+      "lat": 54.87082,
+      "lon": 23.95343,
+      "avg_gap_sec": 2700
+    },
+    {
+      "stop_id": "2682",
+      "name": "Drobės g. A",
+      "lat": 54.8704,
+      "lon": 23.94883,
+      "avg_gap_sec": 2700
+    },
+    {
+      "stop_id": "16763",
+      "name": "Vaidoto g. A",
+      "lat": 54.87161,
+      "lon": 23.97738,
+      "avg_gap_sec": 2700
+    },
+    {
+      "stop_id": "2993",
+      "name": "Raudondvaris B",
+      "lat": 54.93779,
+      "lon": 23.7787,
+      "avg_gap_sec": 2850
+    },
+    {
+      "stop_id": "2995",
+      "name": "Gimnazija B",
+      "lat": 54.9411,
+      "lon": 23.77437,
+      "avg_gap_sec": 2850
+    },
+    {
+      "stop_id": "15489",
+      "name": "Švyturių g.",
+      "lat": 54.9496,
+      "lon": 23.77689,
+      "avg_gap_sec": 2850
+    },
+    {
+      "stop_id": "16067",
+      "name": "Žiedų g.",
+      "lat": 54.86616,
+      "lon": 23.90047,
+      "avg_gap_sec": 2880
+    },
+    {
+      "stop_id": "15585",
+      "name": "Seniavos kapinės A",
+      "lat": 54.85585,
+      "lon": 23.90701,
+      "avg_gap_sec": 2880
+    },
+    {
+      "stop_id": "4826",
+      "name": "Seniava A",
+      "lat": 54.85137,
+      "lon": 23.90708,
+      "avg_gap_sec": 2880
+    },
+    {
+      "stop_id": "15582",
+      "name": "Titnago g. A",
+      "lat": 54.85061,
+      "lon": 23.91376,
+      "avg_gap_sec": 2880
+    },
+    {
+      "stop_id": "17290",
+      "name": "Voškoniai A",
+      "lat": 54.98758,
+      "lon": 23.94444,
+      "avg_gap_sec": 2940
+    },
+    {
+      "stop_id": "16974",
+      "name": "Romaškiai A",
+      "lat": 54.9793,
+      "lon": 23.93433,
+      "avg_gap_sec": 2940
+    },
+    {
+      "stop_id": "2572",
+      "name": "Ateities pl. A",
+      "lat": 54.90508,
+      "lon": 24.0291,
+      "avg_gap_sec": 3120
+    },
+    {
+      "stop_id": "2570",
+      "name": "Upytės g. C",
+      "lat": 54.91025,
+      "lon": 24.03299,
+      "avg_gap_sec": 3120
+    },
+    {
+      "stop_id": "2780",
+      "name": "V. Landsbergio-Žemkalnio g. D",
+      "lat": 54.92706,
+      "lon": 23.95532,
+      "avg_gap_sec": 3120
+    },
+    {
+      "stop_id": "17029",
+      "name": "9-asis fortas B",
+      "lat": 54.94517,
+      "lon": 23.87679,
+      "avg_gap_sec": 3180
+    },
+    {
+      "stop_id": "17030",
+      "name": "Giraitė B",
+      "lat": 54.95674,
+      "lon": 23.86795,
+      "avg_gap_sec": 3180
+    },
+    {
+      "stop_id": "16965",
+      "name": "Romaškiai B",
+      "lat": 54.98011,
+      "lon": 23.93608,
+      "avg_gap_sec": 3300
+    },
+    {
+      "stop_id": "16966",
+      "name": "Voškoniai B",
+      "lat": 54.98851,
+      "lon": 23.94508,
+      "avg_gap_sec": 3300
+    },
+    {
+      "stop_id": "2683",
+      "name": "Drobės g. B",
+      "lat": 54.8704,
+      "lon": 23.94914,
+      "avg_gap_sec": 3900
+    },
+    {
+      "stop_id": "2686",
+      "name": "Kauno baldai B",
+      "lat": 54.87072,
+      "lon": 23.95374,
+      "avg_gap_sec": 3900
+    },
+    {
+      "stop_id": "2684",
+      "name": "Senoji rampa B",
+      "lat": 54.87416,
+      "lon": 23.95793,
+      "avg_gap_sec": 3900
+    },
+    {
+      "stop_id": "2779",
+      "name": "Martyno Mažvydo progimnazija C",
+      "lat": 54.92993,
+      "lon": 23.95536,
+      "avg_gap_sec": 4320
+    },
+    {
+      "stop_id": "2571",
+      "name": "Upytės g. D",
+      "lat": 54.90931,
+      "lon": 24.03184,
+      "avg_gap_sec": 4440
+    },
+    {
+      "stop_id": "2573",
+      "name": "Ateities pl. B",
+      "lat": 54.90488,
+      "lon": 24.0287,
+      "avg_gap_sec": 4440
+    },
+    {
+      "stop_id": "2983",
+      "name": "Neveronys A",
+      "lat": 54.9258,
+      "lon": 24.09194,
+      "avg_gap_sec": 4440
+    },
+    {
+      "stop_id": "2941",
+      "name": "Pervaža C",
+      "lat": 54.92258,
+      "lon": 24.0904,
+      "avg_gap_sec": 4440
+    },
+    {
+      "stop_id": "15581",
+      "name": "Titnago g. B",
+      "lat": 54.85044,
+      "lon": 23.91577,
+      "avg_gap_sec": 6120
+    },
+    {
+      "stop_id": "15576",
+      "name": "Seniava B",
+      "lat": 54.85146,
+      "lon": 23.90711,
+      "avg_gap_sec": 6120
+    },
+    {
+      "stop_id": "15584",
+      "name": "Seniavos kapinės B",
+      "lat": 54.85562,
+      "lon": 23.90745,
+      "avg_gap_sec": 6120
+    },
+    {
+      "stop_id": "14582",
+      "name": "Avilių g.",
+      "lat": 54.86338,
+      "lon": 23.89792,
+      "avg_gap_sec": 6120
+    },
+    {
+      "stop_id": "16664",
+      "name": "Prezidento V. Adamkaus gimnazija C",
+      "lat": 54.86703,
+      "lon": 23.90142,
+      "avg_gap_sec": 6120
+    },
+    {
+      "stop_id": "15747",
+      "name": "Lygioji g. A",
+      "lat": 54.87232,
+      "lon": 23.89814,
+      "avg_gap_sec": 6120
+    }
+  ]
+}

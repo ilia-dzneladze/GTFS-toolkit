@@ -6,15 +6,18 @@ from scipy.ndimage import gaussian_filter
 from scipy.interpolate import RegularGridInterpolator
 from haversine import haversine    # <-- added for jump filtering
 import sys, os
+import argparse
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 ########################################
 # INPUT
 ########################################
-if len(sys.argv) < 2:
-    print("Usage: python3 transport_analyzer.py <city>")
-    sys.exit(1)
+parser = argparse.ArgumentParser()
+parser.add_argument("city", help="City name (folder in cities/)")
+args = parser.parse_args()
 
-city = sys.argv[1]
+city = args.city
 city_path = os.path.join("cities", city)
 
 shapes_path = os.path.join(city_path, "shapes.txt")
@@ -122,13 +125,17 @@ plt.colorbar(sm, ax=ax, shrink=0.55, pad=0.02,
 ########################################
 # OUTPUT
 ########################################
-os.makedirs("gtfs_maps", exist_ok=True)
-outfile = f"gtfs_maps/{city}_hybrid_heatlines.png"
+
+# output directory for frontend
+out_dir = os.path.join(BASE_DIR, "site", "data", city)
+os.makedirs(out_dir, exist_ok=True)
+
+outfile = os.path.join(out_dir, "heatlines.png")
 
 plt.title(f"{city.capitalize()} — Heat-Colored Transit Network", fontsize=22)
 plt.axis("off")
 plt.tight_layout()
-plt.savefig(outfile, bbox_inches="tight")
-plt.show()
+plt.savefig(outfile, bbox_inches="tight", dpi=200)
+plt.close()
 
 print("Saved:", outfile)

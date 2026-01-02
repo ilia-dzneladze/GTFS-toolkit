@@ -27,44 +27,65 @@ Dependencies include:
 - haversine
 - tqdm
 
-Place each city’s GTFS files (at minimum **shapes.txt stop_times.txt stops.txt** ) under:
+Place each city’s GTFS files (at minimum **shapes.txt/stop_times.txt/stops.txt** ) under:
 
 ```
 cities/<city_name>/
 ```
 
 ## Usage
+
+All scripts are run from the **project root**.
+
+### Transit heat-map (PNG output)
+
 Run:
-
-```
-python3 transport_analyzer.py <cityname>
-```
-
-or
-
-```
-python3 stop_analysis.py <cityname>
+```bash
+python3 scripts/transport_analyzer.py <city>
 ```
 
 Example:
-
-```
-python3 transport_analyzer.py vilnius
-```
-
-Output will be saved to:
-
-```
-gtfs_maps/<city>_hybrid_heatlines.png
+```bash
+python3 scripts/transport_analyzer.py vilnius
 ```
 
-and
-
+Output:
+```text
+site/data/vilnius/heatlines.png
 ```
-python3 stop_analysis.py kaunas
+
+---
+
+### Stop frequency analysis (JSON output)
+
+Run:
+```bash
+python3 scripts/stop_analysis.py <city>
 ```
 
-output will be put to standard output
+Example:
+```bash
+python3 scripts/stop_analysis.py kaunas
+```
+
+Output:
+```text
+site/data/kaunas/frequency_<START>_<END>.json
+```
+
+Where:
+- `<START>` and `<END>` are the hour values of the analyzed time window  
+  (e.g. `frequency_16_18.json` for 16:00–18:00).
+
+The JSON contains **all stops for the city**, sorted by average arrival gap
+(most frequent service first), and is consumed by the frontend.
+
+---
+
+### Notes
+- `<city>` must match a folder name inside `cities/`
+- Outputs are written automatically to `site/data/<city>/`
+- The website loads data directly from this folder (GitHub Pages compatible)
 
 ## License
 MIT — free to modify and redistribute.
