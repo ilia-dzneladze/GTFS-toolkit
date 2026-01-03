@@ -13,16 +13,16 @@ Transit Heatmap:
 - Reads GTFS `shapes.txt`
 - Generates a PNG heatmap of the transit network
 - Output path:
-  site/data/<city>/heatlines.png
+  docs/data/<city>/heatlines.png
 
 Stop Frequency Analysis:
 - Reads GTFS `stops.txt` and `stop_times.txt`
 - Computes the average gap between arrivals per stop for a given time window
 - Stops are sorted by lowest average gap (most frequent service first)
 - Output path:
-  site/data/<city>/frequency_<START>_<END>.json
+  docs/data/<city>/frequency_<START>_<END>.json
   Example:
-  site/data/kaunas/frequency_16_18.json
+  docs/data/kaunas/frequency_16_18.json
 
 Project Structure:
 
@@ -36,7 +36,7 @@ GTFS-toolkit/
 ├── data/                      # INPUT GTFS feeds (not outputs)
 │   └── <city>/
 │
-├── demo/                      # STATIC DEMO (frontend + generated output)
+├── docs/                      # STATIC DEMO (frontend + generated output)
 │   ├── index.html
 │   ├── app.js
 │   ├── styles.css
@@ -70,14 +70,14 @@ python3 scripts/stop_analysis.py <city> <START_HOUR> <END_HOUR>
 ```
 
 All outputs are written to:
-site/data/<city>/
+docs/data/<city>/
 
 Frontend (local):
 The frontend is fully static and loads generated PNG and JSON files directly.
 To run locally:
 
 ```text
-cd site
+cd docs
 python3 -m http.server 8000
 ```
 
@@ -85,4 +85,4 @@ Open in browser:
 http://localhost:8000
 
 Deployment:
-The frontend is deployed using GitHub Pages and served directly from the site/ directory.
+The frontend is deployed using GitHub Pages and served directly from the docs/ directory.
