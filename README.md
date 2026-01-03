@@ -1,100 +1,69 @@
-# GTFS toolkit
+# GTFS Toolkit
 
-This project visualizes a city’s public transit network using **GTFS data** and currently (WIP) generates a **heat-colored line map** and **stop frequency (gaps between arrival times)** showing where transit service is most dense and frequent.
-The heatmap is computed by rasterizing all route shapes, smoothing them, and then coloring vector lines based on local density.
-The frequency is calculated by taking the average of the gaps between arrival times for each stop between given time stamps.
+A lightweight GTFS analysis toolkit that generates static outputs (PNG + JSON) using Python and visualizes them through a barebones static frontend hosted on GitHub Pages.
 
-## Features
-- Uses **GTFS shapes.txt** to reconstruct transit geometry  
-- Creates a **2D density map** using Gaussian-smoothed rasterization  
-- Overlays the heatmap onto **clean vector lines**  
-- Highlights corridors shared by many routes (red = busiest)  
-- Automatically normalizes colors for any city  
-- Outputs a high-resolution PNG map  
+The project follows a one-way data flow: raw GTFS CSV files are processed by Python scripts into static assets, and a frontend loads those assets directly with no backend.
 
-## Requirements
-Install dependencies:
+Features:
+- Transit heatmap generation from `shapes.txt`
+- Stop frequency analysis from `stops.txt` and `stop_times.txt`
+- Static frontend for browsing results by city and tool
 
-```
+Transit Heatmap:
+- Reads GTFS `shapes.txt`
+- Generates a PNG heatmap of the transit network
+- Output path:
+  site/data/<city>/heatlines.png
+
+Stop Frequency Analysis:
+- Reads GTFS `stops.txt` and `stop_times.txt`
+- Computes the average gap between arrivals per stop for a given time window
+- Stops are sorted by lowest average gap (most frequent service first)
+- Output path:
+  site/data/<city>/frequency_<START>_<END>.json
+  Example:
+  site/data/kaunas/frequency_16_18.json
+
+Project structure:
+GTFS-toolkit/
+├── venv/                      # virtual environment (gitignored)
+├── scripts/
+│   ├── transport_analyzer.py   # heatmap generation
+│   ├── stop_analysis.py        # stop frequency analysis
+│   └── helpers/
+├── cities/                    # raw GTFS data per city
+├── site/                      # static frontend (GitHub Pages)
+│   ├── index.html
+│   ├── app.js
+│   ├── styles.css
+│   └── data/                  # generated outputs
+│       └── <city>/
+├── requirements.txt
+└── README.md
+
+Setup:
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
-```
 
-Dependencies include:
-- pandas
-- numpy
-- matplotlib
-- scipy
-- haversine
-- tqdm
-
-Place each city’s GTFS files (at minimum **shapes.txt/stop_times.txt/stops.txt** ) under:
-
-```
-cities/<city_name>/
-```
-
-## Usage
-
-All scripts are run from the **project root**.
-
-### Transit heat-map (PNG output)
-
-Run:
-```bash
+Usage:
+Generate heatmap:
 python3 scripts/transport_analyzer.py <city>
-```
 
-Example:
-```bash
-python3 scripts/transport_analyzer.py vilnius
-```
+Generate stop frequency JSON:
+python3 scripts/stop_analysis.py <city> <START_HOUR> <END_HOUR>
 
-Output:
-```text
-site/data/vilnius/heatlines.png
-```
+All outputs are written to:
+site/data/<city>/
 
----
+Frontend (local):
+The frontend is fully static and loads generated PNG and JSON files directly.
+To run locally:
+cd site
+python3 -m http.server 8000
 
-### Stop frequency analysis (JSON output)
+Open in browser:
+http://localhost:8000
 
-Run:
-```bash
-python3 scripts/stop_analysis.py <city>
-```
-
-Example:
-```bash
-python3 scripts/stop_analysis.py kaunas
-```
-
-Output:
-```text
-site/data/kaunas/frequency_<START>_<END>.json
-```
-
-Where:
-- `<START>` and `<END>` are the hour values of the analyzed time window  
-  (e.g. `frequency_16_18.json` for 16:00–18:00).
-
-The JSON contains **all stops for the city**, sorted by average arrival gap
-(most frequent service first), and is consumed by the frontend.
-
----
-
-### Notes
-- `<city>` must match a folder name inside `cities/`
-- Outputs are written automatically to `site/data/<city>/`
-- The website loads data directly from this folder (GitHub Pages compatible)
-
-## License
-MIT — free to modify and redistribute.
-
-## Contribute
-Pull requests welcome!  
-You can test the script with your own city’s GTFS feed by adding a folder under:
-
-
-```
-cities/<your_city>/
-```
+Deployment:
+The frontend is deployed using GitHub Pages and served directly from the site/ directory.
