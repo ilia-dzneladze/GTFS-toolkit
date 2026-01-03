@@ -24,6 +24,8 @@ Stop Frequency Analysis:
   Example:
   site/data/kaunas/frequency_16_18.json
 
+Project Structure:
+
 ```text
 GTFS-toolkit/
 ├── analysis/                  # Python analysis logic (core)
@@ -44,18 +46,28 @@ GTFS-toolkit/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
 Setup:
+
+```text
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+```
 
 Usage:
 Generate heatmap:
+
+```text
 python3 scripts/transport_analyzer.py <city>
+```
 
 Generate stop frequency JSON:
+
+```text
 python3 scripts/stop_analysis.py <city> <START_HOUR> <END_HOUR>
+```
 
 All outputs are written to:
 site/data/<city>/
@@ -63,8 +75,11 @@ site/data/<city>/
 Frontend (local):
 The frontend is fully static and loads generated PNG and JSON files directly.
 To run locally:
+
+```text
 cd site
 python3 -m http.server 8000
+```
 
 Open in browser:
 http://localhost:8000
