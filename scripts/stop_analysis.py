@@ -80,7 +80,7 @@ payload = {
     "stops": [s.to_dict() for s in valid_stops]
 }
 
-out_dir = os.path.join(BASE_DIR, "site", "data", city_name)
+out_dir = os.path.join(BASE_DIR, "docs", "data", city_name)
 os.makedirs(out_dir, exist_ok=True)
 out_file = os.path.join(out_dir, f"frequency_{START//3600}_{END//3600}.json")
 

@@ -127,7 +127,7 @@ plt.colorbar(sm, ax=ax, shrink=0.55, pad=0.02,
 ########################################
 
 # output directory for frontend
-out_dir = os.path.join(BASE_DIR, "site", "data", city)
+out_dir = os.path.join(BASE_DIR, "docs", "data", city_name)
 os.makedirs(out_dir, exist_ok=True)
 
 outfile = os.path.join(out_dir, "heatlines.png")
