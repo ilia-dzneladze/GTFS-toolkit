@@ -24,6 +24,7 @@ Stop Frequency Analysis:
   Example:
   site/data/kaunas/frequency_16_18.json
 
+```text
 GTFS-toolkit/
 ├── analysis/                  # Python analysis logic (core)
 │   ├── transport_analyzer.py
