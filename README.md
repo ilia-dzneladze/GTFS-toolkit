@@ -24,21 +24,24 @@ Stop Frequency Analysis:
   Example:
   site/data/kaunas/frequency_16_18.json
 
-Project structure:
 GTFS-toolkit/
-├── venv/                      # virtual environment (gitignored)
-├── scripts/
-│   ├── transport_analyzer.py   # heatmap generation
-│   ├── stop_analysis.py        # stop frequency analysis
+├── analysis/                  # Python analysis logic (core)
+│   ├── transport_analyzer.py
+│   ├── stop_analysis.py
 │   └── helpers/
-├── cities/                    # raw GTFS data per city
-├── site/                      # static frontend (GitHub Pages)
+│
+├── data/                      # INPUT GTFS feeds (not outputs)
+│   └── <city>/
+│
+├── demo/                      # STATIC DEMO (frontend + generated output)
 │   ├── index.html
 │   ├── app.js
 │   ├── styles.css
-│   └── data/                  # generated outputs
+│   └── data/                  # GENERATED outputs used by demo
 │       └── <city>/
+│
 ├── requirements.txt
+├── .gitignore
 └── README.md
 
 Setup:
