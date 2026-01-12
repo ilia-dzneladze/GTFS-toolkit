@@ -288,3 +288,19 @@ main{
 }
 
 .freq-layout .map { min-height: 320px; }
+
+/* Allow flex children to shrink instead of overflowing */
+.freq-layout > * {
+  min-width: 0;
+}
+
+/* Make sure the map never paints outside its rounded box */
+.freq-layout .map {
+  overflow: hidden;
+  max-width: 100%;
+}
+
+/* If Leaflet's internal container tries to overflow, clamp it */
+.freq-layout .map .leaflet-container {
+  max-width: 100%;
+}

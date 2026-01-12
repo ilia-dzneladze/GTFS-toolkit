@@ -218,39 +218,53 @@ async function renderFrequency() {
   setStatus("");
 
   const stops = payload.stops || [];
+
+  // --- Preserve Leaflet's container BEFORE clearing the view ---
+  // If map exists, always reuse Leaflet's owned container
+  let mapDiv = map ? map.getContainer() : document.getElementById("map");
+
+  // Detach from DOM so innerHTML wipe doesn't delete it
+  if (mapDiv && mapDiv.parentNode) {
+    mapDiv.parentNode.removeChild(mapDiv);
+  }
+
+  // Clear view
   el.view.innerHTML = "";
+
+  // If there was no mapDiv yet, create it
+  if (!mapDiv) {
+    mapDiv = document.createElement("div");
+    mapDiv.id = "map";
+  }
+  mapDiv.className = "map";
 
   // Build layout container: [MAP] [RIGHT(note+table)]
   const layout = document.createElement("div");
   layout.className = "freq-layout";
 
-  // --- LEFT: MAP ---
-  let mapDiv = document.getElementById("map");
-  if (!mapDiv) {
-    mapDiv = document.createElement("div");
-    mapDiv.id = "map";
-  }
-  mapDiv.className = "map"; // keep your existing styling
+  // Left: map
   layout.appendChild(mapDiv);
 
-  // --- RIGHT: NOTE + TABLE ---
+  // Right: note + table
   const right = document.createElement("div");
   right.className = "freq-right";
   layout.appendChild(right);
 
   el.view.appendChild(layout);
 
+  // Ensure Leaflet map exists and is bound to #map
+  // (If map already exists, ensureMap() will just return)
   ensureMap();
 
+  // IMPORTANT: Leaflet needs resize invalidation after DOM/layout changes
   requestAnimationFrame(() => {
-    map.invalidateSize();
+    map.invalidateSize(true);
   });
 
+  // Clear old markers + add new ones
   clearMapMarkers();
 
   const bounds = [];
-
-  // markers aligned by stop index (so table hover can find marker fast)
   const markersByIndex = new Array(stops.length).fill(null);
 
   for (let i = 0; i < stops.length; i++) {
@@ -263,11 +277,12 @@ async function renderFrequency() {
     if (!Number.isFinite(lat) || !Number.isFinite(lon) || !Number.isFinite(gap)) continue;
 
     const tier = tierFromGapSec(gap);
+    const col = colorFromTier(tier);
 
     const marker = L.circleMarker([lat, lon], {
       radius: 5,
-      color: colorFromTier(tier),
-      fillColor: colorFromTier(tier),
+      color: col,
+      fillColor: col,
       fillOpacity: 0.8,
       weight: 1
     }).bindPopup(
@@ -276,12 +291,13 @@ async function renderFrequency() {
 
     marker.addTo(markerLayer);
     markersByIndex[i] = marker;
-
     bounds.push([lat, lon]);
   }
 
   if (bounds.length > 0) {
     map.fitBounds(bounds, { padding: [30, 30] });
+    // after fitBounds, sometimes Leaflet still needs a final invalidate
+    requestAnimationFrame(() => map.invalidateSize(true));
   }
 
   // NOTE
@@ -305,7 +321,9 @@ async function renderFrequency() {
       </tr>
     </thead>
     <tbody>
-      ${stops.map((s, i) => `
+      ${stops
+        .map(
+          (s, i) => `
         <tr data-idx="${i}">
           <td>${i + 1}</td>
           <td>${escapeHtml(s.name || "")}</td>
@@ -313,7 +331,9 @@ async function renderFrequency() {
           <td>${Number(s.lat).toFixed(5)}</td>
           <td>${Number(s.lon).toFixed(5)}</td>
         </tr>
-      `).join("")}
+      `
+        )
+        .join("")}
     </tbody>
   `;
 
@@ -342,7 +362,6 @@ async function renderFrequency() {
     tr.addEventListener("mouseenter", () => {
       if (!marker) return;
 
-      // reset previous
       if (highlighted && highlighted !== marker) unhighlight();
 
       highlighted = marker;
@@ -362,6 +381,7 @@ async function renderFrequency() {
     });
   });
 }
+
 
 
 function escapeHtml(str) {
