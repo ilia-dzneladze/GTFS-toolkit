@@ -77,7 +77,7 @@ function fillSelectors() {
   el.toolSelect.innerHTML = TOOLS.map(t => `<option value="${t.key}">${t.label}</option>`).join("");
 
   // Windows (only for frequency)
-  el.timeWindowSelect.innerHTML = DEFAULT_WINDOWS.map(w => `<option value="${w}">${w.replace("_", ":00–")}:00</option>`).join("");
+  el.timeWindowSelect.innerHTML = DEFAULT_WINDOWS.map(w => `<option value="${w}">${w.replace("_", ":00-")}:00</option>`).join("");
 }
 
 function syncSelectorsToState() {
@@ -167,7 +167,7 @@ async function renderFrequency() {
       </tr>
     </thead>
     <tbody>
-      ${stops.slice(0, 200).map((s, i) => `
+      ${stops.map((s, i) => `
         <tr>
           <td>${i + 1}</td>
           <td>${escapeHtml(s.name || "")}</td>
@@ -181,10 +181,14 @@ async function renderFrequency() {
 
   const note = document.createElement("div");
   note.className = "note";
-  note.textContent = `Showing top ${Math.min(200, stops.length)} stops (sorted by lowest avg gap).`;
+  note.textContent = `Showing all ${stops.length} stops (scroll to view).`;
+
+  const wrapper = document.createElement("div");
+  wrapper.className = "table-scroll";
+  wrapper.appendChild(table);
 
   el.view.appendChild(note);
-  el.view.appendChild(table);
+  el.view.appendChild(wrapper);
 }
 
 function escapeHtml(str) {

@@ -183,6 +183,22 @@ main{
     background: #fafafa;
 }
 
+.table-scroll{
+  height: 700px;
+  overflow-y: auto;
+  border: 1px solid #eee;
+  border-radius: 14px;
+}
+
+/* optional: keep header visible while scrolling */
+.table-scroll thead th{
+  position: sticky;
+  top: 0;
+  background: #f5f5f5;
+  z-index: 1;
+}
+
+
 /* Mobile tweaks */
 @media (max-width: 700px){
     header .header-container{
