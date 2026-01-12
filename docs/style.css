@@ -210,3 +210,10 @@ main{
         min-width: 140px;
     }
 }
+
+
+@media (max-width: 550px){
+    .freq-table th, .freq-table td{
+    font-size: 12px;
+    }
+}
