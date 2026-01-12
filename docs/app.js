@@ -12,8 +12,8 @@ const DEFAULT_WINDOWS = ["16_18"];
 const state = {
   page: "app",     // "app" | "about"
   city: CITIES[0],
-  tool: "heatmap",
-  window: DEFAULT_WINDOWS[0]
+  tool: "frequency",
+  window: "16_18"
 };
 
 const el = {
@@ -30,6 +30,17 @@ function $(id) { return document.getElementById(id); }
 function setStatus(msg) {
   el.status.textContent = msg || "";
 }
+
+let resizeTimer = null;
+
+window.addEventListener("resize", () => {
+  if (!map) return;
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    map.invalidateSize();
+  }, 150);
+});
+
 
 function parseHash() {
   // Hash patterns:
@@ -134,9 +145,63 @@ async function renderHeatmap() {
   el.view.appendChild(img);
 }
 
+// map helpers
+function tierFromGapSec(gapSec) {
+  const min = gapSec / 60;
+  if (min <= 15) return "high";
+  if (min <= 30) return "medium";
+  return "low";
+}
+
+function colorFromTier(tier) {
+  if (tier === "high") return "#2ecc71";   // green
+  if (tier === "medium") return "#f1c40f"; // yellow
+  return "#e74c3c";                         // red
+}
+
+let mapResizeObserver = null;
+
+function hookMapResize() {
+  const mapEl = document.getElementById("map");
+  if (!mapEl || !map || mapResizeObserver) return;
+
+  mapResizeObserver = new ResizeObserver(() => {
+    // Leaflet needs a tick after layout changes
+    requestAnimationFrame(() => {
+      map.invalidateSize(true);
+    });
+  });
+
+  mapResizeObserver.observe(mapEl);
+}
+
+
+// map logic
+let map = null;
+let markerLayer = null;
+
+function ensureMap() {
+  if (map) return;
+
+  map = L.map("map");
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: "&copy; OpenStreetMap contributors"
+  }).addTo(map);
+
+  markerLayer = L.layerGroup().addTo(map);
+
+  hookMapResize();
+}
+
+function clearMapMarkers() {
+  if (markerLayer) markerLayer.clearLayers();
+}
+
+
 async function renderFrequency() {
   const jsonPath = `data/${state.city}/frequencies/frequency_${state.window}.json`;
-
 
   setStatus(`Loading stop frequency: ${state.city} (${state.window})…`);
 
@@ -153,6 +218,79 @@ async function renderFrequency() {
   setStatus("");
 
   const stops = payload.stops || [];
+  el.view.innerHTML = "";
+
+  // Build layout container: [MAP] [RIGHT(note+table)]
+  const layout = document.createElement("div");
+  layout.className = "freq-layout";
+
+  // --- LEFT: MAP ---
+  let mapDiv = document.getElementById("map");
+  if (!mapDiv) {
+    mapDiv = document.createElement("div");
+    mapDiv.id = "map";
+  }
+  mapDiv.className = "map"; // keep your existing styling
+  layout.appendChild(mapDiv);
+
+  // --- RIGHT: NOTE + TABLE ---
+  const right = document.createElement("div");
+  right.className = "freq-right";
+  layout.appendChild(right);
+
+  el.view.appendChild(layout);
+
+  ensureMap();
+
+  requestAnimationFrame(() => {
+    map.invalidateSize();
+  });
+
+  clearMapMarkers();
+
+  const bounds = [];
+
+  // markers aligned by stop index (so table hover can find marker fast)
+  const markersByIndex = new Array(stops.length).fill(null);
+
+  for (let i = 0; i < stops.length; i++) {
+    const s = stops[i];
+
+    const lat = Number(s.lat);
+    const lon = Number(s.lon);
+    const gap = Number(s.avg_gap_sec);
+
+    if (!Number.isFinite(lat) || !Number.isFinite(lon) || !Number.isFinite(gap)) continue;
+
+    const tier = tierFromGapSec(gap);
+
+    const marker = L.circleMarker([lat, lon], {
+      radius: 5,
+      color: colorFromTier(tier),
+      fillColor: colorFromTier(tier),
+      fillOpacity: 0.8,
+      weight: 1
+    }).bindPopup(
+      `<b>${escapeHtml(s.name || "")}</b><br>Avg gap: ${(gap / 60).toFixed(1)} min`
+    );
+
+    marker.addTo(markerLayer);
+    markersByIndex[i] = marker;
+
+    bounds.push([lat, lon]);
+  }
+
+  if (bounds.length > 0) {
+    map.fitBounds(bounds, { padding: [30, 30] });
+  }
+
+  // NOTE
+  const note = document.createElement("div");
+  note.className = "note";
+  note.textContent = `Showing all ${stops.length} stops (scroll to view).`;
+  right.appendChild(note);
+
+  // TABLE
   const table = document.createElement("table");
   table.className = "freq-table";
 
@@ -168,7 +306,7 @@ async function renderFrequency() {
     </thead>
     <tbody>
       ${stops.map((s, i) => `
-        <tr>
+        <tr data-idx="${i}">
           <td>${i + 1}</td>
           <td>${escapeHtml(s.name || "")}</td>
           <td>${(Number(s.avg_gap_sec) / 60).toFixed(1)}</td>
@@ -179,17 +317,52 @@ async function renderFrequency() {
     </tbody>
   `;
 
-  const note = document.createElement("div");
-  note.className = "note";
-  note.textContent = `Showing all ${stops.length} stops (scroll to view).`;
-
   const wrapper = document.createElement("div");
   wrapper.className = "table-scroll";
   wrapper.appendChild(table);
+  right.appendChild(wrapper);
 
-  el.view.appendChild(note);
-  el.view.appendChild(wrapper);
+  // Hover + click behavior: pop markers
+  const POP_STYLE = { radius: 10, weight: 3, fillOpacity: 1.0 };
+  const BASE_STYLE = { radius: 5, weight: 1, fillOpacity: 0.8 };
+
+  let highlighted = null;
+
+  function unhighlight() {
+    if (!highlighted) return;
+    highlighted.setStyle({ weight: BASE_STYLE.weight, fillOpacity: BASE_STYLE.fillOpacity });
+    highlighted.setRadius(BASE_STYLE.radius);
+    highlighted = null;
+  }
+
+  wrapper.querySelectorAll("tbody tr").forEach((tr) => {
+    const idx = Number(tr.dataset.idx);
+    const marker = markersByIndex[idx];
+
+    tr.addEventListener("mouseenter", () => {
+      if (!marker) return;
+
+      // reset previous
+      if (highlighted && highlighted !== marker) unhighlight();
+
+      highlighted = marker;
+      marker.setStyle({ weight: POP_STYLE.weight, fillOpacity: POP_STYLE.fillOpacity });
+      marker.setRadius(POP_STYLE.radius);
+      if (marker.bringToFront) marker.bringToFront();
+    });
+
+    tr.addEventListener("mouseleave", () => {
+      if (highlighted === marker) unhighlight();
+    });
+
+    tr.addEventListener("click", () => {
+      if (!marker) return;
+      map.setView(marker.getLatLng(), Math.max(map.getZoom(), 15));
+      marker.openPopup();
+    });
+  });
 }
+
 
 function escapeHtml(str) {
   return String(str)

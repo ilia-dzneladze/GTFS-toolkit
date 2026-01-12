@@ -190,6 +190,15 @@ main{
   border-radius: 14px;
 }
 
+.map{
+  width: 100%;
+  height: 500px;
+  border-radius: 18px;
+  border: 1px solid #eee;
+  margin-bottom: 16px;
+}
+
+
 /* optional: keep header visible while scrolling */
 .table-scroll thead th{
   position: sticky;
@@ -233,3 +242,49 @@ main{
     font-size: 12px;
     }
 }
+
+/* ===== Stop Frequency: desktop side-by-side layout ===== */
+.freq-layout{
+  display: flex;
+  gap: 16px;
+  align-items: stretch;
+}
+
+/* map on the left */
+.freq-layout .map{
+  flex: 1.2;
+  height: 700px;      /* match your table height */
+  margin-bottom: 0;   /* remove vertical spacing in row layout */
+}
+
+/* right side = note + table */
+.freq-right{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 340px;
+}
+
+/* keep the table scroll internal (you already have 700px, this just scopes it) */
+.freq-right .table-scroll{
+  height: 700px;
+}
+
+/* Mobile: stack map above table */
+@media (max-width: 900px){
+  .freq-layout{
+    flex-direction: column;
+  }
+
+  .freq-layout .map{
+    height: 500px;      /* your old map height for mobile */
+    margin-bottom: 16px;
+  }
+
+  .freq-right{
+    min-width: unset;
+  }
+}
+
+.freq-layout .map { min-height: 320px; }
