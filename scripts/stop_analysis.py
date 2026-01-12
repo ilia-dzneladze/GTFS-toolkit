@@ -71,7 +71,7 @@ valid_stops.sort(key=lambda s: s.frequency)  # most frequent first (smallest gap
 for s in valid_stops:
     print(f'{s.id} frequency is {s.frequency} seconds or around {int(s.frequency/60) + 1} minutes - {s.name}')
 
-# write JSON to site/data/<city>/
+# write JSON to docs/data/<city>/frequencies/
 payload = {
     "city": city_name,
     "start_sec": START,
@@ -80,14 +80,17 @@ payload = {
     "stops": [s.to_dict() for s in valid_stops]
 }
 
-out_dir = os.path.join(BASE_DIR, "docs", "data", city_name)
+out_dir = os.path.join(BASE_DIR, "docs", "data", city_name, "frequencies")
 os.makedirs(out_dir, exist_ok=True)
+
 out_file = os.path.join(out_dir, f"frequency_{START//3600}_{END//3600}.json")
 
 with open(out_file, "w", encoding="utf-8") as f:
     json.dump(payload, f, indent=2, ensure_ascii=False)
 
+
 print(f"Wrote JSON: {out_file}")
+
 
 # Runtime end
 end_time = time.time()

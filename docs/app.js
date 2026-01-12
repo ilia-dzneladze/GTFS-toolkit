@@ -135,7 +135,8 @@ async function renderHeatmap() {
 }
 
 async function renderFrequency() {
-  const jsonPath = `data/${state.city}/frequency_${state.window}.json`;
+  const jsonPath = `data/${state.city}/frequencies/frequency_${state.window}.json`;
+
 
   setStatus(`Loading stop frequency: ${state.city} (${state.window})…`);
 
