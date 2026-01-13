@@ -1,16 +1,13 @@
 // site/app.js
-
 const CITIES = ["kaunas", "vilnius"]; // later: auto-discover via meta.json
 const TOOLS = [
   { key: "heatmap", label: "Transit Heatmap" },
   { key: "frequency", label: "Stop Frequency" }
 ];
 
-// Default windows (until you add meta.json)
+// Default windows
 const DEFAULT_WINDOWS = ["16_18"];
-
-const state = {
-  page: "app",     // "app" | "about"
+const state = {     
   city: CITIES[0],
   tool: "frequency",
   window: "16_18"
@@ -31,33 +28,10 @@ function setStatus(msg) {
   el.status.textContent = msg || "";
 }
 
-let resizeTimer = null;
-
-window.addEventListener("resize", () => {
-  if (!map) return;
-  clearTimeout(resizeTimer);
-  resizeTimer = setTimeout(() => {
-    map.invalidateSize();
-  }, 150);
-});
-
-
 function parseHash() {
-  // Hash patterns:
-  // #/ -> app default
-  // #/about
-  // #/kaunas/heatmap
-  // #/kaunas/frequency?window=16_18
   const raw = location.hash || "#/";
   const [path, queryString] = raw.split("?");
   const parts = path.replace(/^#\/?/, "").split("/").filter(Boolean);
-
-  if (parts[0] === "about") {
-    state.page = "about";
-    return;
-  }
-
-  state.page = "app";
 
   if (parts.length >= 1) state.city = parts[0];
   if (parts.length >= 2) state.tool = parts[1];
@@ -65,17 +39,12 @@ function parseHash() {
   const params = new URLSearchParams(queryString || "");
   if (params.get("window")) state.window = params.get("window");
 
-  // Validate
   if (!CITIES.includes(state.city)) state.city = CITIES[0];
   if (!TOOLS.some(t => t.key === state.tool)) state.tool = "heatmap";
   if (!DEFAULT_WINDOWS.includes(state.window)) state.window = DEFAULT_WINDOWS[0];
 }
 
 function updateHashFromState() {
-  if (state.page === "about") {
-    location.hash = "#/about";
-    return;
-  }
   const q = state.tool === "frequency" ? `?window=${encodeURIComponent(state.window)}` : "";
   location.hash = `#/${state.city}/${state.tool}${q}`;
 }
@@ -104,17 +73,6 @@ function capitalize(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
 async function render() {
   el.view.innerHTML = "";
   setStatus("");
-
-  if (state.page === "about") {
-    el.view.innerHTML = `
-      <div class="card">
-        <h2>About</h2>
-        <p>This is a static GTFS analysis demo: Python generates PNG/JSON into <code>site/data/</code>,
-        and this frontend loads it directly.</p>
-      </div>
-    `;
-    return;
-  }
 
   if (state.tool === "heatmap") {
     await renderHeatmap();

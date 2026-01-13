@@ -1,72 +1,64 @@
-*{
+/* ===== RESET & BASE ===== */
+* {
     margin: 0;
     padding: 0;
-    font-family: "Montserrat", sans-serif; /* FIXED */
+    font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-/* HEADER */
-header{
+/* ===== HEADER ===== */
+header {
     height: 100px;
     width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     border-bottom: 1px solid black;
 }
 
-header .header-container{
+header .header-container {
     width: min(1100px, 70%);
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-header img{
+header img {
     width: 100px;
     height: auto;
 }
 
-header .header-right{
-    width: 220px;
+header .header-right {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    gap: 20px;
 }
 
-header .header-right a{
+header .header-right a {
     text-decoration: none;
     color: black;
     font-size: 18px;
 }
 
-header .header-right a:hover{
+header .header-right a:hover {
     text-decoration: underline;
 }
 
-/* MAIN */
-main{
+/* ===== MAIN CONTENT ===== */
+main {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    /* CHANGED: don't vertically center everything */
-    justify-content: flex-start;
-
     padding: 30px 16px 60px;
     gap: 18px;
 }
 
-/* Title bubble */
-.main-header{
+.main-header {
     margin-top: 10px;
     width: min(700px, 92%);
     min-height: 120px;
@@ -81,28 +73,19 @@ main{
     text-align: center;
 }
 
-.main-header h1{
+.main-header h1 {
     font-size: 42px;
     line-height: 1.1;
 }
 
-.main-header h3{
+.main-header h3 {
     margin-top: 8px;
     font-weight: 400;
     opacity: 0.95;
 }
 
-/* APP AREA WRAPPERS */
-.main-functions{
-    width: min(1100px, 92%);
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    margin-top: 10px;
-}
-
-/* Controls row (city/tool/window selects) */
-.controls{
+/* ===== CONTROLS ===== */
+.controls {
     width: 70%;
     display: flex;
     gap: 14px;
@@ -114,7 +97,7 @@ main{
     background: #fafafa;
 }
 
-.controls label{
+.controls label {
     display: flex;
     flex-direction: column;
     gap: 6px;
@@ -123,7 +106,7 @@ main{
     min-width: 160px;
 }
 
-.controls select{
+.controls select {
     padding: 10px 12px;
     border-radius: 12px;
     border: 1px solid #d6d6d6;
@@ -131,8 +114,8 @@ main{
     font-size: 14px;
 }
 
-/* Output area */
-.output{
+/* ===== OUTPUT AREA ===== */
+.output {
     width: 70%;
     padding: 16px;
     border: 1px solid #e6e6e6;
@@ -140,167 +123,138 @@ main{
     background: white;
 }
 
-.status{
+.status {
     font-size: 14px;
     color: #555;
     margin-bottom: 12px;
 }
 
-/* Heatmap image */
-.heatmap{
+/* ===== HEATMAP ===== */
+.heatmap {
     width: 100%;
-    max-width: 100%;
     border-radius: 18px;
     border: 1px solid #eee;
 }
 
-/* Frequency table */
-.note{
+/* ===== FREQUENCY VIEW ===== */
+.freq-layout {
+    display: flex;
+    gap: 16px;
+    align-items: stretch;
+}
+
+.freq-layout > * {
+    min-width: 0; /* Allow flex children to shrink */
+}
+
+/* Map (left side) */
+.map {
+    width: 100%;
+    height: 500px;
+    border-radius: 18px;
+    border: 1px solid #eee;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.freq-layout .map {
+    flex: 1.2;
+    height: 700px;
+    min-height: 320px;
+    margin-bottom: 0;
+}
+
+/* Right side (note + table) */
+.freq-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 340px;
+}
+
+.note {
     font-size: 13px;
     color: #555;
     margin-bottom: 10px;
 }
 
-.freq-table{
+/* Table */
+.freq-table {
     width: 100%;
     border-collapse: collapse;
-    overflow: hidden;
     border-radius: 14px;
+    overflow: hidden;
 }
 
-.freq-table th, .freq-table td{
+.freq-table th,
+.freq-table td {
     padding: 10px 12px;
     border-bottom: 1px solid #eee;
     text-align: left;
     font-size: 14px;
 }
 
-.freq-table th{
+.freq-table th {
+    position: sticky;
+    top: 0;
     background: #f5f5f5;
+    z-index: 1;
 }
 
-.freq-table tr:hover td{
+.freq-table tr:hover td {
     background: #fafafa;
 }
 
-.table-scroll{
-  height: 700px;
-  overflow-y: auto;
-  border: 1px solid #eee;
-  border-radius: 14px;
+.table-scroll {
+    height: 700px;
+    overflow-y: auto;
+    border: 1px solid #eee;
+    border-radius: 14px;
 }
 
-.map{
-  width: 100%;
-  height: 500px;
-  border-radius: 18px;
-  border: 1px solid #eee;
-  margin-bottom: 16px;
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+    .freq-layout {
+        flex-direction: column;
+    }
+
+    .freq-layout .map {
+        height: 500px;
+        margin-bottom: 16px;
+    }
+
+    .freq-right {
+        min-width: unset;
+    }
 }
 
-
-/* optional: keep header visible while scrolling */
-.table-scroll thead th{
-  position: sticky;
-  top: 0;
-  background: #f5f5f5;
-  z-index: 1;
-}
-
-
-/* Mobile tweaks */
-@media (max-width: 700px){
-    header .header-container{
+@media (max-width: 700px) {
+    header .header-container {
         width: 92%;
     }
 
-    header .header-right{
-        width: auto;
+    header .header-right {
         gap: 12px;
-        justify-content: flex-end;
     }
 
-    .main-header h1{
+    .main-header h1 {
         font-size: 32px;
     }
 
-    .controls{
+    .controls,
+    .output {
         width: 92%;
     }
 
-    .output{
-        width: 92%;
-    }
-    .controls label{
+    .controls label {
         min-width: 140px;
     }
 }
 
-
-@media (max-width: 550px){
-    .freq-table th, .freq-table td{
-    font-size: 12px;
+@media (max-width: 550px) {
+    .freq-table th,
+    .freq-table td {
+        font-size: 12px;
     }
-}
-
-/* ===== Stop Frequency: desktop side-by-side layout ===== */
-.freq-layout{
-  display: flex;
-  gap: 16px;
-  align-items: stretch;
-}
-
-/* map on the left */
-.freq-layout .map{
-  flex: 1.2;
-  height: 700px;      /* match your table height */
-  margin-bottom: 0;   /* remove vertical spacing in row layout */
-}
-
-/* right side = note + table */
-.freq-right{
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  min-width: 340px;
-}
-
-/* keep the table scroll internal (you already have 700px, this just scopes it) */
-.freq-right .table-scroll{
-  height: 700px;
-}
-
-/* Mobile: stack map above table */
-@media (max-width: 900px){
-  .freq-layout{
-    flex-direction: column;
-  }
-
-  .freq-layout .map{
-    height: 500px;      /* your old map height for mobile */
-    margin-bottom: 16px;
-  }
-
-  .freq-right{
-    min-width: unset;
-  }
-}
-
-.freq-layout .map { min-height: 320px; }
-
-/* Allow flex children to shrink instead of overflowing */
-.freq-layout > * {
-  min-width: 0;
-}
-
-/* Make sure the map never paints outside its rounded box */
-.freq-layout .map {
-  overflow: hidden;
-  max-width: 100%;
-}
-
-/* If Leaflet's internal container tries to overflow, clamp it */
-.freq-layout .map .leaflet-container {
-  max-width: 100%;
 }
