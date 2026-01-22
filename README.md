@@ -2,6 +2,8 @@
 
 A lightweight, developer-friendly toolkit for exploring, analyzing, and visualizing public transport data. The project bridges the gap between raw GTFS data and interactive visualizations by combining a Python-based analysis pipeline with a static, serverless frontend.
 
+https://ilia-dzneladze.github.io/GTFS-toolkit/#/kaunas/frequency?window=16_18
+
 ## Overview
 
 This toolkit uses a hybrid architecture:
