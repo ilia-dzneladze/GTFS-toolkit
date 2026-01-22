@@ -2,7 +2,7 @@
 import { $, capitalize, escapeHtml, tierFromGapSec, colorFromTier, formatTimeWindow } from './scripts/utils.js';
 import { ensureMap, getMap, clearMarkers, addMarker, fitBounds, invalidateSize } from './scripts/map_manager.js';
 
-const CITIES = ["kaunas", "vilnius"];
+let CITIES = [];
 const TOOLS = [
   { key: "heatmap", label: "Transit Heatmap" },
   { key: "frequency", label: "Stop Frequency" }
@@ -37,6 +37,18 @@ function parseHash() {
 function updateHash() {
   const query = state.tool === "frequency" ? `?window=${state.window}` : "";
   location.hash = `#/${state.city}/${state.tool}${query}`;
+}
+
+async function loadCities() {
+  try {
+    const res = await fetch('data/cities.json', { cache: "no-cache" });
+    if (!res.ok) throw new Error("Manifest not found");
+    CITIES = await res.json();
+  } catch (e) {
+    console.error("Could not load city list:", e);
+    setStatus("Error loading configuration. Is data/cities.json missing?");
+    CITIES = ["kaunas"]; // Fallback to prevent crash
+  }
 }
 
 // ===== UI SETUP =====
@@ -254,7 +266,7 @@ function bindEvents() {
 }
 
 // ===== INIT =====
-function init() {
+async function init() {
   el.citySelect = $("citySelect");
   el.toolSelect = $("toolSelect");
   el.timeWindowWrap = $("timeWindowWrap");
@@ -262,11 +274,17 @@ function init() {
   el.status = $("status");
   el.view = $("view");
 
+  // 1. Load the dynamic list of cities first
+  await loadCities();
+
+  // 2. Now fill the UI and parse the URL
   fillSelectors();
   parseHash();
   syncSelectors();
   bindEvents();
   render();
 }
+
+init();
 
 init();

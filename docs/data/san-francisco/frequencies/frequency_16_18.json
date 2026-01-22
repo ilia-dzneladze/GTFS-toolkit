@@ -1,0 +1,729 @@
+{
+  "city": "san-francisco",
+  "start_sec": 57600,
+  "end_sec": 64800,
+  "sorted_by": "avg_gap_sec_asc",
+  "stops": [
+    {
+      "stop_id": "H40",
+      "name": "Oakland International Airport Station",
+      "lat": 37.713256,
+      "lon": -122.212237,
+      "avg_gap_sec": 61
+    },
+    {
+      "stop_id": "H10",
+      "name": "Coliseum - OAC",
+      "lat": 37.752225,
+      "lon": -122.19627,
+      "avg_gap_sec": 61
+    },
+    {
+      "stop_id": "M80-2",
+      "name": "Balboa Park",
+      "lat": 37.721748,
+      "lon": -122.447433,
+      "avg_gap_sec": 88
+    },
+    {
+      "stop_id": "M70-2",
+      "name": "Glen Park",
+      "lat": 37.733212,
+      "lon": -122.433498,
+      "avg_gap_sec": 88
+    },
+    {
+      "stop_id": "M16-2",
+      "name": "Embarcadero",
+      "lat": 37.792741,
+      "lon": -122.397019,
+      "avg_gap_sec": 88
+    },
+    {
+      "stop_id": "M10-2",
+      "name": "West Oakland",
+      "lat": 37.804862,
+      "lon": -122.295185,
+      "avg_gap_sec": 88
+    },
+    {
+      "stop_id": "M20-2",
+      "name": "Montgomery Street",
+      "lat": 37.789143,
+      "lon": -122.401558,
+      "avg_gap_sec": 89
+    },
+    {
+      "stop_id": "M70-1",
+      "name": "Glen Park",
+      "lat": 37.733269,
+      "lon": -122.433557,
+      "avg_gap_sec": 89
+    },
+    {
+      "stop_id": "M40-2",
+      "name": "Civic Center / UN Plaza",
+      "lat": 37.77938,
+      "lon": -122.413804,
+      "avg_gap_sec": 90
+    },
+    {
+      "stop_id": "M10-1",
+      "name": "West Oakland",
+      "lat": 37.804923,
+      "lon": -122.295144,
+      "avg_gap_sec": 90
+    },
+    {
+      "stop_id": "M20-1",
+      "name": "Montgomery Street",
+      "lat": 37.789213,
+      "lon": -122.401642,
+      "avg_gap_sec": 90
+    },
+    {
+      "stop_id": "M30-1",
+      "name": "Powell Street",
+      "lat": 37.784645,
+      "lon": -122.407387,
+      "avg_gap_sec": 90
+    },
+    {
+      "stop_id": "M40-1",
+      "name": "Civic Center / UN Plaza",
+      "lat": 37.77945,
+      "lon": -122.413879,
+      "avg_gap_sec": 90
+    },
+    {
+      "stop_id": "M50-1",
+      "name": "16th Street / Mission",
+      "lat": 37.765176,
+      "lon": -122.419755,
+      "avg_gap_sec": 90
+    },
+    {
+      "stop_id": "M80-1",
+      "name": "Balboa Park",
+      "lat": 37.721758,
+      "lon": -122.44751,
+      "avg_gap_sec": 90
+    },
+    {
+      "stop_id": "M60-2",
+      "name": "24th Street / Mission",
+      "lat": 37.752426,
+      "lon": -122.418445,
+      "avg_gap_sec": 91
+    },
+    {
+      "stop_id": "M50-2",
+      "name": "16th Street / Mission",
+      "lat": 37.76518,
+      "lon": -122.419679,
+      "avg_gap_sec": 91
+    },
+    {
+      "stop_id": "M30-2",
+      "name": "Powell Street",
+      "lat": 37.784576,
+      "lon": -122.407302,
+      "avg_gap_sec": 91
+    },
+    {
+      "stop_id": "M16-1",
+      "name": "Embarcadero",
+      "lat": 37.792789,
+      "lon": -122.39708,
+      "avg_gap_sec": 91
+    },
+    {
+      "stop_id": "M60-1",
+      "name": "24th Street / Mission",
+      "lat": 37.752422,
+      "lon": -122.418518,
+      "avg_gap_sec": 92
+    },
+    {
+      "stop_id": "Y10-2",
+      "name": "San Francisco International Airport",
+      "lat": 37.616091,
+      "lon": -122.392049,
+      "avg_gap_sec": 98
+    },
+    {
+      "stop_id": "K20-2",
+      "name": "19th Street Oakland",
+      "lat": 37.80806,
+      "lon": -122.268722,
+      "avg_gap_sec": 112
+    },
+    {
+      "stop_id": "K10-2",
+      "name": "12th Street / Oakland City Center",
+      "lat": 37.803471,
+      "lon": -122.271589,
+      "avg_gap_sec": 113
+    },
+    {
+      "stop_id": "M90-2",
+      "name": "Daly City",
+      "lat": 37.706227,
+      "lon": -122.468851,
+      "avg_gap_sec": 116
+    },
+    {
+      "stop_id": "A40-1",
+      "name": "San Leandro",
+      "lat": 37.721773,
+      "lon": -122.160792,
+      "avg_gap_sec": 123
+    },
+    {
+      "stop_id": "A50-1",
+      "name": "Bay Fair",
+      "lat": 37.696887,
+      "lon": -122.126488,
+      "avg_gap_sec": 123
+    },
+    {
+      "stop_id": "A50-2",
+      "name": "Bay Fair",
+      "lat": 37.696938,
+      "lon": -122.126431,
+      "avg_gap_sec": 124
+    },
+    {
+      "stop_id": "A10-2",
+      "name": "Lake Merritt",
+      "lat": 37.797357,
+      "lon": -122.265232,
+      "avg_gap_sec": 124
+    },
+    {
+      "stop_id": "A30-2",
+      "name": "Coliseum",
+      "lat": 37.753604,
+      "lon": -122.196698,
+      "avg_gap_sec": 127
+    },
+    {
+      "stop_id": "A20-2",
+      "name": "Fruitvale",
+      "lat": 37.774873,
+      "lon": -122.224067,
+      "avg_gap_sec": 127
+    },
+    {
+      "stop_id": "M90-1",
+      "name": "Daly City",
+      "lat": 37.706263,
+      "lon": -122.468922,
+      "avg_gap_sec": 128
+    },
+    {
+      "stop_id": "A30-1",
+      "name": "Coliseum",
+      "lat": 37.753558,
+      "lon": -122.19676,
+      "avg_gap_sec": 128
+    },
+    {
+      "stop_id": "A40-2",
+      "name": "San Leandro",
+      "lat": 37.721806,
+      "lon": -122.160713,
+      "avg_gap_sec": 128
+    },
+    {
+      "stop_id": "A20-1",
+      "name": "Fruitvale",
+      "lat": 37.774818,
+      "lon": -122.224121,
+      "avg_gap_sec": 130
+    },
+    {
+      "stop_id": "A10-1",
+      "name": "Lake Merritt",
+      "lat": 37.797296,
+      "lon": -122.265287,
+      "avg_gap_sec": 132
+    },
+    {
+      "stop_id": "Y10-1",
+      "name": "San Francisco International Airport",
+      "lat": 37.616189,
+      "lon": -122.39196,
+      "avg_gap_sec": 145
+    },
+    {
+      "stop_id": "W30-2",
+      "name": "San Bruno",
+      "lat": 37.637751,
+      "lon": -122.416292,
+      "avg_gap_sec": 163
+    },
+    {
+      "stop_id": "W20-2",
+      "name": "South San Francisco",
+      "lat": 37.664497,
+      "lon": -122.444193,
+      "avg_gap_sec": 163
+    },
+    {
+      "stop_id": "W10-1",
+      "name": "Colma",
+      "lat": 37.684642,
+      "lon": -122.466167,
+      "avg_gap_sec": 163
+    },
+    {
+      "stop_id": "W20-1",
+      "name": "South San Francisco",
+      "lat": 37.664437,
+      "lon": -122.444254,
+      "avg_gap_sec": 163
+    },
+    {
+      "stop_id": "M90-3",
+      "name": "Daly City",
+      "lat": 37.706304,
+      "lon": -122.468994,
+      "avg_gap_sec": 165
+    },
+    {
+      "stop_id": "W10-2",
+      "name": "Colma",
+      "lat": 37.684691,
+      "lon": -122.466115,
+      "avg_gap_sec": 166
+    },
+    {
+      "stop_id": "W30-1",
+      "name": "San Bruno",
+      "lat": 37.63772,
+      "lon": -122.416384,
+      "avg_gap_sec": 171
+    },
+    {
+      "stop_id": "S50-1",
+      "name": "Berryessa / North San Jose",
+      "lat": 37.368474,
+      "lon": -121.874759,
+      "avg_gap_sec": 176
+    },
+    {
+      "stop_id": "S50-2",
+      "name": "Berryessa / North San Jose",
+      "lat": 37.368495,
+      "lon": -121.874661,
+      "avg_gap_sec": 178
+    },
+    {
+      "stop_id": "K20-1",
+      "name": "19th Street Oakland",
+      "lat": 37.808065,
+      "lon": -122.26872,
+      "avg_gap_sec": 181
+    },
+    {
+      "stop_id": "K10-1",
+      "name": "12th Street / Oakland City Center",
+      "lat": 37.803463,
+      "lon": -122.271596,
+      "avg_gap_sec": 183
+    },
+    {
+      "stop_id": "R30-1",
+      "name": "North Berkeley",
+      "lat": 37.874032,
+      "lon": -122.283508,
+      "avg_gap_sec": 183
+    },
+    {
+      "stop_id": "R40-1",
+      "name": "El Cerrito Plaza",
+      "lat": 37.902633,
+      "lon": -122.298895,
+      "avg_gap_sec": 183
+    },
+    {
+      "stop_id": "R50-1",
+      "name": "El Cerrito Del Norte",
+      "lat": 37.925205,
+      "lon": -122.316868,
+      "avg_gap_sec": 183
+    },
+    {
+      "stop_id": "R50-2",
+      "name": "El Cerrito Del Norte",
+      "lat": 37.92517,
+      "lon": -122.316942,
+      "avg_gap_sec": 183
+    },
+    {
+      "stop_id": "R40-2",
+      "name": "El Cerrito Plaza",
+      "lat": 37.902596,
+      "lon": -122.29897,
+      "avg_gap_sec": 183
+    },
+    {
+      "stop_id": "K30-2",
+      "name": "MacArthur",
+      "lat": 37.828827,
+      "lon": -122.267259,
+      "avg_gap_sec": 183
+    },
+    {
+      "stop_id": "E30-2",
+      "name": "Antioch",
+      "lat": 37.995415,
+      "lon": -121.780353,
+      "avg_gap_sec": 183
+    },
+    {
+      "stop_id": "R60-2",
+      "name": "Richmond",
+      "lat": 37.936731,
+      "lon": -122.353117,
+      "avg_gap_sec": 185
+    },
+    {
+      "stop_id": "A80-1",
+      "name": "Union City",
+      "lat": 37.590714,
+      "lon": -122.017292,
+      "avg_gap_sec": 186
+    },
+    {
+      "stop_id": "A90-1",
+      "name": "Fremont",
+      "lat": 37.557459,
+      "lon": -121.976658,
+      "avg_gap_sec": 186
+    },
+    {
+      "stop_id": "S40-2",
+      "name": "Milpitas",
+      "lat": 37.409836,
+      "lon": -121.890803,
+      "avg_gap_sec": 188
+    },
+    {
+      "stop_id": "S20-2",
+      "name": "Warm Springs / South Fremont",
+      "lat": 37.502307,
+      "lon": -121.939358,
+      "avg_gap_sec": 188
+    },
+    {
+      "stop_id": "A90-2",
+      "name": "Fremont",
+      "lat": 37.557513,
+      "lon": -121.976605,
+      "avg_gap_sec": 188
+    },
+    {
+      "stop_id": "A80-2",
+      "name": "Union City",
+      "lat": 37.590765,
+      "lon": -122.01723,
+      "avg_gap_sec": 188
+    },
+    {
+      "stop_id": "A70-2",
+      "name": "South Hayward",
+      "lat": 37.634363,
+      "lon": -122.057158,
+      "avg_gap_sec": 188
+    },
+    {
+      "stop_id": "A60-2",
+      "name": "Hayward",
+      "lat": 37.669731,
+      "lon": -122.086941,
+      "avg_gap_sec": 188
+    },
+    {
+      "stop_id": "K30-1",
+      "name": "MacArthur",
+      "lat": 37.82879,
+      "lon": -122.266978,
+      "avg_gap_sec": 189
+    },
+    {
+      "stop_id": "R20-1",
+      "name": "Downtown Berkeley",
+      "lat": 37.870117,
+      "lon": -122.268078,
+      "avg_gap_sec": 189
+    },
+    {
+      "stop_id": "R60-1",
+      "name": "Richmond",
+      "lat": 37.936795,
+      "lon": -122.353004,
+      "avg_gap_sec": 189
+    },
+    {
+      "stop_id": "R30-2",
+      "name": "North Berkeley",
+      "lat": 37.874,
+      "lon": -122.283591,
+      "avg_gap_sec": 189
+    },
+    {
+      "stop_id": "S40-1",
+      "name": "Milpitas",
+      "lat": 37.409808,
+      "lon": -121.890883,
+      "avg_gap_sec": 189
+    },
+    {
+      "stop_id": "A60-1",
+      "name": "Hayward",
+      "lat": 37.669678,
+      "lon": -122.087,
+      "avg_gap_sec": 190
+    },
+    {
+      "stop_id": "A70-1",
+      "name": "South Hayward",
+      "lat": 37.634328,
+      "lon": -122.057233,
+      "avg_gap_sec": 190
+    },
+    {
+      "stop_id": "S20-1",
+      "name": "Warm Springs / South Fremont",
+      "lat": 37.502274,
+      "lon": -121.939459,
+      "avg_gap_sec": 190
+    },
+    {
+      "stop_id": "W40-3",
+      "name": "Millbrae (Caltrain Transfer Platform)",
+      "lat": 37.600199,
+      "lon": -122.38684,
+      "avg_gap_sec": 193
+    },
+    {
+      "stop_id": "R20-2",
+      "name": "Downtown Berkeley",
+      "lat": 37.870113,
+      "lon": -122.268166,
+      "avg_gap_sec": 193
+    },
+    {
+      "stop_id": "R10-2",
+      "name": "Ashby",
+      "lat": 37.853087,
+      "lon": -122.269819,
+      "avg_gap_sec": 193
+    },
+    {
+      "stop_id": "R10-1",
+      "name": "Ashby",
+      "lat": 37.853069,
+      "lon": -122.26975,
+      "avg_gap_sec": 195
+    },
+    {
+      "stop_id": "K30-3",
+      "name": "MacArthur",
+      "lat": 37.828801,
+      "lon": -122.267076,
+      "avg_gap_sec": 276
+    },
+    {
+      "stop_id": "C50-2",
+      "name": "Pleasant Hill / Contra Costa Centre",
+      "lat": 37.928463,
+      "lon": -122.056015,
+      "avg_gap_sec": 276
+    },
+    {
+      "stop_id": "C10-1",
+      "name": "Rockridge",
+      "lat": 37.844725,
+      "lon": -122.251225,
+      "avg_gap_sec": 281
+    },
+    {
+      "stop_id": "C50-1",
+      "name": "Pleasant Hill / Contra Costa Centre",
+      "lat": 37.928414,
+      "lon": -122.055954,
+      "avg_gap_sec": 281
+    },
+    {
+      "stop_id": "C60-1",
+      "name": "Concord",
+      "lat": 37.973751,
+      "lon": -122.029046,
+      "avg_gap_sec": 281
+    },
+    {
+      "stop_id": "C70-1",
+      "name": "North Concord / Martinez",
+      "lat": 38.003369,
+      "lon": -122.02449,
+      "avg_gap_sec": 281
+    },
+    {
+      "stop_id": "C60-2",
+      "name": "Concord",
+      "lat": 37.973773,
+      "lon": -122.029126,
+      "avg_gap_sec": 281
+    },
+    {
+      "stop_id": "C20-2",
+      "name": "Orinda",
+      "lat": 37.878503,
+      "lon": -122.183717,
+      "avg_gap_sec": 281
+    },
+    {
+      "stop_id": "C10-2",
+      "name": "Rockridge",
+      "lat": 37.844795,
+      "lon": -122.251271,
+      "avg_gap_sec": 281
+    },
+    {
+      "stop_id": "C20-1",
+      "name": "Orinda",
+      "lat": 37.87847,
+      "lon": -122.183643,
+      "avg_gap_sec": 284
+    },
+    {
+      "stop_id": "C70-2",
+      "name": "North Concord / Martinez",
+      "lat": 38.003407,
+      "lon": -122.024561,
+      "avg_gap_sec": 284
+    },
+    {
+      "stop_id": "K20-3",
+      "name": "19th Street Oakland",
+      "lat": 37.808105,
+      "lon": -122.268821,
+      "avg_gap_sec": 289
+    },
+    {
+      "stop_id": "C30-1",
+      "name": "Lafayette",
+      "lat": 37.893155,
+      "lon": -122.124621,
+      "avg_gap_sec": 289
+    },
+    {
+      "stop_id": "C80-1",
+      "name": "Pittsburg / Bay Point",
+      "lat": 38.018881,
+      "lon": -121.944249,
+      "avg_gap_sec": 289
+    },
+    {
+      "stop_id": "C40-2",
+      "name": "Walnut Creek",
+      "lat": 37.905812,
+      "lon": -122.067379,
+      "avg_gap_sec": 289
+    },
+    {
+      "stop_id": "K10-3",
+      "name": "12th Street / Oakland City Center",
+      "lat": 37.803508,
+      "lon": -122.271694,
+      "avg_gap_sec": 292
+    },
+    {
+      "stop_id": "C40-1",
+      "name": "Walnut Creek",
+      "lat": 37.90578,
+      "lon": -122.067302,
+      "avg_gap_sec": 292
+    },
+    {
+      "stop_id": "C80-2",
+      "name": "Pittsburg / Bay Point",
+      "lat": 38.01895,
+      "lon": -121.944248,
+      "avg_gap_sec": 292
+    },
+    {
+      "stop_id": "C30-2",
+      "name": "Lafayette",
+      "lat": 37.89322,
+      "lon": -122.124644,
+      "avg_gap_sec": 292
+    },
+    {
+      "stop_id": "K30-4",
+      "name": "MacArthur",
+      "lat": 37.828814,
+      "lon": -122.267163,
+      "avg_gap_sec": 292
+    },
+    {
+      "stop_id": "L10-1",
+      "name": "Castro Valley",
+      "lat": 37.690708,
+      "lon": -122.075614,
+      "avg_gap_sec": 352
+    },
+    {
+      "stop_id": "L20-1",
+      "name": "West Dublin / Pleasanton",
+      "lat": 37.699693,
+      "lon": -121.92828,
+      "avg_gap_sec": 352
+    },
+    {
+      "stop_id": "L30-1",
+      "name": "Dublin / Pleasanton",
+      "lat": 37.70161,
+      "lon": -121.899245,
+      "avg_gap_sec": 352
+    },
+    {
+      "stop_id": "L30-2",
+      "name": "Dublin / Pleasanton",
+      "lat": 37.701692,
+      "lon": -121.899242,
+      "avg_gap_sec": 352
+    },
+    {
+      "stop_id": "L20-2",
+      "name": "West Dublin / Pleasanton",
+      "lat": 37.69976,
+      "lon": -121.928301,
+      "avg_gap_sec": 352
+    },
+    {
+      "stop_id": "L10-2",
+      "name": "Castro Valley",
+      "lat": 37.690776,
+      "lon": -122.075615,
+      "avg_gap_sec": 352
+    },
+    {
+      "stop_id": "E20-1",
+      "name": "Pittsburg Center",
+      "lat": 38.016805,
+      "lon": -121.889039,
+      "avg_gap_sec": 352
+    },
+    {
+      "stop_id": "E20-2",
+      "name": "Pittsburg Center",
+      "lat": 38.016873,
+      "lon": -121.889011,
+      "avg_gap_sec": 352
+    }
+  ]
+}

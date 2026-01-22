@@ -4,3 +4,5 @@ haversine
 scikit-learn
 numpy
 tqdm
+fastapi
+uvicorn
