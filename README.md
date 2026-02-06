@@ -1,135 +1,76 @@
 # GTFS Toolkit
 
-A lightweight, developer-friendly toolkit for exploring, analyzing, and visualizing public transport data. The project bridges the gap between raw GTFS data and interactive visualizations by combining a Python-based analysis pipeline with a static, serverless frontend.
-
-https://ilia-dzneladze.github.io/GTFS-toolkit/#/kaunas/frequency?window=16_18
-
-## Overview
-
-This toolkit uses a hybrid architecture:
-1.  **Local Automation (Python):** An API-driven backend processes raw GTFS feeds, calculates metrics (frequency, connectivity), and generates optimized static assets.
-2.  **Static Visualization (JavaScript):** A lightweight frontend loads the pre-computed JSON and PNG assets to display interactive maps and tables without requiring a live backend server in production.
+A comprehensive toolkit for analyzing and visualizing GTFS (General Transit Feed Specification) data. This project provides Python scripts for backend data processing and a web-based frontend for interactive visualization.
 
 ## Features
 
--   **Automated Data Ingestion:** Simply drop standard GTFS folders into the directory; the system detects and integrates them automatically.
--   **Transit Heatmaps:** Generates high-resolution network density visualizations from `shapes.txt`.
--   **Frequency Analysis:** Computes stop-level arrival gaps (e.g., average wait time between 4 PM and 6 PM) to identify service levels.
--   **Interactive Dashboard:** Map-based exploration using Leaflet.js with synchronized table views and dynamic city switching.
--   **API-Driven Workflow:** Includes a local FastAPI server to trigger analysis scripts and manage data updates via HTTP requests.
-
-## Project Structure
-
-```text
-GTFS-toolkit/
-├── api/                       # Local automation server
-│   └── main.py
-│
-├── cities/                    # INPUT: Raw GTFS folders go here
-│   ├── kaunas/
-│   └── san-francisco/
-│
-├── docs/                      # OUTPUT: The static frontend website
-│   ├── index.html
-│   ├── app.js
-│   ├── data/                  # Generated assets (JSON/PNG)
-│   │   ├── cities.json        # Manifest
-│   │   └── kaunas/
-│   └── scripts/
-│
-├── scripts/                   # ANALYSIS: Python logic (ETL & Stats)
-│   ├── fetch_feed.py          # Downloader
-│   ├── scan_data.py           # Manifest generator
-│   ├── stop_analysis.py       # Frequency calculator
-│   └── transport_analyzer.py  # Heatmap renderer
-│
-├── requirements.txt
-└── README.md
-```
+- **Transit Heatmap**: Visualize the density of public transport coverage across a city with interactive, color-coded heatmaps.
+- **Stop Frequency Analysis**: Analyze and visualize average waiting times (gaps) between vehicles at specific stops.
+- **GeoJSON Export**: Efficiently generates lightweight GeoJSON files for map rendering.
+- **Interactive Web Interface**: A fast, responsive frontend built with Leaflet.js to explore the analyzed data.
 
 ## Installation
 
-Clone the repository and set up the Python environment:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/ilia-dzneladze/GTFS-toolkit.git
+   cd GTFS-toolkit
+   ```
 
-```bash
-git clone [https://github.com/ilia-dzneladze/GTFS-toolkit.git](https://github.com/ilia-dzneladze/GTFS-toolkit.git)
-cd GTFS-toolkit
+2. **Set up a virtual environment** (optional but recommended):
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 
-# Linux / Mac
-python3 -m venv venv
-source venv/bin/activate
-
-# Windows
-python -m venv venv
-venv\Scripts\activate
-```
-
-Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
+3. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
-### 1. Automated Workflow (API)
+### 1. Data Analysis
 
-The recommended way to use the toolkit is via the local API, which orchestrates the scripts.
+The toolkit assumes GTFS data is located in `cities/<city_name>/` (e.g., `cities/kaunas/shapes.txt`, etc.).
 
-1.  **Start the server:**
-    ```bash
-    uvicorn api.main:app --reload
-    ```
-
-2.  **Access the tool:**
-    Open the frontend (e.g., `docs/index.html`) in your browser.
-
-3.  **Process a new city:**
-    Place a valid GTFS folder (unzipped) into the `cities/` directory. You can then trigger the analysis via the frontend interface or by sending a request to the API:
-
-    ```bash
-    curl -X POST [http://127.0.0.1:8000/api/process/](http://127.0.0.1:8000/api/process/)<city_folder_name>
-    ```
-
-### 2. Manual CLI Workflow
-
-You can run individual analysis scripts manually from the terminal.
-
-**Download a generic feed (optional):**
+**Generate Transit Heatmap:**
+This script processes the GTFS shapes to create a visual density map.
 ```bash
-python scripts/fetch_feed.py
+python3 scripts/transport_analyzer.py <city_name>
+# Example: python3 scripts/transport_analyzer.py kaunas
+```
+*Output: `docs/data/<city_name>/transit_density.geojson`*
+
+**Analyze Stop Frequencies:**
+(Assuming `stop_analysis.py` is available and configured similarly)
+```bash
+python3 scripts/stop_analysis.py <city_name>
 ```
 
-**Run stop frequency analysis:**
-Generates a JSON file with average service gaps for a specific time window.
-```bash
-python scripts/stop_analysis.py <city_folder_name>
-```
+### 2. Visualization
 
-**Generate network heatmap:**
-Creates a high-resolution PNG visualization of the transit network.
-```bash
-python scripts/transport_analyzer.py <city_folder_name>
-```
+The frontend is a static web application located in the `docs/` directory. To view it:
 
-**Update the frontend manifest:**
-Run this after adding new data so the frontend can detect the new city.
-```bash
-python scripts/scan_data.py
-```
+1. **Start a local web server**:
+   ```bash
+   python3 -m http.server 8000 -d docs
+   ```
 
-## Deployment
+2. **Open in Browser**:
+   Navigate to [http://localhost:8000](http://localhost:8000).
 
-The project is designed for static hosting. The `docs/` folder contains the complete frontend application and the generated data.
+3. **Explore**:
+   - Select your city from the dropdown.
+   - Switch between **Transit Heatmap** and **Stop Frequency** tools.
 
-To deploy:
-1.  Run the analysis locally to generate the contents of `docs/data/`.
-2.  Commit the changes.
-3.  Serve the `docs/` directory using GitHub Pages, Netlify, or any static file server.
+## Project Structure
 
-## Tech Stack
+- `scripts/`: Python scripts for data processing (`transport_analyzer.py`, `stop_analysis.py`).
+- `docs/`: Frontend application (HTML, CSS, JS, and generated data).
+- `cities/`: Directory for input GTFS data (not included in repo).
+- `requirements.txt`: Python package dependencies.
 
--   **Frontend:** HTML5, CSS3, JavaScript (ES6), Leaflet.js
--   **Backend (Data Processing):** Python 3.12, FastAPI
--   **Analysis Libraries:** Pandas, NetworkX, Matplotlib
--   **Data Standard:** GTFS (General Transit Feed Specification)
+## License
+
+[MIT](LICENSE)
