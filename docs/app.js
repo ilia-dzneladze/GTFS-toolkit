@@ -1,6 +1,61 @@
-// site/app.js
-import { $, capitalize, escapeHtml, tierFromGapSec, colorFromTier, formatTimeWindow } from './scripts/utils.js';
-import { ensureMap, getMap, clearMarkers, addMarker, fitBounds, invalidateSize } from './scripts/map_manager.js';
+
+// ... imports
+import { $, capitalize, escapeHtml, tierFromGapSec, colorFromTier, formatTimeWindow, getHeatmapColor } from './scripts/utils.js';
+import { ensureMap, getMap, clearMarkers, addMarker, fitBounds, invalidateSize, addGeoJsonLayer, removeMap } from './scripts/map_manager.js';
+
+// ... (keep existing code)
+
+async function renderHeatmap() {
+  removeMap(); // Ensure fresh map for heatmap view
+  const jsonPath = `data/${state.city}/transit_density.geojson`;
+  setStatus(`Loading heatmap: ${state.city}…`);
+
+  // Layout with side legend
+  el.view.innerHTML = `
+    <div class="heatmap-layout">
+      <div id="map" class="map"></div>
+      <div class="heatmap-legend-side">
+        <h3>Legend</h3>        
+        <div class="legend-labels-vertical">
+          <span>High Density</span>
+            <div class="legend-gradient-bar"></div>
+          <span>Low Density</span>
+        </div>
+      </div>
+    </div>
+  `;
+
+  let payload;
+  try {
+    const res = await fetch(jsonPath, { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    payload = await res.json();
+  } catch (e) {
+    setStatus(`Could not load ${jsonPath}. (${e.message})`);
+    return;
+  }
+
+  setStatus("");
+
+  ensureMap();
+  invalidateSize();
+  clearMarkers();
+
+  addGeoJsonLayer(payload, (feature) => {
+    const density = feature.properties.density || 0;
+    return {
+      color: getHeatmapColor(density),
+      weight: 3,
+      opacity: 0.8
+    };
+  });
+
+  // Clean up any old Leaflet legend if it somehow persisted
+  if (state.legend) {
+    state.legend.remove();
+    state.legend = null;
+  }
+}
 
 let CITIES = [];
 const TOOLS = [
@@ -53,15 +108,15 @@ async function loadCities() {
 
 // ===== UI SETUP =====
 function fillSelectors() {
-  el.citySelect.innerHTML = CITIES.map(c => 
+  el.citySelect.innerHTML = CITIES.map(c =>
     `<option value="${c}">${capitalize(c)}</option>`
   ).join("");
 
-  el.toolSelect.innerHTML = TOOLS.map(t => 
+  el.toolSelect.innerHTML = TOOLS.map(t =>
     `<option value="${t.key}">${t.label}</option>`
   ).join("");
 
-  el.timeWindowSelect.innerHTML = DEFAULT_WINDOWS.map(w => 
+  el.timeWindowSelect.innerHTML = DEFAULT_WINDOWS.map(w =>
     `<option value="${w}">${formatTimeWindow(w)}</option>`
   ).join("");
 }
@@ -81,24 +136,14 @@ async function render() {
   if (state.tool === "heatmap") {
     renderHeatmap();
   } else if (state.tool === "frequency") {
+    if (state.legend) {
+      state.legend.remove();
+      state.legend = null;
+    }
     await renderFrequency();
   }
 }
 
-function renderHeatmap() {
-  const imgPath = `data/${state.city}/heatlines.png`;
-  setStatus(`Loading heatmap: ${state.city}…`);
-
-  const img = document.createElement("img");
-  img.src = imgPath;
-  img.alt = `${state.city} heatmap`;
-  img.className = "heatmap";
-  
-  img.onerror = () => setStatus(`Could not load ${imgPath}`);
-  img.onload = () => setStatus("");
-
-  el.view.appendChild(img);
-}
 
 async function renderFrequency() {
   const jsonPath = `data/${state.city}/frequencies/frequency_${state.window}.json`;
@@ -120,7 +165,7 @@ async function renderFrequency() {
   // Preserve map container if it exists
   const existingMap = getMap();
   let mapDiv = existingMap ? existingMap.getContainer() : null;
-  
+
   // Detach map from DOM before clearing
   if (mapDiv && mapDiv.parentNode) {
     mapDiv.parentNode.removeChild(mapDiv);
@@ -285,6 +330,5 @@ async function init() {
   render();
 }
 
-init();
 
 init();

@@ -143,8 +143,9 @@ main {
     align-items: stretch;
 }
 
-.freq-layout > * {
-    min-width: 0; /* Allow flex children to shrink */
+.freq-layout>* {
+    min-width: 0;
+    /* Allow flex children to shrink */
 }
 
 /* Map (left side) */
@@ -253,8 +254,70 @@ main {
 }
 
 @media (max-width: 550px) {
+
     .freq-table th,
     .freq-table td {
         font-size: 12px;
     }
+}
+
+/* ===== LEGEND (SIDEBAR) ===== */
+.heatmap-layout {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    /* Prevent stretching issues */
+}
+
+.heatmap-layout .map {
+    flex: 1;
+    min-width: 0;
+    /* Critical for flex resizing */
+    height: 700px;
+    margin-bottom: 0;
+}
+
+.heatmap-legend-side {
+    width: 120px;
+    height: 700px;
+    /* Match map height to ensure bar expands */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 12px;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.heatmap-legend-side h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.legend-gradient-bar {
+    width: 36px;
+    flex: 1;
+    background: linear-gradient(to top, #00BFFF, #00FF00, #FFFF00, #FF4500, #FF0000);
+    border-radius: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    min-height: 550px;
+    /* Fallback visibility */
+}
+
+.legend-labels-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    color: #555;
+    padding: 10px 0;
 }

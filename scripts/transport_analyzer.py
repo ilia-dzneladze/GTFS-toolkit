@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
+import json
+from shapely.geometry import LineString, mapping
 from scipy.ndimage import gaussian_filter
 from scipy.interpolate import RegularGridInterpolator
 from haversine import haversine    # <-- added for jump filtering
@@ -18,7 +18,7 @@ parser.add_argument("city", help="City name (folder in cities/)")
 args = parser.parse_args()
 
 city = args.city
-city_path = os.path.join("cities", city)
+city_path = os.path.join(BASE_DIR, "cities", city)
 
 shapes_path = os.path.join(city_path, "shapes.txt")
 if not os.path.isfile(shapes_path):
@@ -64,78 +64,92 @@ heat_interp = RegularGridInterpolator(
     fill_value=0
 )
 
-########################################
-# COLOR MAP
-########################################
+# ... (imports adapted)
+import json
+from shapely.geometry import LineString, mapping
+
+# ... (keep existing setup until color map section)
+
+
+print("Calculating heat values and building GeoJSON...")
+
 max_h = heat_smooth.max()
 min_h = heat_smooth.min()
 
-cmap = mcolors.LinearSegmentedColormap.from_list(
-    "transit_heat",
-    ["#00BFFF", "#00FF00", "#FFFF00", "#FF4500", "#FF0000"]
-)
+features = []
 
-norm = mcolors.Normalize(vmin=min_h, vmax=max_h)
+MAX_JUMP_KM = 1.0 
 
-########################################
-# DRAW HEAT-COLORED VECTOR LINES
-########################################
-fig, ax = plt.subplots(figsize=(26, 26), dpi=200)
-
-print("Drawing colored lines...")
-
-MAX_JUMP_KM = 1.0   # <-- ONLY NEW FIX
+current_shape_id = None
+current_line_coords = []
+current_density = 0.0
 
 for shape_id, grp in shapes.groupby("shape_id"):
     grp = grp.sort_values("shape_pt_sequence")
     pts = grp[["shape_pt_lat", "shape_pt_lon"]].to_numpy()
 
     for i in range(len(pts) - 1):
-
         lat1, lon1 = pts[i]
         lat2, lon2 = pts[i + 1]
 
-        # --------------------------------------------------
-        #      FIX: Remove teleport jumps between points
-        # --------------------------------------------------
+        # Fix: Remove teleport jumps
         if haversine((lat1, lon1), (lat2, lon2)) > MAX_JUMP_KM:
             continue
-        # --------------------------------------------------
 
         mid = np.array([(lat1 + lat2) / 2, (lon1 + lon2) / 2])
-        hval = heat_interp(mid)
-        color = cmap(norm(hval))
+        hval = float(heat_interp(mid)[0]) # Get interpolated heat value
+        
+        # Normalize and quantize
+        # Quantizing to 20 levels (5% steps) allows merging many segments while keeping smooth look
+        normalized_heat = (hval - min_h) / (max_h - min_h) if (max_h > min_h) else 0
+        density_bucket = round(normalized_heat * 20) / 20.0
 
-        x1 = (lon1 - min_lon) / (max_lon - min_lon) * 3000
-        y1 = (lat1 - min_lat) / (max_lat - min_lat) * 3000
-        x2 = (lon2 - min_lon) / (max_lon - min_lon) * 3000
-        y2 = (lat2 - min_lat) / (max_lat - min_lat) * 3000
+        if (
+            current_shape_id == shape_id and 
+            abs(current_density - density_bucket) < 0.001 and
+            # Fix: current_line_coords is (lon, lat), haversine needs (lat, lon)
+            haversine((current_line_coords[-1][1], current_line_coords[-1][0]), (lat1, lon1)) < 0.05 
+        ):
+            # Extend current line
+            current_line_coords.append((lon2, lat2))
+        else:
+            # Emit old line if exists
+            if current_line_coords:
+                 features.append({
+                    "type": "Feature",
+                    "properties": {"density": current_density},
+                    "geometry": mapping(LineString(current_line_coords))
+                })
+            
+            # Start new line
+            current_shape_id = shape_id
+            current_density = density_bucket
+            current_line_coords = [(lon1, lat1), (lon2, lat2)]
 
-        ax.plot([x1, x2], [y1, y2], color=color, linewidth=2)
+# Emit last dangling line
+if current_line_coords:
+    features.append({
+        "type": "Feature",
+        "properties": {"density": current_density},
+        "geometry": mapping(LineString(current_line_coords))
+    })
 
-########################################
-# COLORBAR
-########################################
-sm = plt.cm.ScalarMappable(cmap=cmap, norm=norm)
-sm.set_array([])
-
-plt.colorbar(sm, ax=ax, shrink=0.55, pad=0.02,
-             label="Transit Density (GTFS shapes)")
+geojson_payload = {
+    "type": "FeatureCollection",
+    "features": features
+}
 
 ########################################
 # OUTPUT
 ########################################
 
 # output directory for frontend
-out_dir = os.path.join(BASE_DIR, "docs", "data", city_name)
+out_dir = os.path.join(BASE_DIR, "docs", "data", city)
 os.makedirs(out_dir, exist_ok=True)
 
-outfile = os.path.join(out_dir, "heatlines.png")
+outfile = os.path.join(out_dir, "transit_density.geojson")
 
-plt.title(f"{city.capitalize()} — Heat-Colored Transit Network", fontsize=22)
-plt.axis("off")
-plt.tight_layout()
-plt.savefig(outfile, bbox_inches="tight", dpi=200)
-plt.close()
+with open(outfile, "w", encoding="utf-8") as f:
+    json.dump(geojson_payload, f, ensure_ascii=False)
 
-print("Saved:", outfile)
+print(f"Saved: {outfile} with {len(features)} segments.")
